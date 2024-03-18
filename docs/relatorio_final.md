@@ -46,10 +46,6 @@ O problema que meu agente pretende resolver é o alto índice de desemprego em M
 
 Esse cenário de desemprego gera desafios para os indivíduos em busca de oportunidades de trabalho e para as empresas que precisam encontrar profissionais qualificados para suas demandas. A aplicação será desenvolvida para ajudar a conectar de forma mais eficiente os profissionais desempregados com oportunidades de emprego disponíveis na região de Minas Gerais.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
-
 ###    Objetivo geral
 
 Analisar uma possível correlação entre o aumento da população em condição de rua nos centros urbanos de Minas Gerais e o aumento no índice de desemprego, bem como no consumo de entorpecentes.
