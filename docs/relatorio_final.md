@@ -9,6 +9,9 @@ João Henrique Pereirinha Sorrentino, jhpsorrentino@sga.pucminas.br
 
 Rafael Brandão de Oliveira, rafael.brandao@sga.pucminas.br
 
+Heitor Ramos de Oliveira, 
+heitor.oliveira@sga.pucminas.br
+
 Serena Ferreira Moreira 
 
 ---
