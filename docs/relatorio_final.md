@@ -1,18 +1,18 @@
-# TITULO DO PROJETO
+# Previsão de Desemprego 
 
 
-**Nome completo do Aluno 1, email do aluno 1**
+Matheus Melo Couto, matheus.couto.1525924@sga.pucminas.br
 
-**Nome completo do Aluno 2, email do aluno 2**
+Luan Inaibes Guimarães, liguimaraes@sga.pucminas.br
 
-**Nome completo do Aluno 3, email do aluno 3**
+João Henrique Pereirinha Sorrentino, jhpsorrentino@sga.pucminas.br
 
 ---
 
 Professores:
 
-** Prof. Nome do Prof 1 **
-** Prof. Nome do Prof 2 **
+hugodepaula
+
 
 ---
 
@@ -22,33 +22,25 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+Este trabalho teve como objetivo analisar e prever a taxa de desemprego em Minas Gerais, utilizando modelos estatísticos e econômicos. Foram coletados dados históricos da taxa de desemprego, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar a taxa de desemprego futura. Os resultados mostraram que o desemprego em Minas Gerais está correlacionado com variáveis como PIB, inflação e taxa de juros. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar o desemprego na região.
 
 ---
 
 
 ## Introdução
 
-A introdução deve apresentar de dois a quatro parágrafos de contextualização do trabalho. 
+A taxa de desemprego é um indicador crucial que reflete a saúde econômica de uma região e o bem-estar de sua população. Em Minas Gerais, estado com uma economia diversificada e significativa contribuição para o cenário nacional, a questão do desemprego é de extrema relevância. Com o objetivo de compreender melhor esse cenário e fornecer insights para a formulação de políticas públicas e estratégias de desenvolvimento econômico, este trabalho se propõe a analisar e prever a taxa de desemprego em Minas Gerais.
+
+Através da utilização de modelos estatísticos e econômicos, buscamos identificar os principais fatores que influenciam o desemprego na região e antecipar possíveis cenários futuros. Esta análise é fundamental para orientar decisões e ações que visem promover o crescimento econômico e o bem-estar social em Minas Gerais. 
 
 ###    Contextualização
 
-Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere. 
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas).
+A crescente disponibilidade de dados e avanços tecnológicos têm permitido a aplicação da ciência de dados em diversas áreas, incluindo a economia e o mercado de trabalho. No contexto de Minas Gerais, um estado com uma economia diversificada e uma população significativa, a análise preditiva do desemprego por meio de técnicas de ciência de dados se mostra como uma ferramenta poderosa para compreender e antecipar as tendências do mercado de trabalho. A capacidade de coletar, processar e analisar grandes volumes de dados permite identificar padrões, correlações e insights que podem ser fundamentais para a formulação de políticas públicas e estratégias de emprego. Neste sentido, este trabalho se propõe a explorar o uso de técnicas avançadas de ciência de dados para prever a taxa de desemprego em Minas Gerais, contribuindo assim para uma abordagem mais informada e eficaz na gestão do mercado de trabalho e no enfrentamento dos desafios econômicos e sociais da região.
 
 ###    Problema
+O problema que meu agente pretende resolver é o alto índice de desemprego em Minas Gerais. A região enfrenta dificuldades com altas taxas de desemprego, o que impacta diretamente a qualidade de vida da população, gerando instabilidade econômica e social.
 
-Nesse momento você deve apresentar o problema que seu agente pretende resolver. 
-No entanto, não é a hora de comentar sobre a aplicação.
-Descreva também o contexto em que essa aplicação será usada, se  houver: 
-empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, 
-pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve 
-sucintamente apresentar o cenário de problema da empresa. A empresa só deve ser citada 
-explicitamente se o aluno tiver autorização para tal.
+Esse cenário de desemprego gera desafios para os indivíduos em busca de oportunidades de trabalho e para as empresas que precisam encontrar profissionais qualificados para suas demandas. A aplicação será desenvolvida para ajudar a conectar de forma mais eficiente os profissionais desempregados com oportunidades de emprego disponíveis na região de Minas Gerais.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
