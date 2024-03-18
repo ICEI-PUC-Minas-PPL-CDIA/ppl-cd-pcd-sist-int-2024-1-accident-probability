@@ -1,13 +1,13 @@
-# Nome do projeto
+# Previsão de Desemprego em Minas Gerais 
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto. Lembrando que o objeto é desenvolver um sistema inteligente. Você deve mencionar o produto que está sendo desenvolvido, e não o que se espera obter com este produto.
+O objetivo deste trabalho é desenvolver um modelo de previsão de empregos em Minas Gerais, por meio da análise de dados econômicos, demográficos e setoriais relevantes. O intuito é fornecer insights e projeções precisas sobre a demanda por mão de obra em diferentes setores da economia do estado, auxiliando gestores públicos, empresários e profissionais de recursos humanos na tomada de decisões estratégicas. O estudo visa contribuir para o planejamento eficaz de políticas públicas, investimentos e estratégias de contratação, visando o desenvolvimento sustentável e a promoção do emprego e renda em Minas Gerais.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Matheus Melo Couto, matheus.couto.1525924@sga.pucminas.br
+* Luan Inaibes Guimarães, liguimaraes@sga.pucminas.br
+* João Henrique Pereirinha Sorrentino, jhpsorrentino@sga.pucminas.br
+  
 
 ## Professor
 
