@@ -50,54 +50,42 @@ Esse cenário de desemprego gera desafios para os indivíduos em busca de oportu
 
 ###    Objetivo geral
 
-Nesta seção deve-se escrever um pequeno parágrafo ou frase com o **objetivo geral** 
-do trabalho. O objetivo deve ser bem direto, específico e definido com verbos de 
-ação (elaborar, propor, avaliar, comparar etc.). No caso deste projeto, o objetivo é
-"desenvolver um sistema inteligente para ...". O seu objetivo geral deve ser uma
-pergunta orientada a dados. Ou seja, ela deve incluir de forma geral os dados em que
-os modelos irão se basear para atingir o objetivo.
+Analisar uma possível correlação entre o aumento da população em condição de rua nos centros urbanos de Minas Gerais e o aumento no índice de desemprego, bem como no consumo de entorpecentes.
 
 ####    Objetivos específicos
 
-Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde 
-você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar 
-no seu trabalho.
-
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
+• Identificar os principais centros urbanos de Minas Gerais que apresentam um aumento significativo na população em situação de rua.
+• Analisar os dados estatísticos relacionados ao índice de desemprego em cada um dos centros urbanos identificados.
+• Investigar os padrões e tendências do consumo de entorpecentes nas áreas urbanas selecionadas.
+• Comparar e contrastar os dados obtidos sobre a população em situação de rua, desemprego e consumo de drogas para encontrar correlações potenciais.
+• Propor recomendações para políticas públicas ou intervenções sociais visando mitigar os efeitos negativos dessas correlações na sociedade.
 
 ###    Justificativas
 
-Mostre também as **justificativas** para o  desenvolvimento do seu trabalho e, caso deseje, 
-destaque alguma contribuição do trabalho.
-
-A justific ativa deve descrever a importância ou a motivação para o desenvolvimento do 
-sistema inteligente escolhido. Indique as razões pelas quais você escolheu seus objetivos 
-específicos ou as razões para aprofundar em certos aspectos do software.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
-
+Este projeto foi escolhido devido à urgente necessidade de compreender os complexos fenômenos associados ao aumento da população em situação de rua, desemprego e consumo de drogas em Minas Gerais. Seu propósito é 
+desenvolver um sistema inteligente capaz de identificar padrões entre esses indicadores sociais, proporcionando uma ferramenta crucial para gestores públicos, pesquisadores e profissionais das áreas de assistência 
+social, saúde e segurança pública. Baseado em dados estatísticos oficiais, relatórios de pesquisa e estudos relevantes, esse trabalho visa facilitar a formulação de políticas públicas eficazes para lidar com essas 
+questões sociais complexas.
 
 ##    Público alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. 
-O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários 
-na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos 
-usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Gestores Públicos: Possuem familiaridade com políticas públicas, gestão de recursos e tomada de decisões estratégicas. Utilizam sistemas de informação para análise de dados e monitoramento de indicadores sociais. 
+Podem ocupar cargos de liderança em órgãos governamentais, como secretarias de assistência social, saúde e segurança pública.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, 
-diagramas de personas e mapa de stakeholders.
+Pesquisadores: Têm formação acadêmica em áreas como sociologia, economia ou ciência política, com experiência em análise de dados e métodos de pesquisa. Utilizam ferramentas estatísticas e software de análise de 
+dados para realizar estudos e produzir relatórios. Podem atuar em instituições de pesquisa, universidades ou organizações não governamentais.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Profissionais de Assistência Social, Saúde e Segurança Pública: Possuem conhecimento prático sobre as questões sociais abordadas, incluindo políticas de assistência social, saúde pública e segurança comunitária. 
+Podem variar de acordo com a experiência individual, mas geralmente têm habilidades básicas no uso de sistemas de informação. Trabalham em equipes multidisciplinares e podem ter diferentes níveis de autoridade, 
+dependendo da estrutura organizacional.
 
+Mapa de Stakeholders:
+
+• Governo Estadual: Responsável pela coordenação de políticas públicas e alocação de recursos para enfrentar os problemas sociais.
+• Prefeituras Municipais: Implementam programas locais de assistência social, saúde e segurança pública.
+• Instituições de Pesquisa: Realizam estudos e fornecem análises críticas para embasar políticas e intervenções sociais.
+• Organizações Não Governamentais: Prestam assistência direta às pessoas em situação de rua e auxiliam na formulação de políticas públicas.
+• População em Situação de Rua: Representa o grupo mais afetado pelos problemas sociais em questão, e suas necessidades devem ser consideradas nas intervenções propostas.
 
 ## Análise exploratórida dos dados
 
