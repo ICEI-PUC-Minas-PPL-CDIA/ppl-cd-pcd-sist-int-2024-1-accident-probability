@@ -9,6 +9,8 @@ João Henrique Pereirinha Sorrentino, jhpsorrentino@sga.pucminas.br
 
 Rafael Brandão de Oliveira, rafael.brandao@sga.pucminas.br
 
+Serena Ferreira Moreira 
+
 ---
 
 Professores:
