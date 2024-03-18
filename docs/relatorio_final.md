@@ -54,11 +54,11 @@ Analisar uma possível correlação entre o aumento da população em condição
 
 ####    Objetivos específicos
 
-• Identificar os principais centros urbanos de Minas Gerais que apresentam um aumento significativo na população em situação de rua.
-• Analisar os dados estatísticos relacionados ao índice de desemprego em cada um dos centros urbanos identificados.
-• Investigar os padrões e tendências do consumo de entorpecentes nas áreas urbanas selecionadas.
-• Comparar e contrastar os dados obtidos sobre a população em situação de rua, desemprego e consumo de drogas para encontrar correlações potenciais.
-• Propor recomendações para políticas públicas ou intervenções sociais visando mitigar os efeitos negativos dessas correlações na sociedade.
+• Identificar os principais centros urbanos de Minas Gerais que apresentam um aumento significativo na população em situação de rua.  
+• Analisar os dados estatísticos relacionados ao índice de desemprego em cada um dos centros urbanos identificados.  
+• Investigar os padrões e tendências do consumo de entorpecentes nas áreas urbanas selecionadas.  
+• Comparar e contrastar os dados obtidos sobre a população em situação de rua, desemprego e consumo de drogas para encontrar correlações potenciais.  
+• Propor recomendações para políticas públicas ou intervenções sociais visando mitigar os efeitos negativos dessas correlações na sociedade.  
 
 ###    Justificativas
 
@@ -70,22 +70,22 @@ questões sociais complexas.
 ##    Público alvo
 
 Gestores Públicos: Possuem familiaridade com políticas públicas, gestão de recursos e tomada de decisões estratégicas. Utilizam sistemas de informação para análise de dados e monitoramento de indicadores sociais. 
-Podem ocupar cargos de liderança em órgãos governamentais, como secretarias de assistência social, saúde e segurança pública.
+Podem ocupar cargos de liderança em órgãos governamentais, como secretarias de assistência social, saúde e segurança pública.  
 
 Pesquisadores: Têm formação acadêmica em áreas como sociologia, economia ou ciência política, com experiência em análise de dados e métodos de pesquisa. Utilizam ferramentas estatísticas e software de análise de 
-dados para realizar estudos e produzir relatórios. Podem atuar em instituições de pesquisa, universidades ou organizações não governamentais.
+dados para realizar estudos e produzir relatórios. Podem atuar em instituições de pesquisa, universidades ou organizações não governamentais.  
 
 Profissionais de Assistência Social, Saúde e Segurança Pública: Possuem conhecimento prático sobre as questões sociais abordadas, incluindo políticas de assistência social, saúde pública e segurança comunitária. 
 Podem variar de acordo com a experiência individual, mas geralmente têm habilidades básicas no uso de sistemas de informação. Trabalham em equipes multidisciplinares e podem ter diferentes níveis de autoridade, 
-dependendo da estrutura organizacional.
+dependendo da estrutura organizacional.  
 
 Mapa de Stakeholders:
 
-• Governo Estadual: Responsável pela coordenação de políticas públicas e alocação de recursos para enfrentar os problemas sociais.
-• Prefeituras Municipais: Implementam programas locais de assistência social, saúde e segurança pública.
-• Instituições de Pesquisa: Realizam estudos e fornecem análises críticas para embasar políticas e intervenções sociais.
-• Organizações Não Governamentais: Prestam assistência direta às pessoas em situação de rua e auxiliam na formulação de políticas públicas.
-• População em Situação de Rua: Representa o grupo mais afetado pelos problemas sociais em questão, e suas necessidades devem ser consideradas nas intervenções propostas.
+• Governo Estadual: Responsável pela coordenação de políticas públicas e alocação de recursos para enfrentar os problemas sociais.  
+• Prefeituras Municipais: Implementam programas locais de assistência social, saúde e segurança pública.  
+• Instituições de Pesquisa: Realizam estudos e fornecem análises críticas para embasar políticas e intervenções sociais.  
+• Organizações Não Governamentais: Prestam assistência direta às pessoas em situação de rua e auxiliam na formulação de políticas públicas.  
+• População em Situação de Rua: Representa o grupo mais afetado pelos problemas sociais em questão, e suas necessidades devem ser consideradas nas intervenções propostas.  
 
 ## Análise exploratórida dos dados
 
