@@ -9,10 +9,9 @@ João Henrique Pereirinha Sorrentino, jhpsorrentino@sga.pucminas.br
 
 Rafael Brandão de Oliveira, rafael.brandao@sga.pucminas.br
 
-Heitor Ramos de Oliveira, 
-heitor.oliveira@sga.pucminas.br
+Heitor Ramos de Oliveira, heitor.oliveira@sga.pucminas.br
 
-Serena Ferreira Moreira 
+Serena Ferreira Moreira, serena.ferreira@sga.pucminas.br
 
 ---
 
@@ -29,29 +28,28 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-Este trabalho teve como objetivo analisar e prever a taxa de desemprego em Minas Gerais, utilizando modelos estatísticos e econômicos. Foram coletados dados históricos da taxa de desemprego, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar a taxa de desemprego futura. Os resultados mostraram que o desemprego em Minas Gerais está correlacionado com variáveis como PIB, inflação e taxa de juros. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar o desemprego na região.  
-
 ---
+Este trabalho tem como objetivo analisar e prever a taxa de desemprego em Minas Gerais, utilizando modelos estatísticos e econômicos. Foram coletados dados históricos da taxa de desemprego, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar a taxa de desemprego futura. Os resultados mostraram que o desemprego em Minas Gerais está correlacionado com variáveis como PIB, inflação e taxa de juros. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar o desemprego na região.
 
 
 ## Introdução
 
 A taxa de desemprego é um indicador crucial que reflete a saúde econômica de uma região e o bem-estar de sua população. Em Minas Gerais, estado com uma economia diversificada e significativa contribuição para o cenário nacional, a questão do desemprego é de extrema relevância. Com o objetivo de compreender melhor esse cenário e fornecer insights para a formulação de políticas públicas e estratégias de desenvolvimento econômico, este trabalho se propõe a analisar e prever a taxa de desemprego em Minas Gerais.  
 
-Através da utilização de modelos estatísticos e econômicos, buscamos identificar os principais fatores que influenciam o desemprego na região e antecipar possíveis cenários futuros. Esta análise é fundamental para orientar decisões e ações que visem promover o crescimento econômico e o bem-estar social em Minas Gerais. 
+Através da utilização de modelos estatísticos e econômicos, buscamos identificar os principais fatores que influenciam o desemprego na região e antecipar possíveis cenários futuros. Esta análise poderá ser de grande contribuição para orientar decisões e ações que visem promover o crescimento econômico e o bem-estar social em Minas Gerais. 
 
 
 ###    Contextualização
 
-A crescente disponibilidade de dados e avanços tecnológicos têm permitido a aplicação da ciência de dados em diversas áreas, incluindo a economia e o mercado de trabalho. No contexto de Minas Gerais, um estado com uma economia diversificada e uma população significativa, a análise preditiva do desemprego por meio de técnicas de ciência de dados se mostra como uma ferramenta poderosa para compreender e antecipar as tendências do mercado de trabalho. A capacidade de coletar, processar e analisar grandes volumes de dados permite identificar padrões, correlações e insights que podem ser fundamentais para a formulação de políticas públicas e estratégias de emprego. Neste sentido, este trabalho se propõe a explorar o uso de técnicas avançadas de ciência de dados para prever a taxa de desemprego em Minas Gerais, contribuindo assim para uma abordagem mais informada e eficaz na gestão do mercado de trabalho e no enfrentamento dos desafios econômicos e sociais da região.  
+A crescente disponibilidade de dados e avanços tecnológicos têm permitido a aplicação da ciência de dados em diversas áreas, incluindo a economia e o mercado de trabalho. No contexto de Minas Gerais, a análise preditiva do desemprego por meio de técnicas de ciência de dados se mostra como uma ferramenta poderosa para compreender e antecipar as tendências do mercado de trabalho. A capacidade de coletar, processar e analisar grandes volumes de dados permite identificar padrões, correlações e insights que podem ser fundamentais para a formulação de políticas públicas e estratégias de emprego. Neste sentido, este trabalho se propõe a explorar o uso de técnicas avançadas de ciência de dados para prever a taxa de desemprego em Minas Gerais, contribuindo assim para uma abordagem mais informada e eficaz na gestão do mercado de trabalho e no enfrentamento dos desafios econômicos e sociais da região.  
 
 
 ###    Problema
-O problema que o agente pretende resolver é o alto índice de desemprego em Minas Gerais. A região enfrenta dificuldades com altas taxas de desemprego, o que impacta diretamente a qualidade de vida da população, 
-gerando instabilidade econômica e social.  
+O problema que o agente pretende resolver é o alto índice de desemprego em Minas Gerais. A região enfrenta dificuldades com altas taxas de desemprego, o que impacta diretamente a qualidade de vida da população, gerando instabilidade econômica e social. de acordo com o site do Agenciaminas.mg.gov.br Minas representa 5,8% da população do Brasil em situação de desecupação,ou seja aproximadamente 493.000 pessoas não possuem emprego.
 
-Essa situação de desemprego apresenta uma série de desafios tanto para os indivíduos em busca de oportunidades de trabalho quanto para as empresas que necessitam encontrar profissionais qualificados para preencher 
-suas demandas. Com altas taxas de desemprego, surge uma complexa rede de consequências, incluindo a redução do poder de compra, o aumento da insegurança financeira e a diminuição do investimento em educação e saúde.
+Essa situação de desemprego apresenta uma série de desafios tanto para os indivíduos em busca de oportunidades de trabalho quanto para as empresas que necessitam encontrar profissionais qualificados para preencher suas demandas. Com altas taxas de desemprego, surge uma complexa rede de consequências, incluindo a redução do poder de compra, o aumento da insegurança financeira e a diminuição do investimento em educação e saúde.
+
+Com menor taxa de desocupação da história, Minas Gerais caminha para cenário de pleno emprego. Agenciaminas, 2024. Disponível em: <https://www.agenciaminas.mg.gov.br/noticia/com-menor-taxa-de-desocupacao-da-historia-minas-gerais-caminha-para-cenario-de-pleno-emprego>. Acesso em: 23, março, 2024.
 
 
 ###    Objetivo geral
