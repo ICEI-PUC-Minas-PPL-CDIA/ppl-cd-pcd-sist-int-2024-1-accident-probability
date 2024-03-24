@@ -7,7 +7,7 @@ O objetivo deste trabalho é desenvolver um modelo de previsão de empregos em M
 * Matheus Melo Couto, matheus.couto.1525924@sga.pucminas.br
 * Luan Inaibes Guimarães, liguimaraes@sga.pucminas.br
 * João Henrique Pereirinha Sorrentino, jhpsorrentino@sga.pucminas.br
-  
+* Rafael Brandão de Oliveira, rafael.brandao@sga.pucminas.br  
 
 ## Professor
 
