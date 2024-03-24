@@ -83,7 +83,7 @@ Pesquisadores Corporativos: Têm formação acadêmica em áreas como sociologia
 
 ###    Dicionário de dados
 
-
+BASE DE DADOS 1
 
 |   Variáveis   | Tipo de dado  |                      Descrição                       |
 | ------------- | ------------- |----------------------------------------------------  |
@@ -95,12 +95,6 @@ Pesquisadores Corporativos: Têm formação acadêmica em áreas como sociologia
 |   prin_renda  |   categórico  |    pricipal fonte de renda de uma região             |
 
 
-Apresente uma descrição das bases de dados a serem utilizadas. 
-Dicionários de dados devem conter as bases de dados, os nomes dos atributos 
-com seu significado, seu tipo (inteiro, real, textual, categórico, etc).
-
-Este projeto deve utilizar pelo menos duas fontes de dados. Uma fonte principal e 
-uma fonte para enriquecimentos dos dados principais.
 
 
 ###    Descrição de dados
