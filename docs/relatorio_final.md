@@ -29,36 +29,36 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 ---
 
 ---
-Este trabalho tem como objetivo analisar e prever a taxa de desemprego em Minas Gerais, utilizando modelos estatísticos e econômicos. Foram coletados dados históricos da taxa de desemprego, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar a taxa de desemprego futura. Os resultados mostraram que o desemprego em Minas Gerais está correlacionado com variáveis como PIB, inflação e taxa de juros. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar o desemprego na região.
+Este trabalho tem como objetivo analisar e prever a taxa de desemprego no Brasil, utilizando modelos estatísticos e econômicos. Foram coletados dados históricos da taxa de desemprego, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar a taxa de desemprego futura. Com a breve analise na bade de dados pode até se prever que o desemprego no Brasil está correlacionado com variáveis como PIB, inflação e taxa de juros. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar o desemprego na região.
 
 
 ## Introdução
 
-A taxa de desemprego é um indicador crucial que reflete a saúde econômica de uma região e o bem-estar de sua população. Em Minas Gerais, estado com uma economia diversificada e significativa contribuição para o cenário nacional, a questão do desemprego é de extrema relevância. Com o objetivo de compreender melhor esse cenário e fornecer insights para a formulação de políticas públicas e estratégias de desenvolvimento econômico, este trabalho se propõe a analisar e prever a taxa de desemprego em Minas Gerais.  
+A taxa de desemprego é um indicador crucial que reflete a saúde econômica de uma região e o bem-estar de sua população. No Brasil, país com uma economia diversificada e significativa contribuição para o cenário internacional, a questão do desemprego é de extrema relevância. Com o objetivo de compreender melhor esse cenário e fornecer insights para a formulação de políticas públicas e estratégias de desenvolvimento econômico, este trabalho se propõe a analisar e prever a taxa de desemprego em nosso país .
 
-Através da utilização de modelos estatísticos e econômicos, buscamos identificar os principais fatores que influenciam o desemprego na região e antecipar possíveis cenários futuros. Esta análise poderá ser de grande contribuição para orientar decisões e ações que visem promover o crescimento econômico e o bem-estar social em Minas Gerais. 
+Através da utilização de modelos estatísticos e econômicos, buscamos identificar os principais fatores que influenciam o desemprego nas regiões e antecipar possíveis cenários futuros. Esta análise poderá ser de grande contribuição para orientar decisões e ações que visem promover o crescimento econômico e o bem-estar social no Brasil. 
 
 
 ###    Contextualização
 
-A crescente disponibilidade de dados e avanços tecnológicos têm permitido a aplicação da ciência de dados em diversas áreas, incluindo a economia e o mercado de trabalho. No contexto de Minas Gerais, a análise preditiva do desemprego por meio de técnicas de ciência de dados se mostra como uma ferramenta poderosa para compreender e antecipar as tendências do mercado de trabalho. A capacidade de coletar, processar e analisar grandes volumes de dados permite identificar padrões, correlações e insights que podem ser fundamentais para a formulação de políticas públicas e estratégias de emprego. Neste sentido, este trabalho se propõe a explorar o uso de técnicas avançadas de ciência de dados para prever a taxa de desemprego em Minas Gerais, contribuindo assim para uma abordagem mais informada e eficaz na gestão do mercado de trabalho e no enfrentamento dos desafios econômicos e sociais da região.  
+A crescente disponibilidade de dados e avanços tecnológicos têm permitido a aplicação da ciência de dados em diversas áreas, incluindo a economia e o mercado de trabalho. No contexto do Brasil, a análise preditiva do desemprego por meio de técnicas de ciência de dados se mostra como uma ferramenta poderosa para compreender e antecipar as tendências do mercado de trabalho. A capacidade de coletar, processar e analisar grandes volumes de dados permite identificar padrões, correlações e insights que podem ser fundamentais para a formulação de políticas públicas e estratégias de emprego. Neste sentido, este trabalho se propõe a explorar o uso de técnicas avançadas de ciência de dados para prever a taxa de desemprego no brasil, contribuindo assim para uma abordagem mais informada e eficaz na gestão do mercado de trabalho e no enfrentamento dos desafios econômicos e sociais de cada região.  
 
 
 ###    Problema
-O problema que o agente pretende resolver é o alto índice de desemprego em Minas Gerais. A região enfrenta dificuldades com altas taxas de desemprego, o que impacta diretamente a qualidade de vida da população, gerando instabilidade econômica e social. de acordo com o site do Agenciaminas.mg.gov.br Minas representa 5,8% da população do Brasil em situação de desecupação,ou seja aproximadamente 493.000 pessoas não possuem emprego.
+O problema que o agente pretende resolver é o alto índice de desemprego no Brasil. o país enfrenta dificuldades com altas taxas de desemprego, o que impacta diretamente a qualidade de vida da população, gerando instabilidade econômica e social. de acordo com o site Agência Brasil, "o país apresenta uma taxa de desocupação de 7,6% de sua população nacional." ou seja aproximadamente 8,3 milhões de pessoas.
 
 Essa situação de desemprego apresenta uma série de desafios tanto para os indivíduos em busca de oportunidades de trabalho quanto para as empresas que necessitam encontrar profissionais qualificados para preencher suas demandas. Com altas taxas de desemprego, surge uma complexa rede de consequências, incluindo a redução do poder de compra, o aumento da insegurança financeira e a diminuição do investimento em educação e saúde.
 
-Com menor taxa de desocupação da história, Minas Gerais caminha para cenário de pleno emprego. Agenciaminas, 2024. Disponível em: <https://www.agenciaminas.mg.gov.br/noticia/com-menor-taxa-de-desocupacao-da-historia-minas-gerais-caminha-para-cenario-de-pleno-emprego>. Acesso em: 23, março, 2024.
+FREITAS, bruno. Taxa de desemprego fica em 7,6% no trimestre encerrado em janeiro. Agência Brasil, 2024. Disponível em: <https://agenciabrasil.ebc.com.br/economia/noticia/2024-02/taxa-de-desemprego-fica-em-76-no-trimestre-encerrado-em-janeiro#:~:text=A%20taxa%20de%20desocupa%C3%A7%C3%A3o%20do,2023%20(8%2C4%25).>. Acesso em: 24 março 2024.
 
 
 ###    Objetivo geral
 
-Analisar o crescimento contínuo da incidência de desemprego nos centros urbanos de Minas Gerais e estimar sua projeção futura.  
+Analisar o crescimento contínuo da incidência de desemprego nos centros urbanos do Brasil e estimar sua projeção futura.  
 
 ####    Objetivos específicos
 
-• Identificar os principais centros urbanos de Minas Gerais que apresentam um aumento significativo na população em situação de ociosidade laboral.  
+• Identificar os principais centros urbanos do Brasil que apresentam um aumento significativo na população em situação de ociosidade laboral.  
 • Analisar os dados estatísticos relacionados ao índice de desemprego em cada um dos centros urbanos identificados.  
 • Comparar e contrastar os dados obtidos sobre a população em desocupação profissional, a carência de emprego e a desigualdade social para encontrar correlações potenciais.  
 • Propor recomendações para políticas públicas ou intervenções sociais visando mitigar os efeitos negativos dessas correlações na sociedade.  
@@ -67,26 +67,33 @@ Analisar o crescimento contínuo da incidência de desemprego nos centros urbano
 
 ###    Justificativas
 
-O projeto oferece uma ferramenta para gestores públicos, pesquisadores e profissionais dos setores de assistência social, saúde e segurança pública, representando uma contribuição significativa para o 
-cenário econômico ao possibilitar a formulação de políticas públicas mais eficazes. Baseado em dados estatísticos confiáveis e pesquisa detalhada, o sistema visa não apenas facilitar a tomada de decisões, mas 
-também promover o desenvolvimento econômico por meio da otimização de recursos e da identificação de oportunidades de crescimento sustentável.  
+O projeto oferece uma ferramenta para gestores públicos, pesquisadores e profissionais dos setores de assistência social, saúde e segurança pública, representando uma contribuição significativa para o cenário econômico ao possibilitar a formulação de políticas públicas mais eficazes. Baseado em dados estatísticos confiáveis e pesquisa detalhada, o sistema visa não apenas facilitar a tomada de decisões, mas também promover o desenvolvimento econômico por meio da otimização de recursos e da identificação de oportunidades de crescimento sustentável.  
 
-No âmbito social, nosso objetivo é promover o bem-estar e contribuir para a construção de uma sociedade íntegra. Ao adotar essa ferramenta, empresas têm a oportunidade de desempenhar um papel fundamental na 
-melhoria da qualidade de vida das pessoas, ao mesmo tempo em que colaboram para a criação de uma comunidade mais coesa e inclusiva.  
+No âmbito social, nosso objetivo é promover o bem-estar e contribuir para a construção de uma sociedade íntegra. Ao adotar essa ferramenta, empresas têm a oportunidade de desempenhar um papel fundamental na melhoria da qualidade de vida das pessoas, ao mesmo tempo em que colaboram para a criação de uma comunidade mais coesa e inclusiva.  
 
 
 ##    Público alvo
 
-Gestores Públicos: Possuem familiaridade com políticas públicas, gestão de recursos e tomada de decisões estratégicas. Utilizam sistemas de informação para análise de dados e monitoramento de indicadores sociais. 
-Podem ocupar cargos de liderança em órgãos governamentais, como secretarias de assistência social, saúde e segurança pública.  
+Gestores Públicos: Possuem familiaridade com políticas públicas, gestão de recursos e tomada de decisões estratégicas. Utilizam sistemas de informação para análise de dados e monitoramento de indicadores sociais. Podem ocupar cargos de liderança em órgãos governamentais, como secretarias de assistência social, saúde e segurança pública.  
 
-Pesquisadores Corporativos: Têm formação acadêmica em áreas como sociologia, economia ou ciência política, com experiência em análise de dados e métodos de pesquisa. Utilizam ferramentas estatísticas e software
-de análise de dados para realizar estudos e produzir relatórios. Podem atuar em instituições de pesquisa, universidades ou organizações não governamentais.  
+Pesquisadores Corporativos: Têm formação acadêmica em áreas como sociologia, economia ou ciência política, com experiência em análise de dados e métodos de pesquisa. Utilizam ferramentas estatísticas e software de análise de dados para realizar estudos e produzir relatórios. Podem atuar em instituições de pesquisa, universidades ou organizações não governamentais.  
 
 
 ## Análise exploratórida dos dados
 
 ###    Dicionário de dados
+
+
+
+|   Variáveis   | Tipo de dado  |                      Descrição                       |
+| ------------- | ------------- |----------------------------------------------------  |
+|   estado      |   textual     |    Estado ou região dentro do país                   |
+|   data        |   data        |    Data da coleta dos dados                          |
+|   idade       |   numérico    |    idade da população de uma região                  | 
+|   população   |   numérico    |    quantidade de habitantes de uma região ou estado  |
+|   educação    |   categórico  |    nível de formação da população                    |
+|   prin_renda  |   categórico  |    pricipal fonte de renda de uma região             |
+
 
 Apresente uma descrição das bases de dados a serem utilizadas. 
 Dicionários de dados devem conter as bases de dados, os nomes dos atributos 
