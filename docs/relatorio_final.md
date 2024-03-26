@@ -29,7 +29,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 ---
 
 ---
-Este trabalho tem como objetivo analisar e prever a taxa de desemprego no Brasil, utilizando modelos estatísticos e econômicos. Foram coletados dados históricos da taxa de desemprego, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar a taxa de desemprego futura. Com a breve analise na bade de dados pode até se prever que o desemprego no Brasil está correlacionado com variáveis como PIB, inflação e taxa de juros. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar o desemprego na região.
+Este trabalho tem como objetivo analisar e prever a taxa de desemprego no Brasil, utilizando modelos estatísticos e econômicos. Foram coletados dados históricos da taxa de desemprego, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar a taxa de desemprego futura. Com a breve analise na base de dados pode até se prever que o desemprego no Brasil está correlacionado com variáveis como PIB, inflação e taxa de juros. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar o desemprego na região.
 
 
 ## Introdução
