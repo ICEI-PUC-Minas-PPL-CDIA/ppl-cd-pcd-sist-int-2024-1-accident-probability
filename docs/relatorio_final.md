@@ -99,10 +99,17 @@ BASE DE DADOS 1
 
 ###    Descrição de dados
 
-Utilize a análise descritiva baseada em estatística de primeira ordem para descrever os dados.
-Como descrever dados numéricos: média, desvio padrão, mínimo, máximo, quartis, histograma, etc.
-Como descrever dados qualitativos (categóricos): moda (valor mais frequente), quantidade de valores distintos (categorias), distribuição das categorias (histograma), etc.
 
+Dados Numéricos:
+Média: Calcula a média aritmética dos valores.
+Desvio Padrão: Indica a dispersão dos valores em torno da média.
+Mínimo e Máximo: Identifica o menor e o maior valor presente nos dados.
+Quartis: Divide os dados em quatro partes iguais, indicando os valores que dividem os dados em 25%, 50%, e 75%.
+Histograma: Apresenta a distribuição dos dados em intervalos de valores, mostrando a frequência de cada intervalo.
+
+Dados Qualitativos (Categóricos):
+Moda: Identifica o valor mais frequente nos dados.
+Quantidade de Valores Distintos: Conta o número de categorias distintas presentes nos dados.
 
 ## Preparação dos dados
 
