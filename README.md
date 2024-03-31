@@ -7,7 +7,9 @@ O objetivo deste trabalho é desenvolver um modelo de previsão de empregos no B
 * Matheus Melo Couto, matheus.couto.1525924@sga.pucminas.br
 * Luan Inaibes Guimarães, liguimaraes@sga.pucminas.br
 * João Henrique Pereirinha Sorrentino, jhpsorrentino@sga.pucminas.br
-* Rafael Brandão de Oliveira, rafael.brandao@sga.pucminas.br  
+* Rafael Brandão de Oliveira, rafael.brandao@sga.pucminas.br
+* Serena Ferreira Moreira, serena.ferreira@sga.pucminas.br
+* Heitor Ramos de Oliveira, heitor.oliveira@sga.pucminas.br
 
 ## Professor
 
