@@ -100,25 +100,41 @@ BASE DE DADOS 1
 
 ###    Descrição de dados
 
+Dado Numérico: Idade da População de uma Região 
 
-Dados Numéricos:
+• Média: Calculo a média das idades da população. 
 
-Média: Calcula a média aritmética dos valores.
+• Desvio Padrão: Determino o grau de dispersão das idades em relação à média. 
 
-Desvio Padrão: Indica a dispersão dos valores em torno da média.
+• Mínimo e Máximo: Identifico a idade mínima e máxima da população. 
 
-Mínimo e Máximo: Identifica o menor e o maior valor presente nos dados.
+• Quartis: Divido as idades em quartis para entender a distribuição. 
 
-Quartis: Divide os dados em quatro partes iguais, indicando os valores que dividem os dados em 25%, 50%, e 75%.
+• Histograma: Represento graficamente a distribuição das idades. 
 
-Histograma: Apresenta a distribuição dos dados em intervalos de valores, mostrando a frequência de cada intervalo.
+Dado Numérico: Quantidade de Habitantes de uma Região ou Estado 
 
+• Média: Calculo a média da quantidade de habitantes. 
 
-Dados Qualitativos (Categóricos):
+• Desvio Padrão: Determino o grau de dispersão da quantidade de habitantes em relação à média. 
 
-Moda: Identifica o valor mais frequente nos dados.
+• Mínimo e Máximo: Identifico a menor e a maior quantidade de habitantes. 
 
-Quantidade de Valores Distintos: Conta o número de categorias distintas presentes nos dados.
+• Quartis: Divido a quantidade de habitantes em quartis para entender a distribuição. 
+
+• Histograma: Represento graficamente a distribuição da quantidade de habitantes. 
+
+Dado de Data: Data da Coleta dos Dados 
+
+• Não é possível calcular estatísticas descritivas com uma única data, mas podemos verificar o intervalo de tempo abrangido pelos dados. 
+
+Dados Categóricos: Principal Fonte de Renda de uma Região e Nível de Formação da População 
+
+• Moda: Identifico a principal fonte de renda e o nível de formação mais comuns na região. 
+
+• Quantidade de Valores Distintos: Conto o número de diferentes fontes de renda e níveis de formação. 
+
+• Distribuição das Categorias: Represento graficamente a frequência de cada fonte de renda e nível de formação.
 
 ## Preparação dos dados
 
