@@ -45,11 +45,16 @@ A crescente disponibilidade de dados e avanços tecnológicos têm permitido a a
 
 
 ###    Problema
-O problema que o agente pretende resolver é o alto índice de desemprego no Brasil. O país enfrenta dificuldades com altas taxas de desemprego, o que impacta diretamente a qualidade de vida da população, gerando instabilidade econômica e social. De acordo com o site Agência Brasil, "o país apresenta uma taxa de desocupação de 7,6% de sua população nacional.", ou seja, aproximadamente 8,3 milhões de pessoas se encontram atualmente desempregadas.
+O problema que o agente pretende resolver é o alto índice de desemprego no Brasil. O país enfrenta dificuldades com altas taxas de desemprego, o que impacta diretamente a qualidade de vida da população, gerando instabilidade econômica e social. De acordo com o site Estadão, "A taxa de desemprego no País subiu de 7,6% no trimestre terminado em janeiro para 7,8% no trimestre encerrado em fevereiro, a segunda elevação consecutiva, após nove trimestres móveis seguidos de recuo.", ou seja, aproximadamente 8,535 milhões de pessoas se encontram atualmente desempregadas.
 
 Essa circunstância revela uma série de desafios, tanto para os indivíduos em busca de oportunidades de trabalho, quanto para as empresas que necessitam encontrar profissionais qualificados para preencher suas demandas. Com altas taxas de desemprego, surge uma complexa rede de consequências, incluindo a redução do poder de compra, o aumento da insegurança financeira e a diminuição do investimento em educação e saúde.
 
-FREITAS, bruno. Taxa de desemprego fica em 7,6% no trimestre encerrado em janeiro. Agência Brasil, 2024. Disponível em: <https://agenciabrasil.ebc.com.br/economia/noticia/2024-02/taxa-de-desemprego-fica-em-76-no-trimestre-encerrado-em-janeiro#:~:text=A%20taxa%20de%20desocupa%C3%A7%C3%A3o%20do,2023%20(8%2C4%25).>. Acesso em: 24 março 2024.
+Desemprego sobe para 7,8% no trimestre encerrado em fevereiro, aponta IBGE. 28/3/2024:
+https://www.estadao.com.br/economia/pnad-ibge-desemprego-fevereiro-2024/
+
+
+FREITAS, bruno. Taxa de desemprego fica em 7,6% no trimestre encerrado em janeiro. Agência Brasil, 2024. Disponível em: 
+<https://agenciabrasil.ebc.com.br/economia/noticia/2024-02/taxa-de-desemprego-fica-em-76-no-trimestre-encerrado-em-janeiro#:~:text=A%20taxa%20de%20desocupa%C3%A7%C3%A3o%20do,2023%20(8%2C4%25).>. Acesso em: 24 março 2024.
 
 
 ###    Objetivo geral
