@@ -53,10 +53,6 @@ Desemprego sobe para 7,8% no trimestre encerrado em fevereiro, aponta IBGE. 28/3
 https://www.estadao.com.br/economia/pnad-ibge-desemprego-fevereiro-2024/
 
 
-FREITAS, bruno. Taxa de desemprego fica em 7,6% no trimestre encerrado em janeiro. Agência Brasil, 2024. Disponível em: 
-<https://agenciabrasil.ebc.com.br/economia/noticia/2024-02/taxa-de-desemprego-fica-em-76-no-trimestre-encerrado-em-janeiro#:~:text=A%20taxa%20de%20desocupa%C3%A7%C3%A3o%20do,2023%20(8%2C4%25).>. Acesso em: 24 março 2024.
-
-
 ###    Objetivo geral
 
 Analisar o crescimento contínuo da incidência do desemprego nos centros urbanos do Brasil e estimar sua projeção futura.  
