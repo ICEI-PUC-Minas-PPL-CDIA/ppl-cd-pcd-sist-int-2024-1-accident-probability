@@ -1,4 +1,4 @@
-# Previsão de Desemprego 
+# Probabilidade de acidentes
 
 
 Matheus Melo Couto, matheus.couto.1525924@sga.pucminas.br
@@ -29,15 +29,12 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 ---
 
 ---
-Este trabalho tem como objetivo analisar e prever a taxa de desemprego no Brasil, utilizando modelos estatísticos e econômicos. Foram coletados dados históricos da taxa de desemprego, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar a taxa de desemprego futura. Com a breve analise na base de dados pode até se prever que o desemprego no Brasil está correlacionado com variáveis como PIB, inflação e taxa de juros. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar o desemprego na região.
+Este trabalho tem como objetivo analisar e realizar um calculo de probabilidade de acidentes que uma certa via oferece, com base nas informações do condutor,condições da via etc..., utilizando modelos estatísticos. Foram coletados dados históricos da taxa de sinistros, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar uma probabilidade de um acidente ocorrer em detrimento de algumas condições. Com a breve analise na base de dados pode até se prever que a alta taxa de acidentes Brasil está correlacionado com variáveis como condições das vias, idade dos condutores,condição dos veículos. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar os acidentes em determinadas regiões.
 
 
 ## Introdução
 
-A taxa de desemprego é um indicador fundamental, que reflete a saúde econômica de uma região e o bem-estar de sua população. No Brasil, país com uma economia diversificada e significativa contribuição para o cenário internacional, a questão do desemprego é, ainda, uma problemática a ser resolvida. Com o objetivo de compreender melhor esse cenário e fornecer insights para a formulação de políticas públicas e estratégias de desenvolvimento econômico, este trabalho se propõe a analisar e prever a taxa de desemprego em nosso país .
-
-Através da utilização de modelos estatísticos e econômicos, buscamos identificar os principais fatores que influenciam o desemprego nas regiões e antecipar possíveis cenários futuros. Esta análise poderá ser de grande contribuição para orientar decisões e ações que visem promover o crescimento econômico e o bem-estar social no Brasil. 
-
+Os acidentes nas rodovias representam um grave problema em todo o mundo, resultando em perdas humanas, danos materiais e impactos econômicos significativos. Nesse contexto, a aplicação de sistemas inteligentes analise dos dados através da ciência de dados tem se mostrado uma abordagem promissora para a prevenção e mitigação desses acidentes. A capacidade desses sistemas de coletar, processar e analisar grandes volumes de dados em tempo real, juntamente com a capacidade de tomar decisões autônomas e rápidas, torna-os ferramentas essenciais na busca por estratégias mais eficazes de segurança viária. Este trabalho tem como objetivo explorar o papel dos sistemas inteligentes na redução de acidentes nas rodovias, destacando suas potenciais contribuições e desafios a serem superados.
 
 ###    Contextualização
 
@@ -93,7 +90,7 @@ BASE DE DADOS 1
 |   idade       |   numérico    |    idade da população de uma região                  | 
 |   população   |   numérico    |    quantidade de habitantes de uma região ou estado  |
 |   educação    |   categórico  |    nível de formação da população                    |
-|   prin_renda  |   categórico  |    principal fonte de renda de uma região             |
+|   prin_renda  |   categórico  |    principal fonte de renda de uma região            |
 
 
 
