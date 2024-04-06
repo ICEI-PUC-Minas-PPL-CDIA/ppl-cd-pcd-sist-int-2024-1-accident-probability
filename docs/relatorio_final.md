@@ -82,6 +82,7 @@ Pesquisadores Corporativos: Têm formação acadêmica em áreas como sociologia
 ###    Dicionário de dados
 
 BASE DE DADOS : Acidentes rodoviários
+
 FONTE: Kaggle
 
 |   Variáveis   | Tipo de dado  |                      Descrição                                    |
