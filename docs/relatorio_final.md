@@ -83,14 +83,27 @@ Pesquisadores Corporativos: Têm formação acadêmica em áreas como sociologia
 
 BASE DE DADOS 1
 
-|   Variáveis   | Tipo de dado  |                      Descrição                       |
-| ------------- | ------------- |----------------------------------------------------  |
-|   estado      |   textual     |    estado ou região dentro do país                   |
-|   data        |   data        |    data da coleta dos dados                          |
-|   idade       |   numérico    |    idade da população de uma região                  | 
-|   população   |   numérico    |    quantidade de habitantes de uma região ou estado  |
-|   educação    |   categórico  |    nível de formação da população                    |
-|   prin_renda  |   categórico  |    principal fonte de renda de uma região            |
+|   Variáveis   | Tipo de dado  |                      Descrição                                    |
+| ------------- | ------------- |------------------------------------------------------------       |
+|   índice_coli |   textual     |    Um identificador exclusivo para cada acidente relatado         |
+|   ano_colisão |   data        |    Ano em que ocorreu o acidente                                  |
+|   ref_acident |   numérico    |    Um número de referência associado ao acidente                  | 
+|   veic_refe   |   numérico    |    Número de referência do veículo envolvido no acidente          | 
+|   ref_casual  |   categórico  |    Um número de referência da vítima envolvida no acidente        |
+|   clas_viti   |               |    Indica a classe da vítima (ex: motorista, passageiro, pedestre)|
+|   sexo        |   categórico  |    O sexo da vítima (masculino ou feminino)			    |
+|   idade       |   numérico    |    A idade da vítima						    |
+|   faix_etar   |   numérico    |    Faixa etária a que pertence a vítima (ex.: 0-5, 6-10, 11-15)    |
+|   grav_ferim  |   categórico  |    A gravidade dos ferimentos da vítima (por exemplo, fatal, grave,leve)|
+|   loca_pedes  |               |    Localizção do pedrestre no momento do acidente 	            |
+|   mov_pedes   |               |    Movimentação do pedrestre durante o acidente 		    |
+|   passa_car   |               |    Indica se o acidentado era passageiro do carro no momento do acidente|
+|   pass_onib   |               |    Indica se a vítima foi um passageiro de ônibus ou ônibus (sim ou não)|
+|   traba_rodov |               |    Indica se o acidentado era trabalhador de manutenção rodoviária (sim ou não)|
+|   tipo_vitim  |               |    O tipo de vítima (por exemplo, motorista/passageiro, passageiro, pedestre)|
+|   resid_vitim |               |    O tipo de área em que a vítima reside (por exemplo, urbana, rural)|
+|   decil_IMD   |               |    O decil IMD da área onde reside a vítima (uma medida de privação)|
+|   LSOA        |               |    A Área de Super Saída da Camada Inferior (LSOA) associada à localização da vítima|
 
 
 
