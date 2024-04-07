@@ -157,9 +157,25 @@ Dados Categóricos: Principal Fonte de Renda de uma Região e Nível de Formaç�
 
 ## Preparação dos dados
 
-A preparação dos dados consiste dos seguintes passos:
+##    Seleção dos Atributos
 
-> - Seleção dos atributos
+|   Variáveis   |  
+| ------------- |   
+|   ano_colisão |    
+|   veic_refe   |  
+|   clas_viti   |  
+|   sexo        |  
+|   faix_etar   |  
+|   grav_ferim  |  
+|   loca_pedes  |  
+|   mov_pedes   |  
+|   passa_car   |  
+|   pass_onib   |  
+|   traba_rodov |  
+|   tipo_vitim  |  
+|   resid_vitim |  
+
+
 > - Tratamentos dos valores faltantes ou omissos: remoção, substituição, indução, etc.
 > - Tratamento dos valores inconsistentes: conversão, remoção de dados duplicados, remoção ou tratamento de ouliers.
 > - Conversão de dados: p. ex. numérico para categórico, categórico para binário, etc.
