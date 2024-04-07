@@ -55,9 +55,9 @@ Analisar acidentes nas vias, identificar tendências e extrair informações par
 
 ####    Objetivos específicos
 
-• Identificar os principais centros urbanos do Brasil que apresentam um aumento significativo na população em situação de ociosidade laboral;  
-• Analisar os dados estatísticos relacionados ao índice de desemprego em cada um dos centros urbanos identificados;
-• Comparar e contrastar os dados obtidos sobre a população em desocupação profissional, a carência de emprego e a desigualdade social para encontrar potenciais correlações;  
+• Identificar os principais centros urbanos que apresentam um aumento significativo em acidentes de tráfego;    
+• Analisar os dados estatísticos relacionados ao incidentes em estradas em cada um dos centros urbanos identificados;  
+• Comparar e contrastar os dados obtidos sobre os acidentes, as condições climáticas e os fatores humanos como: fadiga, psicológico, etc;  
 • Propor recomendações para políticas públicas ou intervenções sociais visando mitigar os efeitos negativos dessas correlações na sociedade;
 • Impulsionar um aumento da qualidade de vida da população através de iniciativas abrangentes em áreas como saúde, educação, habitação e bem-estar social.  
 
