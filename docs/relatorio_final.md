@@ -72,9 +72,10 @@ No âmbito social, nossa motivação é edificada ao promover o bem-estar e cont
 
 ##    Público alvo
 
-Gestores Públicos: Possuem familiaridade com políticas públicas, gestão de recursos e tomada de decisões estratégicas. Utilizam sistemas de informação para análise de dados e monitoramento de indicadores sociais. Podem ocupar cargos de liderança em órgãos governamentais, como secretarias de assistência social, saúde e segurança pública.  
+Agências de seguros: Que tem como objetivo utilizar os dados, fornecidos para melhor escolha de preço, de acordo com a regiãodevias de maior ou menor risco.
 
-Pesquisadores Corporativos: Têm formação acadêmica em áreas como sociologia, economia ou ciência política, com experiência em análise de dados e métodos de pesquisa. Utilizam ferramentas estatísticas e software de análise de dados para realizar estudos e produzir relatórios. Podem atuar em instituições de pesquisa, universidades ou organizações não governamentais.  
+
+Governo Público: Têm como função guiar para o reparo ou manutenção da via, diminuindo o risco de acidentes, ocasionandos em determinados trechos das vias.
 
 
 ## Análise exploratórida dos dados
