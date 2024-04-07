@@ -157,28 +157,20 @@ Dados Categóricos: Principal Fonte de Renda de uma Região e Nível de Formaç�
 
 ## Preparação dos dados
 
-##    Seleção dos Atributos
 
-|   Variáveis   |  
-| ------------- |   
-|   ano_colisão |    
-|   veic_refe   |  
-|   clas_viti   |  
-|   sexo        |  
-|   faix_etar   |  
-|   grav_ferim  |  
-|   loca_pedes  |  
-|   mov_pedes   |  
-|   passa_car   |  
-|   pass_onib   |  
-|   traba_rodov |  
-|   tipo_vitim  |  
-|   resid_vitim |  
-
-
-> - Tratamentos dos valores faltantes ou omissos: remoção, substituição, indução, etc.
-> - Tratamento dos valores inconsistentes: conversão, remoção de dados duplicados, remoção ou tratamento de ouliers.
-> - Conversão de dados: p. ex. numérico para categórico, categórico para binário, etc.
+|   Variáveis   | Tipo de dado  |                      Descrição                                    |
+| ------------- | ------------- |------------------------------------------------------------       |
+|   ano_colisão |   data        |    Ano em que ocorreu o acidente                                  |
+|   veic_refe   |   numérico    |    Número de referência do veículo envolvido no acidente          | 
+|   clas_viti   |   categórico  |    Indica a classe da vítima (ex: motorista, passageiro, pedestre)|
+|   sexo        |   textual     |    O sexo da vítima (masculino ou feminino)			    |
+|   faix_etar   |   numérico    |    Faixa etária a que pertence a vítima (ex.: 0-5, 6-10, 11-15)    |
+|   grav_ferim  |   categórico  |    A gravidade dos ferimentos da vítima (por exemplo, fatal, grave,leve)|
+|   loca_pedes  |   numérico    |    Localizção do pedrestre no momento do acidente 	            |
+|   pass_onib   |   categórico  |    Indica se a vítima foi um passageiro de ônibus ou ônibus (sim ou não)|
+|   traba_rodov |   categórico  |    Indica se o acidentado era trabalhador de manutenção rodoviária (sim ou não)|
+|   tipo_vitim  |   categórico  |    O tipo de vítima (por exemplo, motorista/passageiro, passageiro, pedestre)|
+|   resid_vitim |   categórico  |    O tipo de área em que a vítima reside (por exemplo, urbana, rural)|
 
 
 ## Indução de modelos
