@@ -34,12 +34,11 @@ Este trabalho tem como objetivo analisar e realizar um calculo de probabilidade 
 
 ## Introdução
 
-Os acidentes nas rodovias representam um grave problema em todo o mundo, resultando em perdas humanas, danos materiais e impactos econômicos significativos. Nesse contexto, a aplicação de sistemas inteligentes analise dos dados através da ciência de dados tem se mostrado uma abordagem promissora para a prevenção e mitigação desses acidentes. A capacidade desses sistemas de coletar, processar e analisar grandes volumes de dados em tempo real, juntamente com a capacidade de tomar decisões autônomas e rápidas, torna-os ferramentas essenciais na busca por estratégias mais eficazes de segurança viária. Este trabalho tem como objetivo explorar o papel dos sistemas inteligentes na redução de acidentes nas rodovias, destacando suas potenciais contribuições e desafios a serem superados.
+Os acidentes nas rodovias representam um grave problema em todo o mundo, resultando em perdas humanas, danos materiais e impactos econômicos significativos. Nesse contexto, a aplicação de sistemas inteligentes e da análise dos dados através da ciência de dados, tem se mostrado uma abordagem promissora para a prevenção e da diminuição extrema desses acidentes. A capacidade desses sistemas de coletar, processar e analisar grandes volumes de dados em tempo real, juntamente com a capacidade de tomar decisões autônomas e rápidas, torna-os ferramentas essenciais na busca por estratégias mais eficazes de segurança viária. Este trabalho tem como objetivo explorar o papel dos sistemas inteligentes na redução de acidentes nas rodovias, destacando suas potenciais contribuições e desafios a serem superados.
 
 ###    Contextualização
 
-A crescente disponibilidade de dados e avanços tecnológicos têm permitido a aplicação da ciência de dados em diversas áreas, incluindo a economia e o mercado de trabalho. No contexto do Brasil, a análise preditiva do desemprego por meio de técnicas de ciência de dados se mostra como uma ferramenta poderosa para compreender e antecipar as tendências do mercado de trabalho. A capacidade de coletar, processar e analisar grandes volumes de dados permite identificar padrões, correlações e insights competentes. Neste sentido, este trabalho se propõe a explorar o uso de técnicas avançadas de ciência de dados para prever a taxa de desemprego no Brasil, contribuindo assim para uma abordagem mais informada e eficaz na gestão do mercado de trabalho e no enfrentamento dos desafios econômicos e sociais de cada região.  
-
+A crescente disponibilidade de dados e avanços tecnológicos tem permitido o desenvolvimento constante e exponencial no setor automobilístico, tanto para produção de automóveis cada vez mais eficazes e seguros, quanto para a conservação da própria segurança no trânsito. A aplicação da Ciência de Dados se mostra como uma ferramenta necessária para este projeto — com a capacidade de coletar, processar e analisar grandes volumes de dados, permite-se identificar padrões/correlações, e, assim, projetar medidas. Dessa forma, esse trabalho se propõe a explorar o uso de técnicas avançadas da análise exploratória de dados para compreender os motivos que incidem em acidentes rodoviários, de forma a prevê-los e possibilitar o melhoramento das vias e dos sistemas de transportes. 
 
 ###    Problema
 O problema que o agente pretende resolver é o alto índice de desemprego no Brasil. O país enfrenta dificuldades com altas taxas de desemprego, o que impacta diretamente a qualidade de vida da população, gerando instabilidade econômica e social. De acordo com o site Estadão, "A taxa de desemprego no País subiu de 7,6% no trimestre terminado em janeiro para 7,8% no trimestre encerrado em fevereiro, a segunda elevação consecutiva, após nove trimestres móveis seguidos de recuo.", ou seja, aproximadamente 8,535 milhões de pessoas se encontram atualmente desempregadas.
@@ -52,7 +51,7 @@ https://www.estadao.com.br/economia/pnad-ibge-desemprego-fevereiro-2024/
 
 ###    Objetivo geral
 
-Analisar o crescimento contínuo da incidência do desemprego nos centros urbanos do Brasil e estimar sua projeção futura.  
+Analisar acidentes nas vias, identificar tendências e extrair informações para implementação de medidas de segurança, necessárias para reduzir o número de vítimas de tais imprudências.  
 
 ####    Objetivos específicos
 
@@ -72,7 +71,7 @@ No âmbito social, nossa motivação é edificada ao promover o bem-estar e cont
 
 ##    Público alvo
 
-Agências de seguros: Que tem como objetivo utilizar os dados, fornecidos para melhor escolha de preço, de acordo com a regiãodevias de maior ou menor risco.
+Agências de seguros: Que tem como objetivo utilizar os dados, fornecidos para melhor escolha de preço, de acordo com a região de vias de maior ou menor risco.
 
 
 Governo Público: Têm como função guiar para o reparo ou manutenção da via, diminuindo o risco de acidentes, ocasionandos em determinados trechos das vias.
