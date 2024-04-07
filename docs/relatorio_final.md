@@ -29,24 +29,30 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 ---
 
 ---
-Este trabalho tem como objetivo analisar e realizar um calculo de probabilidade de acidentes que uma certa via oferece, com base nas informações do condutor,condições da via etc..., utilizando modelos estatísticos. Foram coletados dados históricos da taxa de sinistros, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar uma probabilidade de um acidente ocorrer em detrimento de algumas condições. Com a breve analise na base de dados pode até se prever que a alta taxa de acidentes Brasil está correlacionado com variáveis como condições das vias, idade dos condutores,condição dos veículos. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar os acidentes em determinadas regiões.
+Este trabalho tem como objetivo analisar e realizar um calculo de probabilidade de acidentes que uma certa via oferece, com base nas informações do condutor,condições da via etc..., utilizando modelos estatísticos. Foram coletados dados históricos da taxa de sinistros, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar uma probabilidade de um acidente ocorrer em detrimento de algumas condições. Com a breve analise na base de dados pode até se prever que a alta taxa de acidentes Brasil está correlacionado com variáveis como condições das vias, idade dos condutores,condição dos veículos. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar os acidentes em determinadas regiões.  
 
 
 ## Introdução
 
-Os acidentes nas rodovias representam um grave problema em todo o mundo, resultando em perdas humanas, danos materiais e impactos econômicos significativos. Nesse contexto, a aplicação de sistemas inteligentes e da análise dos dados através da ciência de dados, tem se mostrado uma abordagem promissora para a prevenção e da diminuição extrema desses acidentes. A capacidade desses sistemas de coletar, processar e analisar grandes volumes de dados em tempo real, juntamente com a capacidade de tomar decisões autônomas e rápidas, torna-os ferramentas essenciais na busca por estratégias mais eficazes de segurança viária. Este trabalho tem como objetivo explorar o papel dos sistemas inteligentes na redução de acidentes nas rodovias, destacando suas potenciais contribuições e desafios a serem superados.
+Os acidentes nas rodovias representam um grave problema em todo o mundo, resultando em perdas humanas, danos materiais e impactos econômicos significativos. Nesse contexto, a aplicação de sistemas inteligentes e da análise dos dados através da ciência de dados, tem se mostrado uma abordagem promissora para a prevenção e da diminuição extrema desses acidentes. A capacidade desses sistemas de coletar, processar e analisar grandes volumes de dados em tempo real, juntamente com a capacidade de tomar decisões autônomas e rápidas, torna-os ferramentas essenciais na busca por estratégias mais eficazes de segurança viária. Este trabalho tem como objetivo explorar o papel dos sistemas inteligentes na redução de acidentes nas rodovias, destacando suas potenciais contribuições e desafios a serem superados.  
+
 
 ###    Contextualização
 
-A crescente disponibilidade de dados e avanços tecnológicos tem permitido o desenvolvimento constante e exponencial no setor automobilístico, tanto para produção de automóveis cada vez mais eficazes e seguros, quanto para a conservação da própria segurança no trânsito. A aplicação da Ciência de Dados se mostra como uma ferramenta necessária para este projeto — com a capacidade de coletar, processar e analisar grandes volumes de dados, permite-se identificar padrões/correlações, e, assim, projetar medidas. Dessa forma, esse trabalho se propõe a explorar o uso de técnicas avançadas da análise exploratória de dados para compreender os motivos que incidem em acidentes rodoviários, de forma a prevê-los e possibilitar o melhoramento das vias e dos sistemas de transportes. 
+A crescente disponibilidade de dados e avanços tecnológicos tem permitido o desenvolvimento constante e exponencial no setor automobilístico, tanto para produção de automóveis cada vez mais eficazes e seguros, 
+quanto para a conservação da própria segurança no trânsito. A aplicação da Ciência de Dados se mostra como uma ferramenta necessária para este projeto — com a capacidade de coletar, processar e analisar grandes 
+volumes de dados, permite-se identificar padrões/correlações, e, assim, projetar medidas. Dessa forma, esse trabalho se propõe a explorar o uso de técnicas avançadas da análise exploratória de dados para 
+compreender os motivos que incidem em acidentes rodoviários, de forma a prevê-los e possibilitar o melhoramento das vias e dos sistemas de transportes.  
+
 
 ###    Problema
-O problema que o agente pretende resolver é o alto índice de desemprego no Brasil. O país enfrenta dificuldades com altas taxas de desemprego, o que impacta diretamente a qualidade de vida da população, gerando instabilidade econômica e social. De acordo com o site Estadão, "A taxa de desemprego no País subiu de 7,6% no trimestre terminado em janeiro para 7,8% no trimestre encerrado em fevereiro, a segunda elevação consecutiva, após nove trimestres móveis seguidos de recuo.", ou seja, aproximadamente 8,535 milhões de pessoas se encontram atualmente desempregadas.
+O problema que o agente pretende resolver é o alto índice de incidentes que uma certa via pode ter. Certas vias específicas enfrentam dificuldades com altas taxas de colisões, o que impacta diretamente a qualidade 
+de vida da população, assim gerando um aumento da mortalidade e no impacto emocional dos indivíduos. De acordo com o PAHO (Pan American Health Organization), "90% das mortes no trânsito ocorrem em países de baixa e 
+média renda. Os acidentes nas vias custam aos países cerca de 3% de seus produtos internos brutos. Quase metade (49%) das pessoas que morrem nas vias em todo o mundo são pedestres, ciclistas e motociclistas.":  
+https://www.paho.org/pt/topicos/seguranca-no-transito#:~:text=90%25%20das%20mortes%20no%20trânsito,são%20pedestres%2C%20ciclistas%20e%20motociclistas.  
 
-Essa circunstância revela uma série de desafios, tanto para os indivíduos em busca de oportunidades de trabalho, quanto para as empresas que necessitam encontrar profissionais qualificados para preencher suas demandas. Com altas taxas de desemprego, surge uma complexa rede de consequências, incluindo a redução do poder de compra, o aumento da insegurança financeira e a diminuição do investimento em educação e saúde.
-
-Desemprego sobe para 7,8% no trimestre encerrado em fevereiro, aponta IBGE. 28/3/2024:
-https://www.estadao.com.br/economia/pnad-ibge-desemprego-fevereiro-2024/
+Essa circunstância revela uma série de desafios, que são: segurança no trânsito, dificultando a segurança de todos os usuários das vias, incluindo pedestres, ciclistas, motociclistas e motoristas. E também na falta
+de infraestrutura, muitas regiões enfrentam desafios relacionados à falta de investimento em infraestrutura, estradas mal conservadas, falta de sinalização adequada e projetos viários inadequados.  
 
 
 ###    Objetivo geral
@@ -58,8 +64,8 @@ Analisar acidentes nas vias, identificar tendências e extrair informações par
 • Identificar os principais centros urbanos que apresentam um aumento significativo em acidentes de tráfego;    
 • Analisar os dados estatísticos relacionados ao incidentes em estradas em cada um dos centros urbanos identificados;  
 • Comparar e contrastar os dados obtidos sobre os acidentes, as condições climáticas e os fatores humanos como: fadiga, psicológico, etc;  
-• Propor recomendações para políticas públicas ou intervenções sociais visando mitigar os efeitos negativos dessas correlações na sociedade;
-• Impulsionar um aumento da qualidade de vida da população através de iniciativas abrangentes em áreas como saúde, educação, habitação e bem-estar social.  
+• Propor recomendações para políticas sociais ou intervenções na segurança pública visando mitigar os efeitos negativos dessas correlações na sociedade;  
+• Impulsionar um aumento da qualidade de vida da população através de iniciativas abrangentes em áreas da segurança, educação, habitação e bem-estar social.  
 
 
 ###    Justificativas
