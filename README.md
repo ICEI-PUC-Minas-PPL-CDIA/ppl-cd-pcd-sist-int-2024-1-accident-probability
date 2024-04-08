@@ -1,6 +1,6 @@
-# Previsão de Desemprego no brasil
+# probabilidade de acidentes rodoviários
 
-O objetivo deste trabalho é desenvolver um modelo de previsão de empregos no Brasil, por meio da análise de dados econômicos, demográficos e setoriais relevantes. O intuito é fornecer insights e projeções precisas sobre a demanda por mão de obra em diferentes setores da economia do país, auxiliando gestores públicos, empresários e profissionais de recursos humanos na tomada de decisões estratégicas. O estudo visa contribuir para o planejamento eficaz de políticas públicas, investimentos e estratégias de contratação, visando o desenvolvimento sustentável e a promoção do emprego e renda no Brasil.
+Este trabalho tem como objetivo analisar e realizar um calculo de probabilidade de acidentes que uma certa via oferece, com base nas informações do condutor,condições da via etc..., utilizando modelos estatísticos. Foram coletados dados históricos da taxa de sinistros, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar uma probabilidade de um acidente ocorrer em detrimento de algumas condições. Com a breve analise na base de dados pode até se prever que a alta taxa de acidentes Brasil está correlacionado com variáveis como condições das vias, idade dos condutores,condição dos veículos. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar os acidentes em determinadas regiões.
 
 ## Integrantes
 
