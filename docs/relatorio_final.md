@@ -70,9 +70,7 @@ Analisar acidentes nas vias, identificar tendências e extrair informações par
 
 ###    Justificativas
 
-O projeto oferece uma ferramenta para gestores públicos, pesquisadores e profissionais dos setores de assistência social, saúde e segurança pública, representando uma contribuição significativa para o cenário econômico ao possibilitar a formulação de políticas públicas mais eficazes. Baseado em dados estatísticos confiáveis e pesquisa detalhada, o sistema visa não apenas facilitar a tomada de decisões, mas também promover o desenvolvimento econômico por meio da otimização de recursos e da identificação de oportunidades de crescimento sustentável.  
-
-No âmbito social, nossa motivação é edificada ao promover o bem-estar e contribuir para a construção de uma sociedade íntegra. Ao adotar essa ferramenta, empresas têm a oportunidade de desempenhar um papel fundamental na melhoria da qualidade de vida das pessoas, ao mesmo tempo em que colaboram para a criação de uma comunidade mais coesa e inclusiva.  
+  A probabilidade de acidentes como tema de estudo é crucial em diversos setores, permitindo avaliar riscos e adotar medidas preventivas. Essa análise não só compreende os potenciais perigos em atividades e ambientes, mas também direciona a implementação de protocolos de segurança eficazes. Ao quantificar a probabilidade de acidentes, é possível identificar áreas vulneráveis, priorizar investimentos em segurança e reduzir eventos indesejados. Integrar essa probabilidade em análises de risco permite decisões mais embasadas, promove uma cultura preventiva e valoriza o bem-estar de todos. Assim, a consideração da probabilidade de acidentes não apenas preserva vidas e recursos, mas também fortalece a sustentabilidade e a eficiência operacional a longo prazo.
 
 
 ##    Público alvo
