@@ -153,7 +153,7 @@ Dados Categóricos: Principal Fonte de Renda de uma Região e Nível de Formaç�
 
 • Distribuição das Categorias: Represento graficamente a frequência de cada fonte de renda e nível de formação.
 
-## Preparação dos dados
+### Preparação dos dados
 
 
 |   Variáveis   | Tipo de dado  |                      Descrição                                    |
@@ -168,6 +168,26 @@ Dados Categóricos: Principal Fonte de Renda de uma Região e Nível de Formaç�
 |   pass_onib   |   categórico  |    Indica se a vítima foi um passageiro de ônibus ou ônibus (sim ou não)|
 |   tipo_vitim  |   categórico  |    O tipo de vítima (por exemplo, motorista/passageiro, passageiro, pedestre)|
 |   resid_vitim |   categórico  |    O tipo de área em que a vítima reside (por exemplo, urbana, rural)|
+
+### Distribuição por gravidade   
+
+![__results___10_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/3340d31e-ff3a-4329-9bd5-e4d0c0324037)
+
+### Distribuição por idade
+
+![__results___10_2](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/9a11b5b0-e1bc-4940-9a06-94bc63ba59ea)
+
+### Distribuição por sexo
+
+![__results___12_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/8ae1c17e-68e9-435c-b53e-39c289737899)
+
+### Distribuição por classe da vítima
+
+![__results___13_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/106dc7ff-06fc-4cae-8bb1-2a5cb90feaae)
+
+### Distribuição por área de residência
+
+![__results___14_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/96f6f9db-5510-4afe-b508-1aa1c074a473)
 
 
 ## Indução de modelos
