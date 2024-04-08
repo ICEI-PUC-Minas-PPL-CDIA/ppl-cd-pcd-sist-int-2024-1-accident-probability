@@ -117,41 +117,29 @@ FONTE: Kaggle
 
 ###    Descrição de dados
 
-Dado Numérico: Idade da População de uma Região 
+• Dados Numéricos:
 
-• Média: Calculo a média das idades da população. 
+• Localização do pedestre no momento do acidente: Este dado fornece a localização do pedestre no momento do acidente.
 
-• Desvio Padrão: Determino o grau de dispersão das idades em relação à média. 
+• Faixa etária a que pertence a vítima: Indica em qual faixa etária a vítima se enquadra.
 
-• Mínimo e Máximo: Identifico a idade mínima e máxima da população. 
+• Número de referência do veículo envolvido no acidente: Identifica o veículo envolvido no acidente.
 
-• Quartis: Divido as idades em quartis para entender a distribuição. 
+• Dados Categóricos:
 
-• Histograma: Represento graficamente a distribuição das idades. 
+• Tipo de área em que a vítima reside: Categoriza se a área da residência da vítima é urbana ou rural.
 
-Dado Numérico: Quantidade de Habitantes de uma Região ou Estado 
+• Tipo de vítima: Descreve se a vítima é motorista/passageiro, passageiro ou pedestre.
 
-• Média: Calculo a média da quantidade de habitantes. 
+• Indica se a vítima foi um passageiro de ônibus ou ônibus: Indica se a vítima estava envolvida em um acidente de ônibus.
 
-• Desvio Padrão: Determino o grau de dispersão da quantidade de habitantes em relação à média. 
+• A gravidade dos ferimentos da vítima: Categoriza os ferimentos da vítima em fatal, grave ou leve.
 
-• Mínimo e Máximo: Identifico a menor e a maior quantidade de habitantes. 
+• Indica a classe da vítima: Define a classe da vítima, como motorista, passageiro ou pedestre.
 
-• Quartis: Divido a quantidade de habitantes em quartis para entender a distribuição. 
+• Dados Textuais:
 
-• Histograma: Represento graficamente a distribuição da quantidade de habitantes. 
-
-Dado de Data: Data da Coleta dos Dados 
-
-• Não é possível calcular estatísticas descritivas com uma única data, mas podemos verificar o intervalo de tempo abrangido pelos dados. 
-
-Dados Categóricos: Principal Fonte de Renda de uma Região e Nível de Formação da População 
-
-• Moda: Identifico a principal fonte de renda e o nível de formação mais comuns na região. 
-
-• Quantidade de Valores Distintos: Conto o número de diferentes fontes de renda e níveis de formação. 
-
-• Distribuição das Categorias: Represento graficamente a frequência de cada fonte de renda e nível de formação.
+• Sexo da vítima: Indica o sexo da vítima, masculino ou feminino.
 
 ### Preparação dos dados
 
