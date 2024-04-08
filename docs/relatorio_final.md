@@ -168,7 +168,6 @@ Dados Categóricos: Principal Fonte de Renda de uma Região e Nível de Formaç�
 |   grav_ferim  |   categórico  |    A gravidade dos ferimentos da vítima (por exemplo, fatal, grave,leve)|
 |   loca_pedes  |   numérico    |    Localizção do pedrestre no momento do acidente 	            |
 |   pass_onib   |   categórico  |    Indica se a vítima foi um passageiro de ônibus ou ônibus (sim ou não)|
-|   traba_rodov |   categórico  |    Indica se o acidentado era trabalhador de manutenção rodoviária (sim ou não)|
 |   tipo_vitim  |   categórico  |    O tipo de vítima (por exemplo, motorista/passageiro, passageiro, pedestre)|
 |   resid_vitim |   categórico  |    O tipo de área em que a vítima reside (por exemplo, urbana, rural)|
 
