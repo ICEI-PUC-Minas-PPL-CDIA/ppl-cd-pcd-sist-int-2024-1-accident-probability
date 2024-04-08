@@ -141,9 +141,6 @@ FONTE: Kaggle
 
 • Sexo da vítima: Indica o sexo da vítima, masculino ou feminino.
 
-### Preparação dos dados
-
-
 |   Variáveis   | Tipo de dado  |                      Descrição                                    |
 | ------------- | ------------- |------------------------------------------------------------       |
 |   ano_colisão |   data        |    Ano em que ocorreu o acidente                                  |
@@ -176,6 +173,10 @@ FONTE: Kaggle
 ### Distribuição por área de residência
 
 ![__results___14_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/96f6f9db-5510-4afe-b508-1aa1c074a473)
+
+
+### Preparação dos dados
+
 
 
 ## Indução de modelos
