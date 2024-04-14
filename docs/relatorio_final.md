@@ -112,9 +112,6 @@ FONTE: Kaggle
 |   LSOA        |   numérico    |    A Área de Super Saída da Camada Inferior (LSOA) associada à localização da vítima|
 
 
-O gráfico mostra a severidade das lesões e danos experimentados pelos indivíduos envolvidos nos acidentes de carro retratados na nossa base de dados. A gravidade é categorizada como 1- ferimentos leves, 2- ferimentos graves ou 3- mortes.
-
-
 ###    Descrição de dados
 
 • Dados Numéricos:
@@ -158,13 +155,21 @@ O gráfico mostra a severidade das lesões e danos experimentados pelos indivíd
 
 ![__results___10_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/3340d31e-ff3a-4329-9bd5-e4d0c0324037)
 
+O primeiro gráfico expõe a "Severidade" das lesões e dos danos experimentados pelos indivíduos envolvidos nos acidentes de carro. A gravidade é categorizada como 1- ferimentos leves, 2- ferimentos graves e 3- mortes. Menos de 10mil casos foram registrados como acidentes com vítimas com ferimentos leves; por volta de 15mil casos foram registrados como acidentes com vítimas com ferimentos graves; e mais de 45mil foram registrados como acidentes com vítimas fatais.
+
 ### Distribuição por idade
 
 ![__results___10_2](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/9a11b5b0-e1bc-4940-9a06-94bc63ba59ea)
 
+O segundo gráfico apresenta a "Idade da Vítima". Evidencia-se a faixa etária entre 30 e 70 anos para acidentes de gravidade 1; 20 e 55 anos para acidentes de gravidade 2; e 20 e 50 para acidentes de gravidade 3. Essas informações são vitais para a compreensão da demografia das pessoas afetadas, bem como para a avaliação dos fatores de risco e implementação de medidas de segurança adequadas.
+
 ### Distribuição por sexo
 
 ![__results___12_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/8ae1c17e-68e9-435c-b53e-39c289737899)
+
+O terceiro gráfico consta o "Sexo da vítima". ...
+
+Essas informações são importantes para entender o perfil demográfico das pessoas afetadas e para identificar quaisquer padrões ou tendências específicas de gênero nas taxas de sinistralidade.
 
 ### Distribuição por classe da vítima
 
