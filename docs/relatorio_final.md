@@ -112,7 +112,7 @@ FONTE: Kaggle
 |   LSOA        |   numérico    |    A Área de Super Saída da Camada Inferior (LSOA) associada à localização da vítima|
 
 
-
+O gráfico mostra a severidade das lesões e danos experimentados pelos indivíduos envolvidos nos acidentes de carro retratados na nossa base de dados. A gravidade é categorizada como 1- ferimentos leves, 2- ferimentos graves ou 3- mortes.
 
 
 ###    Descrição de dados
