@@ -161,15 +161,15 @@ O primeiro gráfico expõe a "Severidade" das lesões e dos danos experimentados
 
 ![__results___10_2](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/9a11b5b0-e1bc-4940-9a06-94bc63ba59ea)
 
+![__results___11_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/c3893fab-03f3-476a-a1a7-df0d6cee1e0f)
+
 O segundo gráfico apresenta a "Idade da Vítima". Evidencia-se a faixa etária entre 30 e 70 anos para acidentes de gravidade 1; 20 e 55 anos para acidentes de gravidade 2; e 20 e 50 para acidentes de gravidade 3. Essas informações são vitais para a compreensão da demografia das pessoas afetadas, bem como para a avaliação dos fatores de risco e implementação de medidas de segurança adequadas.
 
 ### Distribuição por sexo
 
 ![__results___12_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/8ae1c17e-68e9-435c-b53e-39c289737899)
 
-O terceiro gráfico consta o "Sexo da vítima". ...
-
-Essas informações são importantes para entender o perfil demográfico das pessoas afetadas e para identificar quaisquer padrões ou tendências específicas de gênero nas taxas de sinistralidade.
+O terceiro gráfico consta o "Sexo da vítima". É apontado que a maioria dos envolvidos em acidentes é do sexo masculino, independente da correlação estabelecida entre o acidente e sua severidade. Essas informações são importantes para entender o perfil demográfico das pessoas afetadas e para identificar quaisquer padrões ou tendências específicas de gênero nas taxas de sinistralidade.
 
 ### Distribuição por classe da vítima
 
@@ -182,7 +182,7 @@ Essas informações são importantes para entender o perfil demográfico das pes
 
 ### Preparação dos dados
 
-
+[dft-road-casualty-statistics-casualty-provisional-mid-year-unvalidated-2023.csv](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/files/14971003/dft-road-casualty-statistics-casualty-provisional-mid-year-unvalidated-2023.csv)
 
 ## Indução de modelos
 
