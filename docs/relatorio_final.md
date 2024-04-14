@@ -175,10 +175,13 @@ O terceiro gráfico consta o "Sexo da vítima". É apontado que a maioria dos en
 
 ![__results___13_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/106dc7ff-06fc-4cae-8bb1-2a5cb90feaae)
 
+O quarto gráfico aponta a "Gravidade dos Acidentes por Classe de Vítimas", referente à análise da gravidade dos acidentes pelo tipo de vítima. As vítimas foram classificadas nas seguintes categorias: condutores, passageiros e pedestres. Foi indicado que "condutores" foi a classe de vítimas preeminte. Enquanto em acidentes de gravidade 1 e 2 "pedestres" foram, em segundo lugar, a classe de vítimas maioritária, em acidentes de gravidade 3, "passageiros" sobressai.
+
 ### Distribuição por área de residência
 
 ![__results___14_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/96f6f9db-5510-4afe-b508-1aa1c074a473)
 
+O quinto gráfico exibe a "Gravidade das Vítimas por Tipo de Área de Residência", analisando a gravidade das vítimas com base no tipo de área onde os indivíduos envolvidos residem. Essa análise envolve examinar a extensão dos ferimentos ou danos sofridos por pessoas envolvidas nos acidentes, categorizadas pelo tipo de área em que vivem: urbana, suburbana, rural ou outra classificação/desconhecida. O gráfico revela que a maioria dos acidentes de gravidade 2 e 3 ocorre em áreas urbanas, seguidas por áreas desconhecidas, rurais e suburbanas. Os acidentes de gravidade 1 predominaram em áreas urbanas e desconhecidas, praticamente excluindo áreas rurais e suburbanas.
 
 ### Preparação dos dados
 
