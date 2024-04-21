@@ -184,8 +184,11 @@ O quarto gráfico aponta a "Gravidade dos Acidentes por Classe de Vítimas", ref
 O quinto gráfico exibe a "Gravidade das Vítimas por Tipo de Área de Residência", analisando a gravidade das vítimas com base no tipo de área onde os indivíduos envolvidos residem. Essa análise envolve examinar a extensão dos ferimentos ou danos sofridos por pessoas envolvidas nos acidentes, categorizadas pelo tipo de área em que vivem: urbana, suburbana, rural ou outra classificação/desconhecida. O gráfico revela que a maioria dos acidentes de gravidade 2 e 3 ocorre em áreas urbanas, seguidas por áreas desconhecidas, rurais e suburbanas. Os acidentes de gravidade 1 predominaram em áreas urbanas e desconhecidas, praticamente excluindo áreas rurais e suburbanas.
 
 ### Preparação dos dados
-
+Original:
 [dft-road-casualty-statistics-casualty-provisional-mid-year-unvalidated-2023.csv](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/files/14971003/dft-road-casualty-statistics-casualty-provisional-mid-year-unvalidated-2023.csv)
+
+Modificado:
+
 
 ## Indução de modelos
 
