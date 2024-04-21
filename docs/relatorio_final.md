@@ -155,7 +155,7 @@ FONTE: Kaggle
 
 ![__results___10_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/3340d31e-ff3a-4329-9bd5-e4d0c0324037)
 
-O primeiro gráfico expõe a "Severidade" das lesões e dos danos experimentados pelos indivíduos envolvidos nos acidentes de carro. A gravidade é categorizada como 1- ferimentos leves, 2- ferimentos graves e 3- mortes. Menos de 10mil casos foram registrados como acidentes com vítimas com ferimentos leves; por volta de 15mil casos foram registrados como acidentes com vítimas com ferimentos graves; e mais de 45mil foram registrados como acidentes com vítimas fatais.
+O primeiro gráfico expõe a "Severidade" das lesões e dos danos experimentados pelos indivíduos envolvidos nos acidentes de carro. A gravidade é categorizada como 1- ferimentos leves, 2- ferimentos moderados e 3- ferimentos graves. Menos de 10mil casos foram registrados como acidentes com vítimas com ferimentos leves; por volta de 15mil casos foram registrados como acidentes com vítimas com ferimentos moderados; e mais de 45mil foram registrados como acidentes com ferimentos graves.
 
 ### Distribuição por idade
 
@@ -169,7 +169,7 @@ O segundo gráfico apresenta a "Idade da Vítima". Evidencia-se a faixa etária 
 
 ![__results___12_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/8ae1c17e-68e9-435c-b53e-39c289737899)
 
-O terceiro gráfico consta o "Sexo da vítima". É apontado que a maioria dos envolvidos em acidentes é do sexo masculino, independente da correlação estabelecida entre o acidente e sua severidade. Essas informações são importantes para entender o perfil demográfico das pessoas afetadas e para identificar quaisquer padrões ou tendências específicas de gênero nas taxas de sinistralidade.
+O terceiro gráfico consta o "Sexo da vítima". É apontado que a maioria dos envolvidos em acidentes é do sexo masculino, independente da correlação estabelecida entre o acidente e sua severidade. Essas informações são importantes para entender o perfil demográfico das pessoas afetadas e para identificar quaisquer padrões ou tendências específicas de gênero.
 
 ### Distribuição por classe da vítima
 
