@@ -199,6 +199,11 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 ### Preparação dos dados
 
+- Foram eliminadas as colunas: Junction_Control, Latitude, Local_Authority_(District), Carriageway_Hazards, Longitude e Police_Force;
+- As datas foram passadas para o formato DD/MM/AA;
+- No horário, os minutos foram desconsiderados, mantendo apenas a hora em questão;
+- No tipo de veículo, foram desconsideradas características específicas dos meios de transporte, como as cilindradas de motos e o peso de transportes de mercadoria;
+- Nenhuma linha foi eliminada.
 
 ## Indução de modelos
 
