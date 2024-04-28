@@ -205,6 +205,13 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 - No tipo de veículo, foram desconsideradas características específicas dos meios de transporte, como as cilindradas de motos e o peso de transportes de mercadoria;
 - Nenhuma linha foi eliminada.
 
+  ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/a268cf49-f6bc-41ec-83e4-c5852917380a)
+  ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/786155aa-b064-4074-bb20-7084b079115a)
+  ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/6847e108-4968-4f1e-bada-2ab69dcd531c)
+  ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/aa144507-c5c5-49b1-b146-34a7a745dab6)
+  ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/781dc0a6-7b5e-4738-8bf1-3761452e6846)
+
+
 ## Indução de modelos
 
 ### Modelo 1: Algoritmo
