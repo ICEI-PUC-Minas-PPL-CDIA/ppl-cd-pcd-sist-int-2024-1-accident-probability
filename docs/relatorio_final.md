@@ -89,107 +89,101 @@ BASE DE DADOS : Acidentes rodoviários
 
 FONTE: Kaggle
 
+Este conjunto de dados fornece registos detalhados dos acidentes rodoviários ocorridos durante o mês de janeiro de 2021. Ele inclui informações como a data do acidente, dia da semana, controle de cruzamento, gravidade do acidente, coordenadas geográficas, condições de iluminação e clima, detalhes do veículo e muito mais. Os dados são valiosos para analisar e compreender os fatores que contribuem para os acidentes de trânsito nessa área urbana, auxiliando no desenvolvimento de estratégias para a melhoria da segurança viária.
+
 |   Variáveis   | Tipo de dado  |                      Descrição                                    |
 | ------------- | ------------- |------------------------------------------------------------       |
-|   índice_coli |   numérico    |    Um identificador exclusivo para cada acidente relatado         |
-|   ano_colisão |   data        |    Ano em que ocorreu o acidente                                  |
-|   ref_acident |   numérico    |    Um número de referência associado ao acidente                  | 
-|   veic_refe   |   numérico    |    Número de referência do veículo envolvido no acidente          | 
-|   ref_casual  |   numérico    |    Um número de referência da vítima envolvida no acidente        |
-|   clas_viti   |   categórico  |    Indica a classe da vítima (ex: motorista, passageiro, pedestre)|
-|   sexo        |   textual     |    O sexo da vítima (masculino ou feminino)			    |
-|   idade       |   numérico    |    A idade da vítima						    |
-|   faix_etar   |   numérico    |    Faixa etária a que pertence a vítima (ex.: 0-5, 6-10, 11-15)    |
-|   grav_ferim  |   categórico  |    A gravidade dos ferimentos da vítima (por exemplo, fatal, grave,leve)|
-|   loca_pedes  |   numérico    |    Localizção do pedrestre no momento do acidente 	            |
-|   mov_pedes   |   numérico    |    Movimentação do pedrestre durante o acidente 		    |
-|   passa_car   |   categórico  |    Indica se o acidentado era passageiro do carro no momento do acidente|
-|   pass_onib   |   categórico  |    Indica se a vítima foi um passageiro de ônibus ou ônibus (sim ou não)|
-|   traba_rodov |   categórico  |    Indica se o acidentado era trabalhador de manutenção rodoviária (sim ou não)|
-|   tipo_vitim  |   categórico  |    O tipo de vítima (por exemplo, motorista/passageiro, passageiro, pedestre)|
-|   resid_vitim |   categórico  |    O tipo de área em que a vítima reside (por exemplo, urbana, rural)|
-|   decil_IMD   |   numérico    |    O decil IMD da área onde reside a vítima (uma medida de privação)|
-|   LSOA        |   numérico    |    A Área de Super Saída da Camada Inferior (LSOA) associada à localização da vítima|
-
+|Accident_Index |   categórico    |   Um identificador exclusivo para cada registro de acidente.      |
+|Accident Date  |   numérico        | A data em que ocorreu o acidente (formato: DD/MM/AAAA).                 |
+|Day_of_Week    |   categórico    | O dia da semana em que ocorreu o acidente.                     | 
+|Junction_Control |   textual   | Descreve o tipo de controle de cruzamento no local do acidente (por exemplo, "Ceder ou descontrolado").            | 
+|Junction_Detail  |   textual    | Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").          |
+|Accident_Severity|   categórico  | Indica a gravidade do acidente (ex.: “Grave”). |
+|Latitude       |   numérico     |   A latitude geográfica do local do acidente.			    |
+|Light_Conditions |   categórico    | Descreve as condições de iluminação no momento do acidente (por exemplo, "Luz do dia"). 				    |
+|Local_Authority_(District)   |   textual | O distrito da autoridade local onde ocorreu o acidente. |
+|Carriageway_Hazards  |   categórico  | Descreve quaisquer perigos presentes na faixa de rodagem no momento do acidente (por exemplo, "Nenhum").  |
+|Longitude  |   numérico    | A longitude geográfica do local do acidente.	            |
+|Number_of_Casualties  |   numérico    | O número total de vítimas envolvidas no acidente.  		    |
+|Number_of_Vehicles   |   numérico  | O número total de veículos envolvidos no acidente.  |
+|Police_Force |   textual  | A força policial que tratou do acidente.   |
+|Road_Surface_Conditions |   categórico  | Descreve as condições da superfície da estrada no momento do acidente (por exemplo, "Seca").    |
+|Road_Type |   categórico  |  Especifica o tipo de estrada onde ocorreu o acidente (por exemplo, “Rua de mão única”).  |
+|Speed_limit |   numérico  | O limite de velocidade aplicável à estrada onde ocorreu o acidente. |
+|Time  |   numérico    |  A hora do dia em que ocorreu o acidente (formato: HH:MM).  |
+|Urban_or_Rural_Area  |   categórico    | Indica se o acidente ocorreu em área urbana ou rural. |
+|Weather_Conditions  |   categórico    | Descreve as condições meteorológicas no momento do acidente (por exemplo, "Bom, sem ventos fortes").   |
+|Vehicle_Type  |   categórico    | especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  |
 
 ###    Descrição de dados
 
-• Dados Numéricos:
+• DADOS NUMÉRICOS:
 
-• Localização do pedestre no momento do acidente: Este dado fornece a localização do pedestre no momento do acidente.
+Accident Date - A data em que ocorreu o acidente (formato: DD/MM/AAAA).
+Latitude - A latitude geográfica do local do acidente.
+Longitude - A longitude geográfica do local do acidente.
+Number_of_Casualties - O número total de vítimas envolvidas no acidente.  		    
+Number_of_Vehicles - O número total de veículos envolvidos no acidente. 
+Speed_limit - O limite de velocidade aplicável à estrada onde ocorreu o acidente.
+Time - A hora do dia em que ocorreu o acidente (formato: HH:MM).
 
-• Faixa etária a que pertence a vítima: Indica em qual faixa etária a vítima se enquadra.
+• DADOS CATEGÓRICOS:
 
-• Número de referência do veículo envolvido no acidente: Identifica o veículo envolvido no acidente.
+Accident_Index - Um identificador exclusivo para cada registro de acidente.
+Day_of_Week - O dia da semana em que ocorreu o acidente.
+Accident_Severity - Indica a gravidade do acidente (ex.: “Grave”).
+Light_Conditions - Descreve as condições de iluminação no momento do acidente (por exemplo, "Luz do dia").
+Carriageway_Hazards - Descreve quaisquer perigos presentes na faixa de rodagem no momento do acidente (por exemplo, "Nenhum").
+Road_Surface_Conditions - Descreve as condições da superfície da estrada no momento do acidente (por exemplo, "Seca").    
+Road_Type - Especifica o tipo de estrada onde ocorreu o acidente (por exemplo, “Rua de mão única”). 
+Urban_or_Rural_Area - Indica se o acidente ocorreu em área urbana ou rural. 
+Weather_Conditions - Descreve as condições meteorológicas no momento do acidente (por exemplo, "Bom, sem ventos fortes").   
+Vehicle_Type - especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  
 
-• Dados Categóricos:
+• DADOS TEXTUAIS:
 
-• Tipo de área em que a vítima reside: Categoriza se a área da residência da vítima é urbana ou rural.
+Junction_Control - Descreve o tipo de controle de cruzamento no local do acidente (por exemplo, "Ceder ou descontrolado").            
+Junction_Detail - Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").
+Local_Authority_(District) - O distrito da autoridade local onde ocorreu o acidente.
+Police_Force - A força policial que tratou do acidente. 
 
-• Tipo de vítima: Descreve se a vítima é motorista/passageiro, passageiro ou pedestre.
-
-• Indica se a vítima foi um passageiro de ônibus ou ônibus: Indica se a vítima estava envolvida em um acidente de ônibus.
-
-• A gravidade dos ferimentos da vítima: Categoriza os ferimentos da vítima em fatal, grave ou leve.
-
-• Indica a classe da vítima: Define a classe da vítima, como motorista, passageiro ou pedestre.
-
-• Dados Textuais:
-
-• Sexo da vítima: Indica o sexo da vítima, masculino ou feminino.
 
 |   Variáveis   | Tipo de dado  |                      Descrição                                    |
 | ------------- | ------------- |------------------------------------------------------------       |
-|   ano_colisão |   data        |    Ano em que ocorreu o acidente                                  |
-|   veic_refe   |   numérico    |    Número de referência do veículo envolvido no acidente          | 
-|   clas_viti   |   categórico  |    Indica a classe da vítima (ex: motorista, passageiro, pedestre)|
-|   sexo        |   textual     |    O sexo da vítima (masculino ou feminino)			    |
-|   faix_etar   |   numérico    |    Faixa etária a que pertence a vítima (ex.: 0-5, 6-10, 11-15)    |
-|   grav_ferim  |   categórico  |    A gravidade dos ferimentos da vítima (por exemplo, fatal, grave,leve)|
-|   loca_pedes  |   numérico    |    Localizção do pedrestre no momento do acidente 	            |
-|   pass_onib   |   categórico  |    Indica se a vítima foi um passageiro de ônibus ou ônibus (sim ou não)|
-|   tipo_vitim  |   categórico  |    O tipo de vítima (por exemplo, motorista/passageiro, passageiro, pedestre)|
-|   resid_vitim |   categórico  |    O tipo de área em que a vítima reside (por exemplo, urbana, rural)|
+|Accident_Index |   categórico    |   Um identificador exclusivo para cada registro de acidente.      |
+|Accident Date  |   numérico        | A data em que ocorreu o acidente (formato: DD/MM/AAAA).                 |
+|Day_of_Week    |   categórico    | O dia da semana em que ocorreu o acidente.                     | 
+|Junction_Detail  |   textual    | Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").          |
+|Accident_Severity|   categórico  | Indica a gravidade do acidente (ex.: “Grave”). |
+|Light_Conditions |   categórico    | Descreve as condições de iluminação no momento do acidente (por exemplo, "Luz do dia"). 				    |
+|Number_of_Casualties  |   numérico    | O número total de vítimas envolvidas no acidente.  		    |
+|Number_of_Vehicles   |   numérico  | O número total de veículos envolvidos no acidente.  |
+|Road_Surface_Conditions |   categórico  | Descreve as condições da superfície da estrada no momento do acidente (por exemplo, "Seca").    |
+|Road_Type |   categórico  |  Especifica o tipo de estrada onde ocorreu o acidente (por exemplo, “Rua de mão única”).  |
+|Speed_limit |   numérico  | O limite de velocidade aplicável à estrada onde ocorreu o acidente. |
+|Time  |   numérico    |  A hora do dia em que ocorreu o acidente (formato: HH:MM).  |
+|Urban_or_Rural_Area  |   categórico    | Indica se o acidente ocorreu em área urbana ou rural. |
+|Weather_Conditions  |   categórico    | Descreve as condições meteorológicas no momento do acidente (por exemplo, "Bom, sem ventos fortes").   |
+|Vehicle_Type  |   categórico    | especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  |
+
 
 ### Distribuição por gravidade   
 
-![__results___10_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/3340d31e-ff3a-4329-9bd5-e4d0c0324037)
-
-O primeiro gráfico expõe a "Severidade" das lesões e dos danos experimentados pelos indivíduos envolvidos nos acidentes de carro. A gravidade é categorizada como 1- ferimentos leves, 2- ferimentos moderados e 3- ferimentos graves. Menos de 10mil casos foram registrados como acidentes com vítimas com ferimentos leves; por volta de 15mil casos foram registrados como acidentes com vítimas com ferimentos moderados; e mais de 45mil foram registrados como acidentes com ferimentos graves.
 
 ### Distribuição por idade
 
-![__results___10_2](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/9a11b5b0-e1bc-4940-9a06-94bc63ba59ea)
-
-![__results___11_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/c3893fab-03f3-476a-a1a7-df0d6cee1e0f)
-
-O segundo gráfico apresenta a "Idade da Vítima". Evidencia-se a faixa etária entre 30 e 70 anos para acidentes de gravidade 1; 20 e 55 anos para acidentes de gravidade 2; e 20 e 50 para acidentes de gravidade 3. Essas informações são vitais para a compreensão da demografia das pessoas afetadas, bem como para a avaliação dos fatores de risco e implementação de medidas de segurança adequadas.
 
 ### Distribuição por sexo
 
-![__results___12_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/8ae1c17e-68e9-435c-b53e-39c289737899)
-
-O terceiro gráfico consta o "Sexo da vítima". É apontado que a maioria dos envolvidos em acidentes é do sexo masculino, independente da correlação estabelecida entre o acidente e sua severidade. Essas informações são importantes para entender o perfil demográfico das pessoas afetadas e para identificar quaisquer padrões ou tendências específicas de gênero.
 
 ### Distribuição por classe da vítima
 
-![__results___13_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/106dc7ff-06fc-4cae-8bb1-2a5cb90feaae)
-
-O quarto gráfico aponta a "Gravidade dos Acidentes por Classe de Vítimas", referente à análise da gravidade dos acidentes pelo tipo de vítima. As vítimas foram classificadas nas seguintes categorias: condutores, passageiros e pedestres. Foi indicado que "condutores" foi a classe de vítimas preeminte. Enquanto em acidentes de gravidade 1 e 2 "pedestres" foram, em segundo lugar, a classe de vítimas maioritária, em acidentes de gravidade 3, "passageiros" sobressai.
 
 ### Distribuição por área de residência
 
-![__results___14_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/160488415/96f6f9db-5510-4afe-b508-1aa1c074a473)
 
-O quinto gráfico exibe a "Gravidade das Vítimas por Tipo de Área de Residência", analisando a gravidade das vítimas com base no tipo de área onde os indivíduos envolvidos residem. Essa análise envolve examinar a extensão dos ferimentos ou danos sofridos por pessoas envolvidas nos acidentes, categorizadas pelo tipo de área em que vivem: urbana, suburbana, rural ou outra classificação/desconhecida. O gráfico revela que a maioria dos acidentes de gravidade 2 e 3 ocorre em áreas urbanas, seguidas por áreas desconhecidas, rurais e suburbanas. Os acidentes de gravidade 1 predominaram em áreas urbanas e desconhecidas, praticamente excluindo áreas rurais e suburbanas.
 
 ### Preparação dos dados
-Dados originais:
-[dft-road-casualty-statistics-casualty-provisional-mid-year-unvalidated-2023.csv](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/files/14971003/dft-road-casualty-statistics-casualty-provisional-mid-year-unvalidated-2023.csv)
-(não sei onde bota)
-
-Dados preparados: por vir
-
 
 ## Indução de modelos
 
