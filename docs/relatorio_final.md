@@ -165,39 +165,40 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 |Vehicle_Type  |   categórico    | especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  |
 
 
-### A distribuição dos acidentes com base nas condições do pavimento rodoviário
+### Distribuição dos acidentes com base nas condições do pavimento rodoviário:
 
 ![__results___13_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/6b98ebd9-0819-4ab6-837a-0af0c67355b3)
 
-### Gráfico de pizza para exibir a porcentagem de acidentes por dia
+### Gráfico de pizza para exibir a porcentagem de acidentes por dia:
 
 ![__results___14_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/8ebc4c74-b9f8-498e-a013-ad33a48d00f6)
 
-### Gráfico de barras para exibir o número de acidentes por hora no dia
+### Gráfico de barras para exibir o número de acidentes por hora no dia:
 
 ![__results___15_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/85baefb2-dbd8-402f-93e6-4d47cd0adaa4)
 
-### Acidente por tipo de veículo & Acidente por condição de luz
+### Acidente por tipo de veículo / Acidente por condição de luz:
 
 ![__results___16_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/5ff309bc-a41e-4f6c-b2c7-1acc8bc0dc8f)
 
-### Gráfico de linhas para calcular a porcentagem de acidentes para cada data
+### Gráfico de linhas para calcular a porcentagem de acidentes para cada data:
 
 ![__results___17_2](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/946aa34d-4798-4c30-a551-357f1e29cdba)
 
-### Gráfico de contagem para mostrar o número de acidentes por Accident_Severity
+### Gráfico de contagem para mostrar o número de acidentes por Accident_Severity:
 
 ![__results___18_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/f6801c2e-6f0e-455f-a186-12b1ab498bb8)
 
-### Gráfico de barras para mostrar qual é o limite de velocidade de acidente mais comum
+### Gráfico de barras para mostrar qual é o limite de velocidade de acidente mais comum:
 
 ![__results___19_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/b9241252-f1f1-4df7-869a-3ab08034896d)
 
-### Contagem de acidentes por cruzamento para cada dia da semana
+### Contagem de acidentes por cruzamento para cada dia da semana:
 
 ![__results___20_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/b79c6574-5c0c-4645-b1cf-509e61025520)
 
 ### Preparação dos dados
+
 
 ## Indução de modelos
 
