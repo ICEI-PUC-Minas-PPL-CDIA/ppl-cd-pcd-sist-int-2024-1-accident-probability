@@ -209,7 +209,6 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
   ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/786155aa-b064-4074-bb20-7084b079115a)
   ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/6847e108-4968-4f1e-bada-2ab69dcd531c)
   ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/aa144507-c5c5-49b1-b146-34a7a745dab6)
-  ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/781dc0a6-7b5e-4738-8bf1-3761452e6846)
 
 
 ## Indução de modelos
