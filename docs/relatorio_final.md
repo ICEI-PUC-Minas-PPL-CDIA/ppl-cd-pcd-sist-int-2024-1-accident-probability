@@ -119,13 +119,13 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 • DADOS NUMÉRICOS:
 
-> Accident Date - A data em que ocorreu o acidente (formato: DD/MM/AAAA).
-Latitude - A latitude geográfica do local do acidente.
-Longitude - A longitude geográfica do local do acidente.
-Number_of_Casualties - O número total de vítimas envolvidas no acidente.  		    
-Number_of_Vehicles - O número total de veículos envolvidos no acidente. 
-Speed_limit - O limite de velocidade aplicável à estrada onde ocorreu o acidente.
-> Time - A hora do dia em que ocorreu o acidente (formato: HH:MM).
+-> Accident Date - A data em que ocorreu o acidente (formato: DD/MM/AAAA).
+- Latitude - A latitude geográfica do local do acidente.
+- Longitude - A longitude geográfica do local do acidente.
+- Number_of_Casualties - O número total de vítimas envolvidas no acidente.  		    
+- Number_of_Vehicles - O número total de veículos envolvidos no acidente. 
+- Speed_limit - O limite de velocidade aplicável à estrada onde ocorreu o acidente.
+- Time - A hora do dia em que ocorreu o acidente (formato: HH:MM).
 
 • DADOS CATEGÓRICOS:
 
