@@ -57,9 +57,13 @@ https://www.paho.org/pt/topicos/seguranca-no-transito#:~:text=90%25%20das%20mort
 ####    Objetivos específicos
 
 • Identificar os principais motivos para a causa de acidentes de tráfego em um certo lugar;
+
 • Analisar os dados estatísticos relacionados aos incidentes;
+
 • Comparar e contrastar os dados obtidos sobre os acidentes, como o horário do dia, o dia da semana, o tipo de veículo envolvido no acidente, as condições das vias, as condições climáticas, etc.;
+
 • Propor recomendações para políticas sociais ou intervenções na segurança pública visando mitigar os efeitos negativos dessas correlações na sociedade;  
+
 • Impulsionar um aumento da qualidade de vida da população através de iniciativas abrangentes em áreas da segurança, educação, habitação e bem-estar social.  
 
 
