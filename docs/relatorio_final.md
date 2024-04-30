@@ -91,11 +91,11 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 |   Variáveis   | Tipo de dado  |                      Descrição                                    |
 | ------------- | ------------- |------------------------------------------------------------       |
 |Accident_Index |   categórico    |   Um identificador exclusivo para cada registro de acidente.      |
-|Accident Date  |   numérico        | A data em que ocorreu o acidente (formato: DD/MM/AAAA).     |
+|Accident_Date  |   numérico        | A data em que ocorreu o acidente (formato: DD/MM/AAAA).     |
 |Day_of_Week    |   categórico    | O dia da semana em que ocorreu o acidente.                     | 
 |Junction_Control |   textual   | Descreve o tipo de controle de cruzamento no local do acidente (por exemplo, "Ceder ou descontrolado").    | 
 |Junction_Detail  |   textual    | Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").    |
-|Accident_Severity|   categórico  | Indica a gravidade do acidente (ex.: “Grave”). |
+|Accident_Injuries|   categórico  | Indica a gravidade dos ferimentos resultantes do acidente (ex.: “Grave”, "Leve"). |
 |Latitude       |   numérico     |   A latitude geográfica do local do acidente.    |
 |Light_Conditions |   categórico    | Descreve as condições de iluminação no momento do acidente (por exemplo, "Luz do dia"). 				    |
 |Local_Authority_(District)   |   textual | O distrito da autoridade local onde ocorreu o acidente. |
@@ -116,7 +116,7 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 • DADOS NUMÉRICOS:
 
-- Accident Date - A data em que ocorreu o acidente (formato: DD/MM/AAAA).
+- Accident_Date - A data em que ocorreu o acidente (formato: DD/MM/AAAA).
 - Latitude - A latitude geográfica do local do acidente.
 - Longitude - A longitude geográfica do local do acidente.
 - Number_of_Casualties - O número total de vítimas envolvidas no acidente.  		    
@@ -144,18 +144,18 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 |   Variáveis   | Tipo de dado  |                      Descrição                                    |
 | ------------- | ------------- |------------------------------------------------------------       |
-|Accident_Index |   categórico não ordinal   |   Um identificador exclusivo para cada registro de acidente.      |
-|Accident Date  |   numérico        | A data em que ocorreu o acidente (formato: DD/MM/AAAA).                 |
+|Accident_ID |   categórico não ordinal   |   Um identificador exclusivo para cada registro de acidente.      |
+|Accident_Date  |   numérico        | A data em que ocorreu o acidente (formato: DD/MM/AAAA).                 |
 |Day_of_Week    |   categórico ordinal   | O dia da semana em que ocorreu o acidente.                     | 
 |Junction_Detail| categórico não ordinal | Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").  |
-|Accident_Severity| categórico ordinal  | Indica a gravidade do acidente (ex.: “Grave”). |
+|Accident_Injuries| categórico ordinal  | Indica a gravidade do acidente (ex.: “Grave”). |
 |Light_Conditions | categórico não ordinal | Descreve as condições de iluminação no momento do acidente (por exemplo, "Luz do dia"). |
 |Number_of_Casualties  |   numérico    | O número total de vítimas envolvidas no acidente.  	    |
 |Number_of_Vehicles   |   numérico  | O número total de veículos envolvidos no acidente.  |
 |Road_Surface_Conditions |   categórico ordinal ? | Descreve as condições da superfície da estrada no momento do acidente (por exemplo, "Seca").    |
 |Road_Type |   categórico não ordinal |  Especifica o tipo de estrada onde ocorreu o acidente (por exemplo, “Rua de mão única”).  |
 |Speed_limit |   numérico  | O limite de velocidade aplicável à estrada onde ocorreu o acidente. |
-|Time  |   numérico    |  A hora do dia em que ocorreu o acidente (formato: HH:MM).  |
+|Hour_of_Accident|   numérico    |  A hora do dia em que ocorreu o acidente (formato: HH:MM).  |
 |Urban_or_Rural_Area  | categórico não ordinal | Indica se o acidente ocorreu em área urbana ou rural. |
 |Weather_Conditions  | categórico ordinal ? | Descreve as condições meteorológicas no momento do acidente (por exemplo, "Bom, sem ventos fortes").   |
 |Vehicle_Type  | categórico não ordinal | especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  |
@@ -197,6 +197,7 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 PERGUNTA ORIENTADA A DADOS: qual a probabilidade de um acidente rodoviário resultar em ferimentos leves, graves ou fatais?
 
+- Foram alterados os nomes das variáveis Accident_Index, Accident_Injuries e Time para Accident_ID, Accident_Injuries e Hour_of_Accident, a fim de facilitar a compreensão;
 - Foram eliminadas as colunas: Junction_Control, Latitude, Local_Authority_(District), Carriageway_Hazards, Longitude e Police_Force;
 - As datas foram passadas para o formato DD/MM/AA;
 - No horário, os minutos foram desconsiderados, mantendo apenas a hora em questão;
