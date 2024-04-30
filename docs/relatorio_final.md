@@ -125,6 +125,7 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 - Accident_Index - Um identificador exclusivo para cada registro de acidente.
 - Day_of_Week - O dia da semana em que ocorreu o acidente.
 - Accident_Severity - Indica a gravidade do acidente (ex.: “Grave”).
+- Junction_Detail - Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").
 - Light_Conditions - Descreve as condições de iluminação no momento do acidente (por exemplo, "Luz do dia").
 - Carriageway_Hazards - Descreve quaisquer perigos presentes na faixa de rodagem no momento do acidente (por exemplo, "Nenhum").
 - Road_Surface_Conditions - Descreve as condições da superfície da estrada no momento do acidente (por exemplo, "Seca").    
@@ -136,7 +137,6 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 • DADOS TEXTUAIS:
 
 - Junction_Control - Descreve o tipo de controle de cruzamento no local do acidente (por exemplo, "Ceder ou descontrolado").            
-- Junction_Detail - Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").
 - Local_Authority_(District) - O distrito da autoridade local onde ocorreu o acidente.
 - Police_Force - A força policial que tratou do acidente. 
 
@@ -146,7 +146,7 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 |Accident_Index |   categórico    |   Um identificador exclusivo para cada registro de acidente.      |
 |Accident Date  |   numérico        | A data em que ocorreu o acidente (formato: DD/MM/AAAA).                 |
 |Day_of_Week    |   categórico    | O dia da semana em que ocorreu o acidente.                     | 
-|Junction_Detail  |   textual    | Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").          |
+|Junction_Detail  |   categórico   | Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").        |
 |Accident_Severity|   categórico  | Indica a gravidade do acidente (ex.: “Grave”). |
 |Light_Conditions |   categórico    | Descreve as condições de iluminação no momento do acidente (por exemplo, "Luz do dia"). |
 |Number_of_Casualties  |   numérico    | O número total de vítimas envolvidas no acidente.  	    |
