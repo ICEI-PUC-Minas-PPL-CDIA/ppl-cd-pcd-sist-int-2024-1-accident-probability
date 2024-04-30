@@ -56,9 +56,9 @@ https://www.paho.org/pt/topicos/seguranca-no-transito#:~:text=90%25%20das%20mort
 
 ####    Objetivos específicos
 
-• Identificar os principais centros urbanos que apresentam um aumento significativo em acidentes de tráfego;    
-• Analisar os dados estatísticos relacionados ao incidentes em estradas em cada um dos centros urbanos identificados;  
-• Comparar e contrastar os dados obtidos sobre os acidentes, as condições climáticas e os fatores humanos como: fadiga, psicológico, etc;  
+• Identificar os principais motivos para a causa de acidentes de tráfego em um certo lugar;
+• Analisar os dados estatísticos relacionados aos incidentes;
+• Comparar e contrastar os dados obtidos sobre os acidentes, como o horário do dia, o dia da semana, o tipo de veículo envolvido no acidente, as condições das vias, as condições climáticas, etc.;
 • Propor recomendações para políticas sociais ou intervenções na segurança pública visando mitigar os efeitos negativos dessas correlações na sociedade;  
 • Impulsionar um aumento da qualidade de vida da população através de iniciativas abrangentes em áreas da segurança, educação, habitação e bem-estar social.  
 
@@ -124,40 +124,37 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 - Accident_Index - Um identificador exclusivo para cada registro de acidente.
 - Day_of_Week - O dia da semana em que ocorreu o acidente.
-- Accident_Severity - Indica a gravidade do acidente (ex.: “Grave”).
+- Junction_Control - Descreve o tipo de controle de cruzamento no local do acidente (por exemplo, "Ceder ou descontrolado").
 - Junction_Detail - Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").
+- Accident_Severity - Indica a gravidade do acidente (ex.: “Grave”).
 - Light_Conditions - Descreve as condições de iluminação no momento do acidente (por exemplo, "Luz do dia").
+- Local_Authority_(District) - O distrito da autoridade local onde ocorreu o acidente.
 - Carriageway_Hazards - Descreve quaisquer perigos presentes na faixa de rodagem no momento do acidente (por exemplo, "Nenhum").
+- Police_Force - A força policial que tratou do acidente.
 - Road_Surface_Conditions - Descreve as condições da superfície da estrada no momento do acidente (por exemplo, "Seca").    
 - Road_Type - Especifica o tipo de estrada onde ocorreu o acidente (por exemplo, “Rua de mão única”). 
 - Urban_or_Rural_Area - Indica se o acidente ocorreu em área urbana ou rural. 
 - Weather_Conditions - Descreve as condições meteorológicas no momento do acidente (por exemplo, "Bom, sem ventos fortes").   
 - Vehicle_Type - especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  
 
-• DADOS TEXTUAIS:
-
-- Junction_Control - Descreve o tipo de controle de cruzamento no local do acidente (por exemplo, "Ceder ou descontrolado").            
-- Local_Authority_(District) - O distrito da autoridade local onde ocorreu o acidente.
-- Police_Force - A força policial que tratou do acidente. 
-
 
 |   Variáveis   | Tipo de dado  |                      Descrição                                    |
 | ------------- | ------------- |------------------------------------------------------------       |
-|Accident_Index |   categórico    |   Um identificador exclusivo para cada registro de acidente.      |
+|Accident_Index |   categórico não ordinal   |   Um identificador exclusivo para cada registro de acidente.      |
 |Accident Date  |   numérico        | A data em que ocorreu o acidente (formato: DD/MM/AAAA).                 |
-|Day_of_Week    |   categórico    | O dia da semana em que ocorreu o acidente.                     | 
-|Junction_Detail  |   categórico   | Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").        |
-|Accident_Severity|   categórico  | Indica a gravidade do acidente (ex.: “Grave”). |
-|Light_Conditions |   categórico    | Descreve as condições de iluminação no momento do acidente (por exemplo, "Luz do dia"). |
+|Day_of_Week    |   categórico ordinal   | O dia da semana em que ocorreu o acidente.                     | 
+|Junction_Detail| categórico não ordinal | Fornece detalhes adicionais sobre o cruzamento onde ocorreu o acidente (por exemplo, "T ou cruzamento escalonado").  |
+|Accident_Severity| categórico ordinal  | Indica a gravidade do acidente (ex.: “Grave”). |
+|Light_Conditions | categórico não ordinal | Descreve as condições de iluminação no momento do acidente (por exemplo, "Luz do dia"). |
 |Number_of_Casualties  |   numérico    | O número total de vítimas envolvidas no acidente.  	    |
 |Number_of_Vehicles   |   numérico  | O número total de veículos envolvidos no acidente.  |
-|Road_Surface_Conditions |   categórico  | Descreve as condições da superfície da estrada no momento do acidente (por exemplo, "Seca").    |
-|Road_Type |   categórico  |  Especifica o tipo de estrada onde ocorreu o acidente (por exemplo, “Rua de mão única”).  |
+|Road_Surface_Conditions |   categórico ordinal ? | Descreve as condições da superfície da estrada no momento do acidente (por exemplo, "Seca").    |
+|Road_Type |   categórico não ordinal |  Especifica o tipo de estrada onde ocorreu o acidente (por exemplo, “Rua de mão única”).  |
 |Speed_limit |   numérico  | O limite de velocidade aplicável à estrada onde ocorreu o acidente. |
 |Time  |   numérico    |  A hora do dia em que ocorreu o acidente (formato: HH:MM).  |
-|Urban_or_Rural_Area  |   categórico    | Indica se o acidente ocorreu em área urbana ou rural. |
-|Weather_Conditions  |   categórico    | Descreve as condições meteorológicas no momento do acidente (por exemplo, "Bom, sem ventos fortes").   |
-|Vehicle_Type  |   categórico    | especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  |
+|Urban_or_Rural_Area  | categórico não ordinal | Indica se o acidente ocorreu em área urbana ou rural. |
+|Weather_Conditions  | categórico ordinal ? | Descreve as condições meteorológicas no momento do acidente (por exemplo, "Bom, sem ventos fortes").   |
+|Vehicle_Type  | categórico não ordinal | especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  |
 
 
 ### Distribuição dos acidentes com base nas condições do pavimento rodoviário:
@@ -194,18 +191,17 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 ### Preparação dos dados
 
+PERGUNTA ORIENTADA A DADOS: qual a probabilidade de um acidente rodoviário resultar em ferimentos leves, graves ou fatais?
+
 - Foram eliminadas as colunas: Junction_Control, Latitude, Local_Authority_(District), Carriageway_Hazards, Longitude e Police_Force;
 - As datas foram passadas para o formato DD/MM/AA;
 - No horário, os minutos foram desconsiderados, mantendo apenas a hora em questão;
 - No tipo de veículo, foram desconsideradas características específicas dos meios de transporte, como as cilindradas de motos e o peso de transportes de mercadoria;
-- Nenhuma linha foi eliminada, contudo, espaços vazios em Road_Surface_Conditions, Road_Type e Weather_Conditions foram substituídos por "other".
-
-  ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/a268cf49-f6bc-41ec-83e4-c5852917380a)
-  ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/786155aa-b064-4074-bb20-7084b079115a)
-  ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/6847e108-4968-4f1e-bada-2ab69dcd531c)
-  ![image](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/aa144507-c5c5-49b1-b146-34a7a745dab6)
-
-(calculo de probabilidade de acidentes) - porcentagens
+- Espaços vazios em Road_Surface_Conditions, Road_Type e Weather_Conditions foram substituídos por "other";
+- Foi feita a remoção de dados nulos/omissos na linha 168301;
+- Foi feita a remoção de outliners conforme a seguinte incoerência/improbabilidade: mais de 10 pessoas envolvidas no acidente causado por apenas 1 veículo.
+  TRANSFORMAÇÃO DE DADOS:
+- Uma faixa de valores foi estabelecida aos dados da coluna Hour_of_Accident.
 
 ## Indução de modelos
 
