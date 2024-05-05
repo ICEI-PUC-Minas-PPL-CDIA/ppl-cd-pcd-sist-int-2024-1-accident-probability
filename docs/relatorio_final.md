@@ -197,13 +197,14 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 PERGUNTA ORIENTADA A DADOS: qual a probabilidade de um acidente rodoviário resultar em ferimentos leves, graves ou fatais?
 
-- Foram alterados os nomes das variáveis Accident_Index, Accident_Injuries e Time para Accident_ID, Accident_Injuries e Hour_of_Accident, a fim de facilitar a compreensão;
+- Foram alterados os nomes das variáveis Accident_Index e Time para Accident_ID e Hour_of_Accident, a fim de facilitar a compreensão;
 - Foram eliminadas as colunas: Junction_Control, Latitude, Local_Authority_(District), Carriageway_Hazards, Longitude e Police_Force;
 - As datas foram passadas para o formato DD/MM/AA;
 - No horário do acidente, os minutos foram desconsiderados, mantendo apenas a hora em questão;
 - No tipo de veículo, foram desconsideradas características específicas dos meios de transporte, como as cilindradas de motos e o peso de transportes de mercadoria;
 - Espaços vazios em Road_Surface_Conditions, Road_Type e Weather_Conditions foram substituídos por "other";
-- Foi feita a remoção de dados nulos/omissos na linha 168301;
+- Na coluna "Light_Conditions", Daylight foi substituído por Day;
+- Foi verificada a presença de dados nulos/omissos, mas não havia nenhum;
 - Foi feita a remoção de outliners conforme a seguinte incoerência/improbabilidade: mais de 10 pessoas envolvidas no acidente causado por apenas 1 veículo.
 
   TRANSFORMAÇÃO DE DADOS:
