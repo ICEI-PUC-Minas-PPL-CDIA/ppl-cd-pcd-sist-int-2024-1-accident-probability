@@ -302,7 +302,6 @@ Por exemplo:
 **[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
 
 
-
 # APÊNDICES
 
 **Colocar link:**
