@@ -212,10 +212,11 @@ PERGUNTA ORIENTADA A DADOS: qual a probabilidade de um acidente rodoviário resu
 
 ## Indução de modelos
 
-### Modelo 1: Algoritmo
+### Modelo 1: Árvore de Decisão
 
-Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore de decisão, rede neural, SVM, etc.
-Justifique a escolha do modelo.
+A Árvore de Decisão foi escolhida como nosso primeiro modelo induzido, visto sua habilidade em manipular dados não lineares, interações complexas (o impacto de uma variável pode variar dependendo dos valores de outras variáveis no modelo), e dados mistos (mistura de variáveis categóricas e numéricas).
+
+
 Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
 Descreva os parâmetros utilizados. 
 Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
@@ -225,6 +226,12 @@ com o fluxo de processamento.
 
 Repita os passos anteriores para o segundo modelo.
 
+Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore de decisão, rede neural, SVM, etc.
+Justifique a escolha do modelo.
+Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
+Descreva os parâmetros utilizados. 
+Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
+com o fluxo de processamento.
 
 ## Resultados
 
