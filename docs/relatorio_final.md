@@ -222,7 +222,7 @@ Descreva os parâmetros utilizados.
 Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
 com o fluxo de processamento.
 
-### Modelo 2: Algoritmo
+### Modelo 2: Rede Neural
 
 Repita os passos anteriores para o segundo modelo.
 
@@ -237,10 +237,23 @@ com o fluxo de processamento.
 
 ### Resultados obtidos com o modelo 1.
 
-Apresente aqui os resultados obtidos com a indução do modelo 1. 
-Apresente uma matriz de confusão quando pertinente. Apresente as medidas de performance
-apropriadas para o seu problema. 
-Por exemplo, no caso de classificação: precisão, revocação, F-measure, acurácia.
+#### Matriz de Confusão
+
+|           | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| Fatal     | 0.02      | 0.44   | 0.03     | 592     |
+| Serious   | 0.00      | 0.00   | 0.00     | 6145    |
+| Slight    | 0.86      | 0.68   | 0.76     | 39459   |
+| Accuracy  |           |        | 0.59     | 46196   |
+| Macro Avg | 0.29      | 0.37   | 0.27     | 46196   |
+| Weighted Avg | 0.74    | 0.59   | 0.65     | 46196   |
+
+|          | Fatal (prev) | Serious (prev) | Slight (prev) |
+|----------|--------------|----------------|---------------|
+| Fatal    | 260          | 0              | 332           |
+| Serious  | 2242         | 0              | 3903          |
+| Slight   | 12533        | 0              | 26926         |
+
 
 ### Interpretação do modelo 1
 
