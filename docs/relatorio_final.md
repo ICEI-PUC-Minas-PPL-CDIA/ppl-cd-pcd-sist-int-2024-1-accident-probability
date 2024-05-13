@@ -302,7 +302,13 @@ elas realmente pertenciam a essa classe (coluna).
 
 ![arvore_decisao](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/arvore%20decisao.png)
 
+• Entropy: É a medida de impureza do nó, que indica quão bem as amostras são separadas em suas classes. Quanto menor a entropia, mais puras são as amostras  
 
+• Samples: Mostra o número de amostras no nó.  
+
+• Value:  Mostra a distribuição das classes no nó. Por exemplo, [0.791, 0.826, 0.842] significa que 79.1% das amostras são da classe 'Fatal', 82.6% são da classe 'Serious' e 84.2% são da classe 'Slight'.
+
+As linhas subsequentes mostram as divisões adicionais e os nós subsequentes na árvore, seguindo o mesmo padrão.
 
 ### Resultados obtidos com o modelo 2.
 
