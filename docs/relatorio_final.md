@@ -248,6 +248,39 @@ com o fluxo de processamento.
 | Macro Avg | 0.29      | 0.37   | 0.27     | 46196   |
 | Weighted Avg | 0.74    | 0.59   | 0.65     | 46196   |
 
+##### Precision:  
+
+• Para a classe 'Fatal', a precisão é de 0,02. Isso significa que, das amostras classificadas como 'Fatal' pelo modelo, apenas 2% realmente pertencem a essa classe. A maioria das amostras classificadas como 'Fatal' é na 
+verdade de outras classes. 
+ 
+• Para a classe 'Serious', a precisão é de 0,00. Isso indica que o modelo não previu corretamente nenhuma amostra como 'Serious'. Todas as amostras classificadas como 'Serious' foram incorretas.  
+
+• Para a classe 'Slight', a precisão é de 0,86. Isso indica que o modelo previu corretamente 86% das amostras como 'Slight' entre todas as amostras classificadas como 'Slight'.  
+
+##### Recall:  
+
+• Para a classe 'Fatal', o recall é de 0,44. Isso significa que o modelo identificou corretamente 44% de todas as amostras verdadeiramente 'Fatal'. No entanto, muitas amostras 'Fatal' foram classificadas incorretamente  
+como 'Slight'. 
+ 
+• Para a classe 'Serious', o recall é de 0,00. Isso indica que o modelo não conseguiu identificar corretamente nenhuma amostra verdadeiramente 'Serious'.  
+
+• Para a classe 'Slight', o recall é de 0,68. Isso significa que o modelo identificou corretamente 68% de todas as amostras verdadeiramente 'Slight'.  
+
+##### F1-Score:  
+
+• O F1-score é a média harmônica entre precision e recall. Ele fornece uma medida única que leva em consideração tanto a precisão quanto o recall.  
+
+• Para 'Fatal' e 'Slight', os valores são baixos, indicando um desempenho desigual entre precision e recall.  
+
+• Para 'Serious', como recall é zero, o F1-score é zero também.  
+
+##### Support:  
+
+• Representa o número de ocorrências de cada classe no conjunto de teste.  
+
+A partir dessas métricas, podemos concluir que o modelo possui um desempenho relativamente bom na identificação da classe 'Slight', mas um desempenho muito ruim na identificação das outras classes, especialmente 
+'Serious'. Isso sugere que o modelo precisa ser melhorado, talvez ajustando os parâmetros do algoritmo ou considerando outras técnicas de modelagem.  
+
 |          | Fatal (prev) | Serious (prev) | Slight (prev) |
 |----------|--------------|----------------|---------------|
 | Fatal    | 260          | 0              | 332           |
