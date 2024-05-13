@@ -237,6 +237,11 @@ com o fluxo de processamento.
 
 ### Resultados obtidos com o modelo 1.
 
+#### Acurácia
+
+Acurácia (base de treinamento): 0.5866654442241501 ≅ 58,6%  
+Acurácia de previsão: 0.588492510174041 ≅ 58,8% 
+
 #### Matriz de Confusão
 
 |           | Precision | Recall | F1-Score | Support |
@@ -286,6 +291,9 @@ A partir dessas métricas, podemos concluir que o modelo possui um desempenho re
 | Fatal    | 260          | 0              | 332           |
 | Serious  | 2242         | 0              | 3903          |
 | Slight   | 12533        | 0              | 26926         |
+
+Esta tabela mostra a contagem de previsões para cada classe em comparação com a verdadeira classe correspondente. Cada célula na tabela representa o número de amostras previstas como uma determinada classe (linha) quando 
+elas realmente pertenciam a essa classe (coluna).
 
 
 ### Interpretação do modelo 1
