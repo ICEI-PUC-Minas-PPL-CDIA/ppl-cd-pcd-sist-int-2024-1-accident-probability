@@ -284,7 +284,7 @@ como 'Slight'.
 • Representa o número de ocorrências de cada classe no conjunto de teste.  
 
 A partir dessas métricas, podemos concluir que o modelo possui um desempenho relativamente bom na identificação da classe 'Slight', mas um desempenho muito ruim na identificação das outras classes, especialmente 
-'Serious'. Isso sugere que o modelo precisa ser melhorado, talvez ajustando os parâmetros do algoritmo ou considerando outras técnicas de modelagem.  
+'Serious'.  
 
 |          | Fatal (prev) | Serious (prev) | Slight (prev) |
 |----------|--------------|----------------|---------------|
@@ -328,10 +328,10 @@ As linhas subsequentes mostram as divisões adicionais e os nós subsequentes na
 
 ##### Regras Utilizadas no Raciocínio:
 
-• Se '0-3' <= 0.5, classificar como 'Fatal'.  
-• Se '0-3' > 0.5, verificar a condição '18-21' <= 0.5.  
-• Se '18-21' <= 0.5, classificar como 'Fatal'.  
-• Se '18-21' > 0.5, classificar como 'Slight'.  
+• Se '0-3h' <= 0.5, classificar como 'Fatal'.  
+• Se '0-3h' > 0.5, verificar a condição '18-21h' <= 0.5.  
+• Se '18-21h' <= 0.5, classificar como 'Fatal'.  
+• Se '18-21h' > 0.5, classificar como 'Slight'.  
 
 ### Resultados obtidos com o modelo 2.
 
