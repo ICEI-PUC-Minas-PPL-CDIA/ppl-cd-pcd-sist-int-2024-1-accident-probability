@@ -216,11 +216,8 @@ PERGUNTA ORIENTADA A DADOS: qual a probabilidade de um acidente rodoviário resu
 
 A Árvore de Decisão foi escolhida como nosso primeiro modelo induzido, visto sua habilidade em manipular dados não lineares, interações complexas (o impacto de uma variável pode variar dependendo dos valores de outras variáveis no modelo), e dados mistos (mistura de variáveis categóricas e numéricas).
 
-
-Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
-Descreva os parâmetros utilizados. 
-Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
-com o fluxo de processamento.
+Processo utilizado para amostragem de dados (explicado linha por linha).
+[Processo do código](URL_do_repositório_no_GitHub)
 
 ### Modelo 2: Rede Neural
 
