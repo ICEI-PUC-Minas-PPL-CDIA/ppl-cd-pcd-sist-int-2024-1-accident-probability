@@ -217,7 +217,7 @@ PERGUNTA ORIENTADA A DADOS: qual a probabilidade de um acidente rodoviário resu
 A Árvore de Decisão foi escolhida como nosso primeiro modelo induzido, visto sua habilidade em manipular dados não lineares, interações complexas (o impacto de uma variável pode variar dependendo dos valores de outras variáveis no modelo), e dados mistos (mistura de variáveis categóricas e numéricas).
 
 Processo utilizado para amostragem de dados (explicado linha por linha).
-[Processo do código](URL_do_repositório_no_GitHub)
+[Processo do código](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/Projeto_%C3%81rvoreDecis%C3%A3o.ipynb)
 
 ### Modelo 2: Rede Neural
 
