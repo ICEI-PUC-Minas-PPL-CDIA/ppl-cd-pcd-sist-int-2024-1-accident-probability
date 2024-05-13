@@ -306,9 +306,32 @@ elas realmente pertenciam a essa classe (coluna).
 
 • Samples: Mostra o número de amostras no nó.  
 
-• Value:  Mostra a distribuição das classes no nó. Por exemplo, [0.791, 0.826, 0.842] significa que 79.1% das amostras são da classe 'Fatal', 82.6% são da classe 'Serious' e 84.2% são da classe 'Slight'.
+• Value:  Mostra a distribuição das classes no nó. Por exemplo, [0.791, 0.826, 0.842] significa que 79.1% das amostras são da classe 'Fatal', 82.6% são da classe 'Serious' e 84.2% são da classe 'Slight'.  
 
-As linhas subsequentes mostram as divisões adicionais e os nós subsequentes na árvore, seguindo o mesmo padrão.
+As linhas subsequentes mostram as divisões adicionais e os nós subsequentes na árvore, seguindo o mesmo padrão.  
+
+##### Interpretação 
+
+• A primeira divisão dos dados é feita com base na feature '0-3' (0-3 horas do acidente), onde o valor é menor ou igual a 0.5.  
+
+• Se o valor da feature '0-3' for menor ou igual a 0.5, o sistema classifica a amostra como 'Fatal' e continua a avaliação dos outros nós.  
+
+• Se o valor da feature '0-3' for maior que 0.5, o sistema passa para o próximo nível de decisão.  
+
+##### Raciocínio do Sistema Inteligente:
+
+• O sistema inteligente começa avaliando se o acidente ocorreu nas primeiras 3 horas do dia.  
+
+• Se sim (TRUE), o sistema classifica o acidente como 'Fatal' com base na alta probabilidade (79.1%) de lesões fatais nesse intervalo de tempo (18-21 horas).  
+
+• Se não (FALSE), o sistema classifica o acidente como 'Slight' com base na distribuição de probabilidade das lesões em um intervalo de tempo diferente.  
+
+##### Regras Utilizadas no Raciocínio:
+
+• Se '0-3' <= 0.5, classificar como 'Fatal'.  
+• Se '0-3' > 0.5, verificar a condição '18-21' <= 0.5.  
+• Se '18-21' <= 0.5, classificar como 'Fatal'.  
+• Se '18-21' > 0.5, classificar como 'Slight'.  
 
 ### Resultados obtidos com o modelo 2.
 
