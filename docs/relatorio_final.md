@@ -171,7 +171,7 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 ### Gráfico de barras para exibir o número de acidentes por hora no dia:
 
-![__results___15_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/85baefb2-dbd8-402f-93e6-4d47cd0adaa4)
+![__results___15_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%203.png)
 
 ### Acidente por tipo de veículo / Acidente por condição de luz:
 
