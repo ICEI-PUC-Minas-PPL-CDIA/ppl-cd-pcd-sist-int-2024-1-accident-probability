@@ -231,16 +231,23 @@ com o fluxo de processamento.
 Treinamento - Coeficiente de Determinação (R²): 0.9889122346333568 ≅ 98.89%  
 Teste - Coeficiente de Determinação (R²): 0.9558860637331806 ≅ 95.55%  
 
-##### Coeficiente de Determinação (R²):
+##### Coeficiente de Determinação (R²):  
 
 Este é um valor entre 0 e 1 que indica a proporção da variância na variável dependente que é previsível a partir das variáveis independentes. Um valor de 1 indica um ajuste perfeito, enquanto valores mais baixos indicam 
-que o modelo explica menos variabilidade nos dados.
+que o modelo explica menos variabilidade nos dados.  
 
-No conjunto de treinamento, o R² é aproximadamente 0.989, o que indica que o modelo de Random Forest explica cerca de 98.9% da variabilidade nos dados de treinamento.
-No conjunto de teste, o R² é aproximadamente 0.956, o que significa que o modelo explica cerca de 95.6% da variabilidade nos dados de teste.
-Esses valores indicam que o modelo de Random Forest tem um desempenho bastante bom tanto no conjunto de treinamento quanto no conjunto de teste, mostrando uma capacidade de generalização satisfatória.
+No conjunto de treinamento, o R² é aproximadamente 0.989, o que indica que o modelo de Random Forest explica cerca de 98.9% da variabilidade nos dados de treinamento.  
+No conjunto de teste, o R² é aproximadamente 0.956, o que significa que o modelo explica cerca de 95.6% da variabilidade nos dados de teste.  
+Esses valores indicam que o modelo de Random Forest tem um desempenho bastante bom tanto no conjunto de treinamento quanto no conjunto de teste, mostrando uma capacidade de generalização satisfatória.  
 
+##### MAE (Erro Médio Absoluto):  
+ Este valor indica que, em média, as previsões do modelo estão desviando aproximadamente 24.07 unidades da quantidade real de incidentes.  
 
+##### RMSE (Raiz do Erro Quadrático Médio):  
+ Essa métrica é a raiz quadrada do erro médio dos quadrados das diferenças entre as previsões do modelo e as quantidades reais de incidentes. O valor de 46.11 indica que, em média, as previsões estão desviando 
+aproximadamente 46.11 unidades da quantidade real de incidentes.  
+
+Ambas as métricas são usadas para avaliar o quão bem o modelo está performando em termos de previsão, sendo que valores menores indicam melhor desempenho.  
 
 
 ### Interpretação do modelo 1
