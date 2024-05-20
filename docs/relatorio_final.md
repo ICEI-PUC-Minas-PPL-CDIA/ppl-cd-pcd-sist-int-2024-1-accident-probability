@@ -228,61 +228,19 @@ com o fluxo de processamento.
 
 #### Acurácia
 
-Acurácia (base de treinamento): 0.5866654442241501 ≅ 58,6%  
-Acurácia de previsão: 0.588492510174041 ≅ 58,8% 
+Treinamento - Coeficiente de Determinação (R²): 0.9889122346333568 ≅ 98.89%
+Teste - Coeficiente de Determinação (R²): 0.9558860637331806 ≅ 95.55%
 
-#### Matriz de Confusão
+##### Coeficiente de Determinação (R²):
 
-|           | Precision | Recall | F1-Score | Support |
-|-----------|-----------|--------|----------|---------|
-| Fatal     | 0.02      | 0.44   | 0.03     | 592     |
-| Serious   | 0.00      | 0.00   | 0.00     | 6145    |
-| Slight    | 0.86      | 0.68   | 0.76     | 39459   |
-| Accuracy  |           |        | 0.59     | 46196   |
-| Macro Avg | 0.29      | 0.37   | 0.27     | 46196   |
-| Weighted Avg | 0.74    | 0.59   | 0.65     | 46196   |
+Este é um valor entre 0 e 1 que indica a proporção da variância na variável dependente que é previsível a partir das variáveis independentes. Um valor de 1 indica um ajuste perfeito, enquanto valores mais baixos indicam 
+que o modelo explica menos variabilidade nos dados.
 
-##### Precision:  
+No conjunto de treinamento, o R² é aproximadamente 0.989, o que indica que o modelo de Random Forest explica cerca de 98.9% da variabilidade nos dados de treinamento.
+No conjunto de teste, o R² é aproximadamente 0.956, o que significa que o modelo explica cerca de 95.6% da variabilidade nos dados de teste.
+Esses valores indicam que o modelo de Random Forest tem um desempenho bastante bom tanto no conjunto de treinamento quanto no conjunto de teste, mostrando uma capacidade de generalização satisfatória.
 
-• Para a classe 'Fatal', a precisão é de 0,02. Isso significa que, das amostras classificadas como 'Fatal' pelo modelo, apenas 2% realmente pertencem a essa classe. A maioria das amostras classificadas como 'Fatal' é na 
-verdade de outras classes. 
- 
-• Para a classe 'Serious', a precisão é de 0,00. Isso indica que o modelo não previu corretamente nenhuma amostra como 'Serious'. Todas as amostras classificadas como 'Serious' foram incorretas.  
 
-• Para a classe 'Slight', a precisão é de 0,86. Isso indica que o modelo previu corretamente 86% das amostras como 'Slight' entre todas as amostras classificadas como 'Slight'.  
-
-##### Recall:  
-
-• Para a classe 'Fatal', o recall é de 0,44. Isso significa que o modelo identificou corretamente 44% de todas as amostras verdadeiramente 'Fatal'. No entanto, muitas amostras 'Fatal' foram classificadas incorretamente  
-como 'Slight'. 
- 
-• Para a classe 'Serious', o recall é de 0,00. Isso indica que o modelo não conseguiu identificar corretamente nenhuma amostra verdadeiramente 'Serious'.  
-
-• Para a classe 'Slight', o recall é de 0,68. Isso significa que o modelo identificou corretamente 68% de todas as amostras verdadeiramente 'Slight'.  
-
-##### F1-Score:  
-
-• O F1-score é a média harmônica entre precision e recall. Ele fornece uma medida única que leva em consideração tanto a precisão quanto o recall.  
-
-• Para 'Fatal' e 'Slight', os valores são baixos, indicando um desempenho desigual entre precision e recall.  
-
-• Para 'Serious', como recall é zero, o F1-score é zero também.  
-
-##### Support:  
-
-• Representa o número de ocorrências de cada classe no conjunto de teste.  
-
-A partir dessas métricas, podemos concluir que o modelo possui um desempenho relativamente bom na identificação da classe 'Slight', mas um desempenho muito ruim na identificação das outras classes, especialmente 
-'Serious'.  
-
-|          | Fatal (prev) | Serious (prev) | Slight (prev) |
-|----------|--------------|----------------|---------------|
-| Fatal    | 260          | 0              | 332           |
-| Serious  | 2242         | 0              | 3903          |
-| Slight   | 12533        | 0              | 26926         |
-
-Esta tabela mostra a contagem de previsões para cada classe em comparação com a verdadeira classe correspondente. Cada célula na tabela representa o número de amostras previstas como uma determinada classe (linha) quando 
-elas realmente pertenciam a essa classe (coluna).
 
 
 ### Interpretação do modelo 1
