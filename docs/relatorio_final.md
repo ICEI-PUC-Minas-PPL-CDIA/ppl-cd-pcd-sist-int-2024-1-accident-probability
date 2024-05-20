@@ -167,7 +167,7 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 ### Gráfico de pizza para exibir a porcentagem de acidentes por dia:
 
-![__results___14_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/8ebc4c74-b9f8-498e-a013-ad33a48d00f6)
+![__results___14_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%202.png)
 
 ### Gráfico de barras para exibir o número de acidentes por hora no dia:
 
