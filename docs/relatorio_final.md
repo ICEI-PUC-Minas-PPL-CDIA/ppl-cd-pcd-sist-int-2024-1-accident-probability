@@ -161,27 +161,27 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 |Vehicle_Type  | categórico não ordinal | especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  |
 
 
-### Distribuição dos acidentes com base nas condições do pavimento rodoviário:
+### Distribuição da quantidade de acidentes por dia:
 
 ![__results___13_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%201.png)
 
-### Gráfico de pizza para exibir a porcentagem de acidentes por dia:
+### Distribuição da quantidade de acidentes por horas:
 
 ![__results___14_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%202.png)
 
-### Gráfico de barras para exibir o número de acidentes por hora no dia:
+### Distribuição de números e das porcentagens por dias de semana e fins-de-semanas:
 
 ![__results___15_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%203.png)
 
-### Acidente por tipo de veículo / Acidente por condição de luz:
+### Distribuição da quantidade por tipos de acidentes:
 
 ![__results___16_0](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%204.png)
 
-### Gráfico de linhas para calcular a porcentagem de acidentes para cada data:
+### Distribuição por tipos de lesões:
 
 ![__results___17_2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%205.png)
 
-### Gráfico de contagem para mostrar o número de acidentes por Accident_Severity:
+### Distribuição das top 10 causas dos acidentes:
 
 ![__results___18_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%206.png)
 
