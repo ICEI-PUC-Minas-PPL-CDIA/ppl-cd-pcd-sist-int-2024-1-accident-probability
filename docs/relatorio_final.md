@@ -259,36 +259,73 @@ Ambas as métricas são usadas para avaliar o quão bem o modelo está performan
 
 ![arvore_decisao](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/arvore%20de%20decis%C3%A3o.png)
 
-• Entropy: É a medida de impureza do nó, que indica quão bem as amostras são separadas em suas classes. Quanto menor a entropia, mais puras são as amostras  
+#### Estrutura da Árvore de Decisão
 
-• Samples: Mostra o número de amostras no nó.  
+##### Nó raiz (node #0):  
+Regra: Primary Factor_FAILURE TO YIELD RIGHT OF WAY <= 0.5  
+Descrição: A árvore começa verificando se a falha em ceder o direito de passagem é menor ou igual a 0.5. Se for verdadeira (<= 0.5), seguimos à esquerda; caso contrário, à direita.  
 
-• Value:  Mostra a distribuição das classes no nó. Por exemplo, [0.791, 0.826, 0.842] significa que 79.1% das amostras são da classe 'Fatal', 82.6% são da classe 'Serious' e 84.2% são da classe 'Slight'.  
+##### Nó #1:  
+Regra: Primary Factor_FOLLOWING TOO CLOSELY <= 0.5  
+Descrição: Se a condição do nó raiz for verdadeira, verifica-se se seguir muito de perto é menor ou igual a 0.5.  
 
-As linhas subsequentes mostram as divisões adicionais e os nós subsequentes na árvore, seguindo o mesmo padrão.  
+##### Esquerda (node #2):  
+Regra: Primary Factor_OTHER (DRIVER) - EXPLAIN IN NARRATIVE <= 0.5  
+Descrição: Se seguir muito de perto for menor ou igual a 0.5, verifica-se se há outro fator primário do motorista, explicado na narrativa, menor ou igual a 0.5.  
 
-##### Interpretação 
+##### Esquerda (node #3):  
+Regra: Primary Factor_UNSAFE BACKING <= 0.5  
+Descrição: Se o fator explicado na narrativa for menor ou igual a 0.5, verifica-se se o recuo inseguro é menor ou igual a 0.5.  
 
-• A primeira divisão dos dados é feita com base na feature '0-3' (0-3 horas do acidente), onde o valor é menor ou igual a 0.5.  
+##### Esquerda (node #4): Quantidade de incidentes prevista = 18.04  
 
-• Se o valor da feature '0-3' for menor ou igual a 0.5, o sistema classifica a amostra como 'Fatal' e continua a avaliação dos outros nós.  
+##### Direita (node #5): Quantidade de incidentes prevista = 109.96  
 
-• Se o valor da feature '0-3' for maior que 0.5, o sistema passa para o próximo nível de decisão.  
+##### Direita (node #6): Quantidade de incidentes prevista = 128.45  
 
-##### Raciocínio do Sistema Inteligente:
+##### Direita (node #9):  
+Regra: Weekend/Weekday <= 0.5  
+Descrição: Se seguir muito de perto for maior que 0.5, verifica-se se o incidente ocorreu no fim de semana ou dia de semana.  
 
-• O sistema inteligente começa avaliando se o acidente ocorreu nas primeiras 3 horas do dia.  
+##### Esquerda (node #10):  
+Regra: Hour <= 6.0  
+Descrição: Se for durante a semana, verifica-se se a hora do incidente é menor ou igual a 6.  
 
-• Se sim (TRUE), o sistema classifica o acidente como 'Fatal' com base na alta probabilidade (79.1%) de lesões fatais nesse intervalo de tempo (18-21 horas).  
+##### Esquerda (node #11): Quantidade de incidentes prevista = 51.82  
 
-• Se não (FALSE), o sistema classifica o acidente como 'Slight' com base na distribuição de probabilidade das lesões em um intervalo de tempo diferente.  
+##### Direita (node #12): Quantidade de incidentes prevista = 90.31  
 
-##### Regras Utilizadas no Raciocínio:
+##### Direita (node #13):  
+Regra: Hour <= 6.0  
+Descrição: Se for no fim de semana, verifica-se se a hora do incidente é menor ou igual a 6.  
 
-• Se '0-3h' <= 0.5, classificar como 'Fatal'.  
-• Se '0-3h' > 0.5, verificar a condição '18-21h' <= 0.5.  
-• Se '18-21h' <= 0.5, classificar como 'Fatal'.  
-• Se '18-21h' > 0.5, classificar como 'Slight'.  
+###### Esquerda (node #14): Quantidade de incidentes prevista = 15.5  
+##### Direita (node #15): Quantidade de incidentes prevista = 372.6  
+
+##### Nó #16:  
+Regra: Weekend/Weekday <= 0.5  
+Descrição: Se a falha em ceder o direito de passagem for maior que 0.5 (do nó raiz), verifica-se se o incidente ocorreu no fim de semana ou dia de semana.  
+
+##### Esquerda (node #17):  
+Regra: Hour <= 6.0  
+Descrição: Se for durante a semana, verifica-se se a hora do incidente é menor ou igual a 6.  
+
+##### Esquerda (node #18): Quantidade de incidentes prevista = 43.4  
+
+##### Direita (node #21): Quantidade de incidentes prevista = 470.4  
+
+##### Direita (node #24):  
+Regra: Hour <= 6.0  
+Descrição: Se for no fim de semana, verifica-se se a hora do incidente é menor ou igual a 6.  
+
+##### Esquerda (node #25): Quantidade de incidentes prevista = 29.4  
+
+##### Direita (node #28):    
+Regra: Hour <= 11.0  
+Descrição: Verifica-se se a hora do incidente é menor ou igual a 11.  
+
+##### Esquerda (node #26): Quantidade de incidentes prevista = 22.4  
+##### Direita (node #27): Quantidade de incidentes prevista = 76.0   
 
 ### Resultados obtidos com o modelo 2.
 
