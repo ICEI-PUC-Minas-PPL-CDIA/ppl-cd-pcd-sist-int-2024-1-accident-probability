@@ -175,7 +175,7 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 ### Acidente por tipo de veículo / Acidente por condição de luz:
 
-![__results___16_0](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/5ff309bc-a41e-4f6c-b2c7-1acc8bc0dc8f)
+![__results___16_0](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%204.png)
 
 ### Gráfico de linhas para calcular a porcentagem de acidentes para cada data:
 
