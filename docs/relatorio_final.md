@@ -152,12 +152,12 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 |Light_Conditions | categórico não ordinal | Descreve as condições de iluminação no momento do acidente (por exemplo, "Luz do dia"). |
 |Number_of_Casualties  |   numérico    | O número total de vítimas envolvidas no acidente.  	    |
 |Number_of_Vehicles   |   numérico  | O número total de veículos envolvidos no acidente.  |
-|Road_Surface_Conditions |   categórico ordinal ? | Descreve as condições da superfície da estrada no momento do acidente (por exemplo, "Seca").    |
+|Road_Surface_Conditions |   categórico não ordinal | Descreve as condições da superfície da estrada no momento do acidente (por exemplo, "Seca").    |
 |Road_Type |   categórico não ordinal |  Especifica o tipo de estrada onde ocorreu o acidente (por exemplo, “Rua de mão única”).  |
 |Speed_limit |   numérico  | O limite de velocidade aplicável à estrada onde ocorreu o acidente. |
 |Hour_of_Accident|   numérico    |  A hora do dia em que ocorreu o acidente (formato: HH:MM).  |
 |Urban_or_Rural_Area  | categórico não ordinal | Indica se o acidente ocorreu em área urbana ou rural. |
-|Weather_Conditions  | categórico ordinal ? | Descreve as condições meteorológicas no momento do acidente (por exemplo, "Bom, sem ventos fortes").   |
+|Weather_Conditions  | categórico não ordinal | Descreve as condições meteorológicas no momento do acidente (por exemplo, "Bom, sem ventos fortes").   |
 |Vehicle_Type  | categórico não ordinal | especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  |
 
 
@@ -195,7 +195,7 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 ### Preparação dos dados
 
-PERGUNTA ORIENTADA A DADOS: qual a probabilidade de um acidente rodoviário resultar em ferimentos leves, graves ou fatais?
+PERGUNTA ORIENTADA A DADOS: qual é a frequência de acidentes rodoviários que resultam em ferimentos leves, graves ou fatais?
 
 - Foram alterados os nomes das variáveis Accident_Index e Time para Accident_ID e Hour_of_Accident, a fim de facilitar a compreensão;
 - Foram eliminadas as colunas: Junction_Control, Latitude, Local_Authority_(District), Carriageway_Hazards, Longitude e Police_Force;
@@ -221,9 +221,8 @@ Processo utilizado para amostragem de dados (explicado linha por linha).
 
 ### Modelo 2: Rede Neural
 
-Repita os passos anteriores para o segundo modelo.
+A Rede Neural foi escolhida como nosso segundo modelo induzido, uma vez que, visando prever a gravidade dos ferimentos em acidentes rodoviários, é de notável relevância a sua capacidade de lidar com dados complexos, adaptar-se a diferentes tipos de dados e aprender a partir de grandes conjuntos de dados. 
 
-Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore de decisão, rede neural, SVM, etc.
 Justifique a escolha do modelo.
 Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
 Descreva os parâmetros utilizados. 
