@@ -179,7 +179,7 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 ### Gráfico de linhas para calcular a porcentagem de acidentes para cada data:
 
-![__results___17_2](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/946aa34d-4798-4c30-a551-357f1e29cdba)
+![__results___17_2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%205.png)
 
 ### Gráfico de contagem para mostrar o número de acidentes por Accident_Severity:
 
