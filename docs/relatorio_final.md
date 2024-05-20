@@ -230,8 +230,9 @@ com o fluxo de processamento.
 
 Treinamento - Coeficiente de Determinação (R²): 0.9889122346333568 ≅ 98.89%  
 Teste - Coeficiente de Determinação (R²): 0.9558860637331806 ≅ 95.55%  
-MAE (Erro Médio Absoluto): 24.066471023556392  
-RMSE (Raiz do Erro Quadrático Médio): 46.11082794174601  
+
+MAE (Erro Médio Absoluto): 24.066471023556392 ≅ 24.07  
+RMSE (Raiz do Erro Quadrático Médio): 46.11082794174601 ≅ 46.11  
 
 ##### Coeficiente de Determinação (R²):  
 
