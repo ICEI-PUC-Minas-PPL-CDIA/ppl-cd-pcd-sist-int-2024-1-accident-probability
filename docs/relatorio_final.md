@@ -183,15 +183,8 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 ### Gráfico de contagem para mostrar o número de acidentes por Accident_Severity:
 
-![__results___18_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/f6801c2e-6f0e-455f-a186-12b1ab498bb8)
+![__results___18_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%206.png)
 
-### Gráfico de barras para mostrar qual é o limite de velocidade de acidente mais comum:
-
-![__results___19_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/b9241252-f1f1-4df7-869a-3ab08034896d)
-
-### Contagem de acidentes por cruzamento para cada dia da semana:
-
-![__results___20_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/b79c6574-5c0c-4645-b1cf-509e61025520)
 
 ### Preparação dos dados
 
