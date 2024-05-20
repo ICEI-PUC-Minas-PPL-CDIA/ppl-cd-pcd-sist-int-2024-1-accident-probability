@@ -163,7 +163,7 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 ### Distribuição dos acidentes com base nas condições do pavimento rodoviário:
 
-![__results___13_1](https://github.com/ICEI-PUC-Minas-PPL-CD/probabilidade-de-acidentes/assets/164661514/6b98ebd9-0819-4ab6-837a-0af0c67355b3)
+![__results___13_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%201.png)
 
 ### Gráfico de pizza para exibir a porcentagem de acidentes por dia:
 
