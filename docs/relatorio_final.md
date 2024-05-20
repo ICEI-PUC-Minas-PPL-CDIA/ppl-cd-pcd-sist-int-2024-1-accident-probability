@@ -228,8 +228,8 @@ com o fluxo de processamento.
 
 #### Acurácia
 
-Treinamento - Coeficiente de Determinação (R²): 0.9889122346333568 ≅ 98.89%
-Teste - Coeficiente de Determinação (R²): 0.9558860637331806 ≅ 95.55%
+Treinamento - Coeficiente de Determinação (R²): 0.9889122346333568 ≅ 98.89%  
+Teste - Coeficiente de Determinação (R²): 0.9558860637331806 ≅ 95.55%  
 
 ##### Coeficiente de Determinação (R²):
 
