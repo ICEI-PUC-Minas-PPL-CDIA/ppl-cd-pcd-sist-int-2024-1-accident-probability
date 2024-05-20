@@ -257,7 +257,7 @@ Ambas as métricas são usadas para avaliar o quão bem o modelo está performan
 
 #### Árvore de Decisão
 
-![arvore_decisao](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/arvore%20decisao.png)
+![arvore_decisao](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/arvore%20de%20decis%C3%A3o.png)
 
 • Entropy: É a medida de impureza do nó, que indica quão bem as amostras são separadas em suas classes. Quanto menor a entropia, mais puras são as amostras  
 
