@@ -212,9 +212,9 @@ A Árvore de Decisão foi escolhida como nosso primeiro modelo induzido, visto s
 Processo utilizado para amostragem de dados (explicado linha por linha).
 [Processo do código](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/Projeto_%C3%81rvoreDecis%C3%A3o.ipynb)
 
-### Modelo 2: Rede Neural
+### Modelo 2: Random Forest
 
-A Rede Neural foi escolhida como nosso segundo modelo induzido, uma vez que, visando prever a gravidade dos ferimentos em acidentes rodoviários, é de notável relevância a sua capacidade de lidar com dados complexos, adaptar-se a diferentes tipos de dados e aprender a partir de grandes conjuntos de dados. 
+tururu
 
 Justifique a escolha do modelo.
 Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
