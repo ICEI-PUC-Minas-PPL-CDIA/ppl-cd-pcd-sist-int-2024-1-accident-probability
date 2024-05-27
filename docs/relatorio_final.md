@@ -160,30 +160,23 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 |Weather_Conditions  | categórico não ordinal | Descreve as condições meteorológicas no momento do acidente (por exemplo, "Bom, sem ventos fortes").   |
 |Vehicle_Type  | categórico não ordinal | especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  |
 
+### Distribuição de acidentes com base nas condições da superfície da estrada:
 
-### Distribuição da quantidade de acidentes por dia:
+![Road_Surface_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/40a931eb-3465-496b-b5e8-c69b92534a12)
+![Road_Surface_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/40a931eb-3465-496b-b5e8-c69b92534a12)
 
-![__results___13_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%201.png)
 
-### Distribuição da quantidade de acidentes por horas:
+### Distribuição de acidentes com base no tipo de estrada:
 
-![__results___14_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%202.png)
+![Road_Type](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/627fd849-759f-4c7a-8bbb-30de345e91bb)
+![Road_Type](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/627fd849-759f-4c7a-8bbb-30de345e91bb)
 
-### Distribuição de números e das porcentagens por dias de semana e fins-de-semanas:
 
-![__results___15_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%203.png)
+### Distribuição de acidentes com base na área urbana ou rural:
 
-### Distribuição da quantidade por tipos de acidentes:
 
-![__results___16_0](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%204.png)
+### Distribuição de acidentes com base nas condições meteorológicas:
 
-### Distribuição por tipos de lesões:
-
-![__results___17_2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%205.png)
-
-### Distribuição das top 10 causas dos acidentes:
-
-![__results___18_1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/graph%206.png)
 
 
 ### Preparação dos dados
@@ -219,14 +212,6 @@ Motivos para Escolha:
 - Capacidade de lidar com dados categóricos: Random Forest pode tratar variáveis categóricas com facilidade, convertendo-as internamente em formatos adequados. 
 - Desempenho: Agrega múltiplas árvores de decisão, o que melhora a precisão e a generalização do modelo ao reduzir o overfitting. 
 - Interpretação das variáveis: Importâncias das características podem ser extraídas, ajudando a entender quais fatores mais influenciam a gravidade dos acidentes. 
-
-### Alternativa para o Modelo 2: CatBoost 
-
-Motivos para Escolha: 
-
-- Especialização em dados categóricos: CatBoost é otimizado para lidar diretamente com dados categóricos sem necessidade de extensive encoding, preservando a integridade das informações. 
-- Alto desempenho: Tem se mostrado eficaz especialmente em conjuntos de dados complexos e heterogêneos. 
-- Interpretação e ajuste de hiperparâmetros: Embora menos interpretável que árvores de decisão individuais, fornece boas ferramentas para interpretar a importância das características e ajustar hiperparâmetros. 
 
 Justifique a escolha do modelo.
 Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
