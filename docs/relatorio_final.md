@@ -259,7 +259,7 @@ Teste - 0.86 ≅ 86%
 
 #### Árvore de Decisão
 
-![arvore_decisao](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/arvore%20de%20decis%C3%A3o.png)
+![arvore_decisao](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/tree.png)
 
 #### Estrutura da Árvore de Decisão  
 
