@@ -263,73 +263,95 @@ Teste - 0.86 ≅ 86%
 
 #### Estrutura da Árvore de Decisão  
 
-A árvore de decisão fornecida parece ser um modelo treinado para classificar ou prever a gravidade de acidentes com base em várias características relacionadas a cruzamentos (junction details).  
+##### Nó Raiz  
+• Junction_Detail_Not at junction or within 20 metres <= 0.5  
+• Gini: 0.251  
+• Samples: 165373  
+• Value: [33424, 34646, 223783]  
+• Class = Slight  
 
-##### Nó raiz (node #0):  
-Regra: Primary Factor_FAILURE TO YIELD RIGHT OF WAY <= 0.5  
-Descrição: A árvore começa verificando se a falha em ceder o direito de passagem é menor ou igual a 0.5. Se for verdadeira (<= 0.5), seguimos à esquerda; caso contrário, à direita.  
+Este nó raiz indica que a árvore inicialmente divide os dados com base em se o acidente ocorreu em um cruzamento ou não (ou dentro de 20 metros de um cruzamento). Se for verdadeiro (<= 0.5), vá para a esquerda, caso contrário, vá para a direita.  
 
-##### Nó #1:  
-Regra: Primary Factor_FOLLOWING TOO CLOSELY <= 0.5  
-Descrição: Se a condição do nó raiz for verdadeira, verifica-se se seguir muito de perto é menor ou igual a 0.5.  
+##### Nível 1  
+• Esquerda: Junction_Detail_T or staggered junction <= 0.5  
+• Gini: 0.222  
+• Samples: 92922  
+• Value: [12631, 84662, 137175]  
+• Class = Slight  
 
-##### Esquerda (node #2):  
-Regra: Primary Factor_OTHER (DRIVER) - EXPLAIN IN NARRATIVE <= 0.5  
-Descrição: Se seguir muito de perto for menor ou igual a 0.5, verifica-se se há outro fator primário do motorista, explicado na narrativa, menor ou igual a 0.5.  
+Esta divisão é feita com base em se o acidente ocorreu em uma junção em T ou em uma junção escalonada. Se for verdadeiro, vá para a esquerda, caso contrário, vá para a direita.  
 
-##### Esquerda (node #3):  
-Regra: Primary Factor_UNSAFE BACKING <= 0.5  
-Descrição: Se o fator explicado na narrativa for menor ou igual a 0.5, verifica-se se o recuo inseguro é menor ou igual a 0.5.  
+##### Direita:  
+• Gini: 0.294  
+• Samples: 66512  
+• Value: [2079, 16184, 86608]  
+• Class = Slight  
 
-##### Esquerda (node #4): Quantidade de incidentes prevista = 18.04  
+Aqui, a árvore lida com acidentes que não ocorreram em um cruzamento (ou não estão dentro de 20 metros de um cruzamento).  
 
-##### Direita (node #5): Quantidade de incidentes prevista = 109.96  
+##### Nível 2 (Esquerda)  
+• Esquerda: Junction_Detail_More than 4 arms (not roundabout) <= 0.5  
+• Gini: 0.223  
+• Samples: 32699  
+• Value: [451, 6902, 45133]  
+• Class = Slight  
 
-##### Direita (node #6): Quantidade de incidentes prevista = 128.45  
+A divisão considera se a junção tem mais de 4 braços (não uma rotatória). Se for verdadeiro, vá para a esquerda, caso contrário, vá para a direita.  
 
-##### Direita (node #9):  
-Regra: Weekend/Weekday <= 0.5  
-Descrição: Se seguir muito de perto for maior que 0.5, verifica-se se o incidente ocorreu no fim de semana ou dia de semana.  
+##### Direita:  
+• Gini: 0.238  
+• Samples: 51838  
+• Value: [731, 10468, 70744]  
+• Class = Slight  
 
-##### Esquerda (node #10):  
-Regra: Hour <= 6.0  
-Descrição: Se for durante a semana, verifica-se se a hora do incidente é menor ou igual a 6.  
+Esta parte da árvore trata dos acidentes em junções com T ou junções escalonadas.  
 
-##### Esquerda (node #11): Quantidade de incidentes prevista = 51.82  
+##### Nível 3 (Esquerda)  
+• Esquerda: Junction_Detail_Mini-roundabout <= 0.5  
+• Gini: 0.225  
+• Samples: 30513  
+• Value: [433, 5727, 42066]  
+• Class = Slight  
 
-##### Direita (node #12): Quantidade de incidentes prevista = 90.31  
+A árvore agora está lidando com junções com mais de 4 braços que não são rotatórias. Este nó verifica se é uma mini-rotatória.  
 
-##### Direita (node #13):  
-Regra: Hour <= 6.0  
-Descrição: Se for no fim de semana, verifica-se se a hora do incidente é menor ou igual a 6.  
+##### Direita:  
+• Gini: 0.198  
+• Samples: 2186  
+• Value: [118, 365, 3067]  
+• Class = Slight  
 
-###### Esquerda (node #14): Quantidade de incidentes prevista = 15.5  
-##### Direita (node #15): Quantidade de incidentes prevista = 372.6  
+Este nó cobre acidentes em junções com mais de 4 braços.  
 
-##### Nó #16:  
-Regra: Weekend/Weekday <= 0.5  
-Descrição: Se a falha em ceder o direito de passagem for maior que 0.5 (do nó raiz), verifica-se se o incidente ocorreu no fim de semana ou dia de semana.  
+##### Nível 4 (Esquerda)  
+• Esquerda: Junction_Detail_Private drive or entrance <= 0.5  
+• Gini: 0.229  
+• Samples: 2864  
+• Value: [421, 5497, 39467]  
+• Class = Slight  
 
-##### Esquerda (node #17):  
-Regra: Hour <= 6.0  
-Descrição: Se for durante a semana, verifica-se se a hora do incidente é menor ou igual a 6.  
+Este nó verifica se a junção inclui uma entrada privada ou de garagem.  
 
-##### Esquerda (node #18): Quantidade de incidentes prevista = 43.4  
+##### Direita:  
+• Gini: 0.157  
+• Samples: 1829  
+• Value: [12, 230, 2599]  
+• Class = Slight  
 
-##### Direita (node #21): Quantidade de incidentes prevista = 470.4  
+Este nó cobre mini-rotatórias.  
 
-##### Direita (node #24):  
-Regra: Hour <= 6.0  
-Descrição: Se for no fim de semana, verifica-se se a hora do incidente é menor ou igual a 6.  
+##### Continuação  
+A árvore continua dividindo os dados com base em outras características de junção até chegar a nós folha que indicam a classificação final.  
 
-##### Esquerda (node #25): Quantidade de incidentes prevista = 29.4  
+##### Interpretação Geral  
+A árvore de decisão está utilizando várias características relacionadas a detalhes de junção para prever a gravidade do acidente. Cada nó faz uma decisão binária baseada em uma característica específica e os dados são 
+divididos de acordo com essas decisões. A profundidade da árvore e a complexidade das ramificações indicam que muitos fatores de junção diferentes estão sendo considerados para classificar os acidentes como leves, graves 
+ou fatais.  
 
-##### Direita (node #28):    
-Regra: Hour <= 11.0  
-Descrição: Verifica-se se a hora do incidente é menor ou igual a 11.  
-
-##### Esquerda (node #26): Quantidade de incidentes prevista = 22.4  
-##### Direita (node #27): Quantidade de incidentes prevista = 76.0   
+###### Pontos Chave  
+A maioria das decisões iniciais se concentra em verificar se o acidente ocorreu em diferentes tipos de junções.  
+Cada divisão subsequente afina ainda mais os critérios com base em detalhes específicos da junção.  
+A classe final atribuída a cada nó folha é "Slight" (Leve), indicando que a maioria dos acidentes nos dados de treinamento foram leves. 
 
 ### Resultados obtidos com o modelo 2.
 
