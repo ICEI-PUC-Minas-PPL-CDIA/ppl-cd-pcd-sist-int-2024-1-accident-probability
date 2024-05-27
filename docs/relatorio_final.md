@@ -210,7 +210,7 @@ PERGUNTA ORIENTADA A DADOS: qual é a frequência de acidentes rodoviários que 
 A Árvore de Decisão foi escolhida como nosso primeiro modelo induzido, visto sua habilidade em manipular dados não lineares, interações complexas (o impacto de uma variável pode variar dependendo dos valores de outras variáveis no modelo), e dados mistos (mistura de variáveis categóricas e numéricas).
 
 Processo utilizado para amostragem de dados (explicado linha por linha).
-[Processo do código](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/Projeto_%C3%81rvoreDecis%C3%A3o.ipynb)
+[Processo do código](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/decisiontree.ipynb)
 
 ### Modelo 2: Random Forest
 
