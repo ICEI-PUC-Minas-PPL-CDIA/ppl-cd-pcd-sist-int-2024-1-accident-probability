@@ -214,7 +214,19 @@ Processo utilizado para amostragem de dados (explicado linha por linha).
 
 ### Modelo 2: Random Forest
 
-tururu
+Motivos para Escolha: 
+
+- Capacidade de lidar com dados categóricos: Random Forest pode tratar variáveis categóricas com facilidade, convertendo-as internamente em formatos adequados. 
+- Desempenho: Agrega múltiplas árvores de decisão, o que melhora a precisão e a generalização do modelo ao reduzir o overfitting. 
+- Interpretação das variáveis: Importâncias das características podem ser extraídas, ajudando a entender quais fatores mais influenciam a gravidade dos acidentes. 
+
+### Alternativa para o Modelo 2: CatBoost 
+
+Motivos para Escolha: 
+
+- Especialização em dados categóricos: CatBoost é otimizado para lidar diretamente com dados categóricos sem necessidade de extensive encoding, preservando a integridade das informações. 
+- Alto desempenho: Tem se mostrado eficaz especialmente em conjuntos de dados complexos e heterogêneos. 
+- Interpretação e ajuste de hiperparâmetros: Embora menos interpretável que árvores de decisão individuais, fornece boas ferramentas para interpretar a importância das características e ajustar hiperparâmetros. 
 
 Justifique a escolha do modelo.
 Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
