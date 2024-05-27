@@ -254,6 +254,24 @@ Teste - 0.86 ≅ 86%
 | **Macro Avg**  | 0.29      | 0.33   | 0.31     | 46196   |
 | **Weighted Avg** | 0.74    | 0.86   | 0.79     | 46196   |
 
+_______________________________________________________
+###Observações
+1- Desequilíbrio nas Classes:
+
+- O modelo está prevendo quase exclusivamente a classe "Slight" (Leve), ignorando as classes "Fatal" (Fatal) e "Serious" (Grave). Isso é evidenciado pelos valores de precisão, recall e F1-Score sendo 0.00 para as classes "Fatal" e "Serious".
+2- Macro Average vs. Weighted Average:
+- Macro Avg (Média Macro): Calcula a média das métricas de todas as classes, tratando cada classe igualmente. Isso resulta em baixos valores (0.29, 0.33 e 0.31) devido ao desempenho ruim nas classes "Fatal" e "Serious".
+- Weighted Avg (Média Ponderada): Calcula a média ponderada das métricas, levando em consideração o número de amostras em cada classe. O valor é mais alto (0.74, 0.86 e 0.79) porque a classe "Slight" domina o conjunto de dados.
+
+###Ações Recomendadas
+1- Balanceamento das Classes:
+- Utilizar técnicas de balanceamento de dados, como oversampling (ex.: SMOTE) ou undersampling, para aumentar a representação das classes "Fatal" e "Serious".
+
+2- Ajuste do Modelo:
+- Ajustar hiperparâmetros do modelo ou experimentar modelos diferentes, como Random Forest, CatBoost, ou LightGBM, que podem lidar melhor com o desequilíbrio das classes.
+
+3- Coletar Mais Dados:
+- Se possível, coletar mais dados para as classes minoritárias ("Fatal" e "Serious") para melhorar a capacidade do modelo de aprender a partir dessas amostras.
 
 ### Interpretação do modelo 1
 
