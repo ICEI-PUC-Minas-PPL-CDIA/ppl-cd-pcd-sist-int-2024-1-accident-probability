@@ -240,29 +240,19 @@ com o fluxo de processamento.
 
 #### Acurácia
 
-Treinamento - Coeficiente de Determinação (R²): 0.9889122346333568 ≅ 98.89  
-Teste - Coeficiente de Determinação (R²): 0.9558860637331806 ≅ 95.55  
+Treinamento - 0.85 ≅ 85%    
+Teste - 0.86 ≅ 86%   
 
-MAE (Erro Médio Absoluto): 24.066471023556392 ≅ 24.07  
-RMSE (Raiz do Erro Quadrático Médio): 46.11082794174601 ≅ 46.11  
+#### Matriz de Confusão
 
-##### Coeficiente de Determinação (R²):  
-
-Este é um valor entre 0 e 1 que indica a proporção da variância na variável dependente que é previsível a partir das variáveis independentes. Um valor de 1 indica um ajuste perfeito, enquanto valores mais baixos indicam 
-que o modelo explica menos variabilidade nos dados.  
-
-No conjunto de treinamento, o R² é aproximadamente 0.989, o que indica que o modelo de Random Forest explica cerca de 98.9% da variabilidade nos dados de treinamento.  
-No conjunto de teste, o R² é aproximadamente 0.956, o que significa que o modelo explica cerca de 95.6% da variabilidade nos dados de teste.  
-Esses valores indicam que o modelo de Random Forest tem um desempenho bastante bom tanto no conjunto de treinamento quanto no conjunto de teste, mostrando uma capacidade de generalização satisfatória.  
-
-##### MAE (Erro Médio Absoluto):  
- Este valor indica que, em média, as previsões do modelo estão desviando aproximadamente 24.07 unidades da quantidade real de incidentes.  
-
-##### RMSE (Raiz do Erro Quadrático Médio):  
- Essa métrica é a raiz quadrada do erro médio dos quadrados das diferenças entre as previsões do modelo e as quantidades reais de incidentes. O valor de 46.11 indica que, em média, as previsões estão desviando 
-aproximadamente 46.11 unidades da quantidade real de incidentes.  
-
-Ambas as métricas são usadas para avaliar o quão bem o modelo está performando em termos de previsão, sendo que valores menores indicam melhor desempenho.  
+|                | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Fatal          | 0.00      | 0.00   | 0.00     | 574     |
+| Serious        | 0.00      | 0.00   | 0.00     | 5989    |
+| Slight         | 0.86      | 1.00   | 0.92     | 39633   |
+| **Accuracy**   |           |        | 0.86     | 46196   |
+| **Macro Avg**  | 0.29      | 0.33   | 0.31     | 46196   |
+| **Weighted Avg** | 0.74    | 0.86   | 0.79     | 46196   |
 
 
 ### Interpretação do modelo 1
@@ -271,7 +261,9 @@ Ambas as métricas são usadas para avaliar o quão bem o modelo está performan
 
 ![arvore_decisao](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/imagens/arvore%20de%20decis%C3%A3o.png)
 
-#### Estrutura da Árvore de Decisão
+#### Estrutura da Árvore de Decisão  
+
+A árvore de decisão fornecida parece ser um modelo treinado para classificar ou prever a gravidade de acidentes com base em várias características relacionadas a cruzamentos (junction details).  
 
 ##### Nó raiz (node #0):  
 Regra: Primary Factor_FAILURE TO YIELD RIGHT OF WAY <= 0.5  
