@@ -175,14 +175,14 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 ### Distribuição de acidentes com base na hora do acidente:
 ![Hour_of_Accident](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/f879a8f0-44d5-4ac2-8602-594ada25c682)
 
+### Distribuição de acidentes com base no tipo de junção:
+![Junction_Detail](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/6b3e98c6-d34c-4dc1-9e81-ae1fd8e064aa)
+
 ### Distribuição de acidentes com base nas condições meteorológicas:
 ![Weather_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/5f4cdb36-4c0d-4b4d-af02-0f6e97e14bde)
 
 ### Distribuição de acidentes com base nas condições de luminosisade: 
 ![Light_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/26b86a7f-9cc4-4ea4-bece-0d4ac8210ded)
-
-### Distribuição de acidentes com base no tipo de junção:
-![Junction_Detail](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/6b3e98c6-d34c-4dc1-9e81-ae1fd8e064aa)
 
 ### Distribuição de acidentes com base nos dias da semana:
 ![Day_of_Week](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/bd0bd5ef-2fd3-43f1-b7b2-4fa198f2cd50)
