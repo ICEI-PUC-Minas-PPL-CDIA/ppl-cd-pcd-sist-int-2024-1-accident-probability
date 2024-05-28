@@ -161,28 +161,32 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 |Vehicle_Type  | categórico não ordinal | especifica o tipo de veículo envolvido no acidente (por exemplo, "Carro", "Táxi/Carro de aluguel particular").  |
 
 ### Distribuição de acidentes com base com base na gravidade dos ferimentos:
-![Accident_Injuries](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/de7834d7-cfe7-42f3-9bc0-59ef1639e282)
+![Accident_Injuries](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/e21499bb-af24-45f9-85cc-4bb8b83012f9)
 
 ### Distribuição de acidentes com base nas condições da superfície da estrada:
-![Road_Surface_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/40a931eb-3465-496b-b5e8-c69b92534a12)
+![Road_Surface_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/17bf5c23-4aba-4ca2-aed1-8a40cb7ba281)
 
 ### Distribuição de acidentes com base no tipo de estrada:
-![Road_Type](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/627fd849-759f-4c7a-8bbb-30de345e91bb)
+![Road_Type](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/52d36b2e-1333-44ff-9f4c-f44ce11de5da)
 
 ### Distribuição de acidentes com base na área urbana ou rural:
-![Urban_or_Rural_Area](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/fdf6a4f0-b093-4c68-bfe8-138be3a601a8)
+![Urban_or_Rural_Area](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/dd78b99b-4757-438f-ae9d-68b3931c933d)
 
 ### Distribuição de acidentes com base na hora do acidente:
-![Hour_of_Accident](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/6cb2a1b3-9968-4dce-b844-afc351a3bb2a)
+![Hour_of_Accident](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/f879a8f0-44d5-4ac2-8602-594ada25c682)
 
 ### Distribuição de acidentes com base nas condições meteorológicas:
-![Weather_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/ce16d505-906a-49b4-82ef-532f24431f88)
+![Weather_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/5f4cdb36-4c0d-4b4d-af02-0f6e97e14bde)
 
-### Distribuição de acidentes com base no número de vítimas e no número de veículos :
-![Number_of_Casualties Number_of_Vehicles](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/87d49cfb-9638-4b12-bd33-ab446e914f75)
+### Distribuição de acidentes com base nas condições de luminosisade: 
+![Light_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/26b86a7f-9cc4-4ea4-bece-0d4ac8210ded)
+
+### Distribuição de acidentes com base no tipo de junção:
+![Junction_Detail](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/6b3e98c6-d34c-4dc1-9e81-ae1fd8e064aa)
 
 ### Distribuição de acidentes com base nos dias da semana:
-![Day_of_Week](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/2f527174-eac0-47ee-ab35-fa3e53cd76a2)
+![Day_of_Week](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/bd0bd5ef-2fd3-43f1-b7b2-4fa198f2cd50)
+
 
 
 ### Preparação dos dados
