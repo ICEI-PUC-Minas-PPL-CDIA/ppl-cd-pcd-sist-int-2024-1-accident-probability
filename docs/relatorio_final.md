@@ -181,11 +181,8 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 ### Distribuição de acidentes com base nas condições meteorológicas:
 ![Weather_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/5f4cdb36-4c0d-4b4d-af02-0f6e97e14bde)
 
-### Distribuição de acidentes com base nas condições de luminosisade: 
-![Light_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/26b86a7f-9cc4-4ea4-bece-0d4ac8210ded)
-
-### Distribuição de acidentes com base nos dias da semana:
-![Day_of_Week](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/bd0bd5ef-2fd3-43f1-b7b2-4fa198f2cd50)
+### Distribuição de acidentes com base nas condições de luminosisade e dias da semana:
+![Light_Day](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/e0174d14-3cf2-4b3e-ad54-edb9971279ab)
 
 
 
