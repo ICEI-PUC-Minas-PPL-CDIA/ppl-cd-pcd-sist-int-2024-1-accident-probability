@@ -215,7 +215,7 @@ Processo utilizado para amostragem de dados 1 (explicado linha por linha):
 Processo utilizado para amostragem de dados 2 (explicado linha por linha):
 
 
-### Modelo: Random Forest
+### Modelo 6: Random Forest
 
 Motivos para Escolha: 
 
@@ -363,112 +363,113 @@ A árvore de decisão está utilizando várias características relacionadas a d
 divididos de acordo com essas decisões. A profundidade da árvore e a complexidade das ramificações indicam que muitos fatores de junção diferentes estão sendo considerados para classificar os acidentes como leves, graves 
 ou fatais.  
 
-###### Pontos Chave  
+##### Pontos Chave  
 A maioria das decisões iniciais se concentra em verificar se o acidente ocorreu em diferentes tipos de junções.  
 Cada divisão subsequente afina ainda mais os critérios com base em detalhes específicos da junção.  
 A classe final atribuída a cada nó folha é "Slight" (Leve), indicando que a maioria dos acidentes nos dados de treinamento foram leves. 
 
 ### Resultados obtidos com o modelo 2.
-Classes in y before encoding: ['Serious' 'Slight' 'Fatal']
-Classes in y after encoding: [1 2 0]
 Training Accuracy: 0.35
+
 Test Accuracy: 0.14
+
 Classification Report:
-              precision    recall  f1-score   support
 
-           0       0.01      0.27      0.02       574
-           1       0.13      0.70      0.23      5989
-           2       0.89      0.06      0.11     39633
-
-    accuracy                           0.14     46196
-   macro avg       0.34      0.34      0.12     46196
-weighted avg       0.78      0.14      0.12     46196
+|                | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Fatal          | 0.01      | 0.27   | 0.02     | 574     |
+| Serious        | 0.13      | 0.70   | 0.23     | 5989    |
+| Slight         | 0.89      | 0.06   | 0.11     | 39633   |
+| **Accuracy**   |           |        | 0.14     | 46196   |
+| **Macro Avg**  | 0.34      | 0.34   | 0.12     | 46196   |
+| **Weighted Avg** | 0.78    | 0.14   | 0.12     | 46196   |
 
 
 ### Interpretação do modelo 2
 ![DT_Road_Surface_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/8f1bf989-fb87-44ff-9433-bfda804a3226)
 
 ### Resultados obtidos com o modelo 3.
-Classes in y before encoding: ['Serious' 'Slight' 'Fatal']
-Classes in y after encoding: [1 2 0]
 Training Accuracy: 0.37
+
 Test Accuracy: 0.20
+
 Classification Report:
-              precision    recall  f1-score   support
 
-           0       0.02      0.22      0.03       574
-           1       0.14      0.79      0.23      5989
-           2       0.90      0.11      0.19     39633
-
-    accuracy                           0.20     46196
-   macro avg       0.35      0.37      0.15     46196
-weighted avg       0.79      0.20      0.19     46196
+|                | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Fatal          | 0.02      | 0.22   | 0.03     | 574     |
+| Serious        | 0.14      | 0.79   | 0.23     | 5989    |
+| Slight         | 0.90      | 0.11   | 0.19     | 39633   |
+| **Accuracy**   |           |        | 0.20     | 46196   |
+| **Macro Avg**  | 0.35      | 0.37   | 0.15     | 46196   |
+| **Weighted Avg** | 0.79    | 0.20   | 0.19     | 46196   |
 
 
 ### Interpretação do modelo 3
 ![DT_Road_Type](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/fbafa745-ee7e-45aa-8eac-dd4cfdfac210)
 
 ### Resultados obtidos com o modelo 4.
-Classes in y before encoding: ['Serious' 'Slight' 'Fatal']
-Classes in y after encoding: [1 2 0]
 Training Accuracy: 0.42
+
 Test Accuracy: 0.57
+
 Classification Report:
-              precision    recall  f1-score   support
 
-           0       0.02      0.56      0.04       574
-           1       0.00      0.00      0.00      5989
-           2       0.87      0.66      0.75     39633
-
-    accuracy                           0.57     46196
-   macro avg       0.30      0.40      0.26     46196
-weighted avg       0.75      0.57      0.64     46196
+|                | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Fatal          | 0.02      | 0.56   | 0.04     | 574     |
+| Serious        | 0.00      | 0.00   | 0.00     | 5989    |
+| Slight         | 0.87      | 0.66   | 0.75     | 39633   |
+| **Accuracy**   |           |        | 0.57     | 46196   |
+| **Macro Avg**  | 0.30      | 0.40   | 0.26     | 46196   |
+| **Weighted Avg** | 0.75    | 0.57   | 0.64     | 46196   |
 
 
 ### Interpretação do modelo 4
 ![DT_Urban_or_Rural_Area](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/b2bef5e5-4f7d-4b95-b95c-71cd8c88b771)
 
 ### Resultados obtidos com o modelo 5.
-Classes in y before encoding: ['Serious' 'Slight' 'Fatal']
-Classes in y after encoding: [1 2 0]
 Training Accuracy: 0.39
+
 Test Accuracy: 0.67
+
 Classification Report:
-              precision    recall  f1-score   support
 
-           0       0.02      0.39      0.04       574
-           1       0.00      0.00      0.00      5989
-           2       0.87      0.77      0.82     39633
-
-    accuracy                           0.67     46196
-   macro avg       0.30      0.39      0.29     46196
-weighted avg       0.75      0.67      0.70     46196
+|                | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Fatal          | 0.02      | 0.39   | 0.04     | 574     |
+| Serious        | 0.00      | 0.00   | 0.00     | 5989    |
+| Slight         | 0.87      | 0.77   | 0.82     | 39633   |
+| **Accuracy**   |           |        | 0.67     | 46196   |
+| **Macro Avg**  | 0.30      | 0.39   | 0.29     | 46196   |
+| **Weighted Avg** | 0.75    | 0.67   | 0.70     | 46196   |
 
 
 ### Interpretação do modelo 5
 ![DT_Hour_of_Accident](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/6e552249-1aa7-4983-859f-75efa1b8b1f7)
 
 ## Árvore de Decisão completa:
-Classes in y before encoding: ['Serious' 'Slight' 'Fatal']
-Classes in y after encoding: [1 2 0]
 Training Accuracy: 0.50
+
 Test Accuracy: 0.52
+
 Classification Report:
-              precision    recall  f1-score   support
 
-           0       0.02      0.54      0.05       574
-           1       0.14      0.20      0.17      5989
-           2       0.89      0.57      0.69     39633
+|                | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Fatal          | 0.02      | 0.54   | 0.05     | 574     |
+| Serious        | 0.14      | 0.20   | 0.17     | 5989    |
+| Slight         | 0.89      | 0.57   | 0.69     | 39633   |
+| **Accuracy**   |           |        | 0.52     | 46196   |
+| **Macro Avg**  | 0.35      | 0.44   | 0.30     | 46196   |
+| **Weighted Avg** | 0.78    | 0.52   | 0.62     | 46196   |
 
-    accuracy                           0.52     46196
-   macro avg       0.35      0.44      0.30     46196
-weighted avg       0.78      0.52      0.62     46196
 
 ### CONCLUSÃO:
 
 Os resultados mostram que o modelo tem uma baixa precisão e recall, especialmente para a classe 2 (a classe majoritária). A acurácia geral do modelo também é muito baixa. Principais causas: desbalanceamento severo —  o número de exemplos da classe 2 (39633) é muito maior do que das classes 0 (574) e 1 (5989), mesmo após o oversampling e undersampling; e, possivelmente, pela Árvore de Decisão ser um modelo muito simples.
 
-## Modelo 6: Random Forest —tende a ser mais robusto e pode lidar melhor com dados desbalanceados.
+### Modelo 6: Random Forest — tende a ser mais robusto e pode lidar melhor com dados desbalanceados.
 
 ### Modificações:
 
@@ -486,20 +487,21 @@ Definição de uma grade de hiperparâmetros para ajustar os parâmetros do clas
 
 ### Resultado temporário: (aqui foi aplicada uma diferente técnica de reamostragem, e não foi usada a grade de hiperparâmetro, e, no final das contas, tivemos um total de zero progresso <3)
 
-Classes in y before encoding: ['Serious' 'Slight' 'Fatal']
-Classes in y after encoding: [1 2 0]
 Training Accuracy: 0.50
+
 Test Accuracy: 0.52
+
 Classification Report:
-              precision    recall  f1-score   support
 
-           0       0.02      0.54      0.05       574
-           1       0.15      0.20      0.17      5989
-           2       0.89      0.57      0.70     39633
+|                | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Fatal          | 0.02      | 0.54   | 0.05     | 574     |
+| Serious        | 0.15      | 0.20   | 0.17     | 5989    |
+| Slight         | 0.89      | 0.57   | 0.70     | 39633   |
+| **Accuracy**   |           |        | 0.52     | 46196   |
+| **Macro Avg**  | 0.35      | 0.44   | 0.30     | 46196   |
+| **Weighted Avg** | 0.78    | 0.52   | 0.62     | 46196   |
 
-    accuracy                           0.52     46196
-   macro avg       0.35      0.44      0.30     46196
-weighted avg       0.78      0.52      0.62     46196
 
 
 
