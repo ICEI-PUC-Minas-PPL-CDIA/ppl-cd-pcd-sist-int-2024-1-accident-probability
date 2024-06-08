@@ -164,22 +164,25 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 ![Accident_Injuries](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/e21499bb-af24-45f9-85cc-4bb8b83012f9)
 
 ### Distribuição de acidentes com base nas condições da superfície da estrada:
-![Road_Surface_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/17bf5c23-4aba-4ca2-aed1-8a40cb7ba281)
+![Road_Surface_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/5a669fcd-97f8-4ea2-837f-14c14e9490a9)
 
 ### Distribuição de acidentes com base no tipo de estrada:
-![Road_Type](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/52d36b2e-1333-44ff-9f4c-f44ce11de5da)
+![Road_Type](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/52f57bb6-6454-40cc-8b67-2f099b075157)
 
 ### Distribuição de acidentes com base na área urbana ou rural:
-![Urban_or_Rural_Area](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/dd78b99b-4757-438f-ae9d-68b3931c933d)
+![Urban_or_Rural_Area](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/ada5343c-48d7-405a-9a1a-f86e39075244)
 
 ### Distribuição de acidentes com base na hora do acidente:
-![Hour_of_Accident](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/f879a8f0-44d5-4ac2-8602-594ada25c682)
+![Hour_of_Accident](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/d98c1c4a-8698-424c-994c-cbddac1883c8)
 
 ### Distribuição de acidentes com base no tipo de junção:
-![Junction_Detail](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/6b3e98c6-d34c-4dc1-9e81-ae1fd8e064aa)
+![Junction_Detail](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/6a8f525f-c1bd-4a02-9ffe-c8aebb0dced7)
 
 ### Distribuição de acidentes com base nas condições meteorológicas:
-![Weather_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/5f4cdb36-4c0d-4b4d-af02-0f6e97e14bde)
+![Weather_Conditions](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/4ae93d3e-b418-4d7a-8121-f5bdbfd41963)
+
+### Distribuição de acidentes com base nos limites de velocidade:
+![Speed_limit](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/035adeee-889d-48f8-83ea-55308c0a5e57)
 
 ### Distribuição de acidentes com base nas condições de luminosisade e dias da semana:
 ![Light_Day](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/e0174d14-3cf2-4b3e-ad54-edb9971279ab)
@@ -222,6 +225,16 @@ Motivos para Escolha:
 - Capacidade de lidar com dados categóricos: Random Forest pode tratar variáveis categóricas com facilidade, convertendo-as internamente em formatos adequados. 
 - Desempenho: Agrega múltiplas árvores de decisão, o que melhora a precisão e a generalização do modelo ao reduzir o overfitting. 
 - Interpretação das variáveis: Importâncias das características podem ser extraídas, ajudando a entender quais fatores mais influenciam a gravidade dos acidentes. 
+
+### Modelo 7: Rede Neural
+
+Motivos para Escolha: 
+
+- Capacidade de aprender padrões complexos;
+- Flexibilidade na representação de dados;
+- Tratamento eficaz de grandes volumes de dados;
+- Desempenho em tarefas de classificação complexas;
+- Capacidade de lidar com características não lineares e interações complexas entre características.
 
 Justifique a escolha do modelo.
 Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
@@ -485,23 +498,39 @@ Aplicação do StandardScaler para normalizar os dados de entrada, o que pode me
   
 Definição de uma grade de hiperparâmetros para ajustar os parâmetros do classificador Random Forest usando a pesquisa em grade GridSearchCV.
 
-### Resultado temporário: (aqui foi aplicada uma diferente técnica de reamostragem, e não foi usada a grade de hiperparâmetro, e, no final das contas, tivemos um total de zero progresso <3)
+### Resultados obtidos com o modelo 6.
 
-Training Accuracy: 0.50
+Accurácia: 0.59
 
-Test Accuracy: 0.52
-
-Classification Report:
+Relatório de Classificação:
 
 |                | Precision | Recall | F1-Score | Support |
 |----------------|-----------|--------|----------|---------|
-| Fatal          | 0.02      | 0.54   | 0.05     | 574     |
-| Serious        | 0.15      | 0.20   | 0.17     | 5989    |
-| Slight         | 0.89      | 0.57   | 0.70     | 39633   |
-| **Accuracy**   |           |        | 0.52     | 46196   |
-| **Macro Avg**  | 0.35      | 0.44   | 0.30     | 46196   |
-| **Weighted Avg** | 0.78    | 0.52   | 0.62     | 46196   |
+| Fatal          | 0.03      | 0.52   | 0.06     | 617     |
+| Serious        | 0.16      | 0.19   | 0.17     | 6085    |
+| Slight         | 0.88      | 0.65   | 0.75     | 39494   |
+| Macro Avg      | 0.36      | 0.45   | 0.33     | 46196   |
+| Weighted Avg   | 0.78      | 0.59   | 0.66     | 46196   |
 
+
+### Modelo 7: Rede Neural
+
+### Interpretação do modelo 7
+![RedeNeural](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/73947a9e-15f9-4968-8160-976b57aae8a2)
+
+### Resultados obtidos com o modelo 7.
+
+Acurácia: 0.63
+
+Relatório de Classificação:
+
+|                | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Fatal          | 0.03      | 0.51   | 0.06     | 617     |
+| Serious        | 0.15      | 0.10   | 0.12     | 6085    |
+| Slight         | 0.88      | 0.71   | 0.79     | 39494   |
+| Macro Avg      | 0.35      | 0.44   | 0.32     | 46196   |
+| Weighted Avg   | 0.77      | 0.63   | 0.69     | 46196   |
 
 
 
