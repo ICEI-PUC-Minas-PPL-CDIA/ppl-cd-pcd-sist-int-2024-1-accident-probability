@@ -536,10 +536,7 @@ Relatório de Classificação:
 
 ## Análise comparativa dos modelos
 
-Discuta sobre as forças e fragilidades de cada modelo. Exemplifique casos em que um
-modelo se sairia melhor que o outro. Nesta seção é possível utilizar a sua imaginação
-e extrapolar um pouco o que os dados sugerem.
-
+Como dito anteriormente, fizemos com base em 3 tipos diferentes de modelos: os modelos de 1 a 5 foi feito com base em decision tree (árvore de decisão), sendo o mais simples capazes de executar a tarefa, o sexto com random forest (floresta aleatória), sendo uma variação mais complexa da primeira, utilizando de várias árvores geradas aleatoriamente para interpretar e chegar a um resultado e, por fim, o último foi feito com a técnica de rede neural, que simula o funcionamento do cérebro humano para processar as informações, tendo uma capacidade por vezes maior que a random forest. Obviamente, não se pode generalizar sobre qual é o melhor ou pior modelo, pois algum caso pode ser mais útil algum que não serviria ou demoraria muito mais para outro. A partir dos resultados obtidos ao executar os sistemas, temos que o modelo mais eficiente foi o último, devido à sua acurácia ser a mais eficiente dentre os modelos criados, pois apresenta um valor realisticamente agradável para sistemas e sem uma discrepância dos resultados, como nos modelos 2 e 3, ou desconsideração de variáveis, como ocorre nos modelos 1, 4 e 5, e alcançando 63% de precisão.
 
 ### Distribuição do modelo (opcional)
 
