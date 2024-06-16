@@ -541,11 +541,6 @@ Comparando por método, utilizando-se dos três modelos completos, podemos ver q
 Por este lado, é possível definir que a decision tree não foi o suficiente para processar os dados fornecidos e definir com qualidade e precisão os resultados pelos dados da base, tendo em vista sua acurácia final, e apesar de ter sido o que mais se aproximou aos resultados reais nas classes de menor quantidade, falhou na com maior peso. Analisando por partes a árvore, cada pedaço apresenta uma falha diferente, com o modelo 1 desconsiderando as classes fatal e serious, os modelos 2 tendo um desequilíbrio absurdo entre sua precisão e recall, e os modelos 4 e 5 sendo muito incisivos, definindo apenas os acidentes leves e fatais, desconsiderando os sérios, e dentre os modelos da árvore, o que apresentou maior precisão foi o modelo de número 5, com 67% de acurácia, sendo maior até mesmo que a da rede neural. Estas falhas somadas culminam em um produto não tão agradável e que tende a 50% de falhas em seus testes, provando-se ineficiente para o caso em  questão.Todos os modelos tiveram dificuldades devido ao desequilíbrio dos dados da base que, mesmo com oversampling e undersampling dos dados, estão numa escala desproporcional e desbalanceada, tendo a classe 2 (slight) quase 7 vezes mais que 1 (serious) e 70 vezes mais que 0 (fatal).
 Sinceramente, para uma primeira tentativa de execução de um projeto do tipo, creio que são resultados otimistas, visto que estamos apenas no começo de carreira e todos quase que completamente inexperientes antes de iniciar o curso, o que mostra grande capacidade de evolução e adaptação dos membros do grupo ao se deparar com desafios, algo que não falta, inclusive só aumentam nesse ramo a cada dia.
 
-### Distribuição do modelo (opcional)
-
-Tende criar um pacote de distribuição para o modelo construído, para ser aplicado 
-em um sistema inteligente.
-
 
 ## 8. Conclusão
 
