@@ -78,7 +78,7 @@ https://www.paho.org/pt/topicos/seguranca-no-transito#:~:text=90%25%20das%20mort
 - Governo Público: responsável pelo reparo e manutenção da via, diminuindo o risco de acidentes, ocasionandos em determinados trechos das vias.
 
 
-## Análise exploratórida dos dados
+## Análise exploratória dos dados
 
 ###    Dicionário de dados
 
