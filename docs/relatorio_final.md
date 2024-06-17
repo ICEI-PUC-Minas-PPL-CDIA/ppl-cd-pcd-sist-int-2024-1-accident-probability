@@ -542,16 +542,14 @@ Por este lado, é possível definir que a decision tree não foi o suficiente pa
 Sinceramente, para uma primeira tentativa de execução de um projeto do tipo, creio que são resultados otimistas, visto que estamos apenas no começo de carreira e todos quase que completamente inexperientes antes de iniciar o curso, o que mostra grande capacidade de evolução e adaptação dos membros do grupo ao se deparar com desafios, algo que não falta, inclusive só aumentam nesse ramo a cada dia.
 
 
-## 8. Conclusão
+## Conclusão
 
-Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, 
-onde se verifica as observações pessoais de cada aluno.
+Este trabalho teve como objetivo analisar e realizar um cálculo de probabilidade de acidentes que uma certa via oferece, com base nas informações do condutor, condições da via etc..., utilizando modelos estatísticos. Foram coletados dados históricos da taxa de sinistros, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar uma probabilidade de um acidente ocorrer em detrimento de algumas condições. Com a breve análise na base de dados, pode-se prever que a alta taxa de acidentes está correlacionado com variáveis como condições das vias e condições do dia. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar os acidentes nas vias em evidência. 
 
-Uma conclusão deve ter 3 partes:
+Os resultados obtidos apresentam através dos gráficos, diversos dados que propõem analisar os detalhes de diversas situações, como, distribuição de acidentes com base na gravidade dos ferimentos, distribuição de acidentes com base nas condições da superfície da estrada, distribuição de acidentes com base no tipo de estrada, distribuição de acidentes com base na área urbana ou rural, distribuição de acidentes com base na hora do acidente e outras.
 
-   * Breve resumo do que foi desenvolvido
-	 * Apresenação geral dos resultados obtidos com discussão das vantagens e desvantagens do sistema inteligente
-	 * Limitações e possibilidades de melhoria
+A vantagem é a capacidade de apresentar os resultados obtidos a quem pode prevenir os acidentes, como, órgãos públicos, agentes de publicidade e jornais. A desvantagem é não apresentar dados 100% precisos. 
+Limitação e possibilidade de melhoria podemos citar o desbalanceamento dos modelos e causando uma baixa acurácia  
 
 
 # REFERÊNCIAS
