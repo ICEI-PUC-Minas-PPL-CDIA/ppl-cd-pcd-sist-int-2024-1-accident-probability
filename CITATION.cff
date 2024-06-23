@@ -1,16 +1,18 @@
 cff-version: 1.0.1
-message: Por favor, cite o repositório utilizando estes metadados.
-title: Repositório modelo para a disciplina de Projeto em Ciência de Dados I - Sistemas Inteligentes.
-authors:
-   - name-suffix: Professor
+message: Repositório modelo para a disciplina de Projeto em Ciência de Dados I - Sistemas Inteligentes. Por favor, cite o repositório utilizando estes metadados.
+title: Probabilidade de acidentes (accident probability).
+authors: Matheus Melo Couto, Luan Inaibes Guimarães, João Henrique Pereirinha Sorrentino, Rafael Brandão de Oliveira, Serena Ferreira Moreira, Heitor Ramos de Oliveira
+   -occupation : Alunos
     affiliation: PUC Minas
-    family-names: de Paula
-    given-names: Hugo
 keywords:
   - Ciência de Dados
+  - Data Science
   - Jupyter Notebooks
   - Aprendizado de Máquina
-repository-code:
+  - Machine Learning
+  - Dados
+  - Data
+repository-code: https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2023-06-30
