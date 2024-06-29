@@ -34,7 +34,7 @@ A partir de uma base de dados extraída da plataforma Kaggle e posterior elabora
 
 ## Introdução
 
-   Os acidentes nas rodovias representam um grave problema em todo o mundo, resultando em perdas humanas, danos materiais e impactos econômicos significativos. Nesse contexto, a aplicação de sistemas inteligentes e da análise dos dados através da ciência de dados tem se mostrado uma abordagem promissora para a prevenção e diminuição extrema desses acidentes. A capacidade desses sistemas de coletar, processar e analisar grandes volumes de dados em tempo real, juntamente com a capacidade de tomar decisões autônomas e rápidas, torna-os ferramentas essenciais na busca por estratégias mais eficazes de segurança viária. Este trabalho tem como objetivo explorar o papel dos sistemas inteligentes na redução de acidentes nas rodovias, destacando suas potenciais contribuições e desafios a serem superados.  
+   Os acidentes nas rodovias representam um grave problema em todo o mundo, resultando em perdas humanas, danos materiais e impactos econômicos significativos. Diante esse contexto, a análise de dados e o desenvolvimento de sistemas inteligentes através da ciência de dados tem se mostrado uma abordagem promissora para a prevenção e diminuição extrema desses acidentes. A capacitação dos sistemas de coletar, processar e analisar grandes volumes de dados em tempo real, juntamente com a capacidade de tomar decisões autônomas e rápidas, torna-os ferramentas essenciais na busca por estratégias mais eficazes de segurança viária. Este trabalho tem como objetivo explorar o papel dos sistemas inteligentes na redução de acidentes nas rodovias, destacando suas potenciais contribuições e desafios a serem superados.  
 
 
 ###    Contextualização
@@ -51,20 +51,15 @@ compreender os motivos que incidem em acidentes rodoviários, de forma a prevê-
 
 ###    Objetivo geral
 
-   Analisar acidentes em certas vias, identificar tendências e extrair informações para implementação de medidas de segurança, necessárias para reduzir o número de vítimas de tais imprudências.  
+   Analisar acidentes em determinada via, identificar tendências e extrair informações para implementação de medidas de segurança, necessárias para reduzir o número de vítimas de tais imprudências.  
 
 ####    Objetivos específicos
 
-• Identificar os principais motivos para a causa de acidentes de tráfego em um certo lugar;
+• Identificar os principais motivos para a causa de acidentes de tráfego em uma rodovia específica;
 
 • Analisar os dados estatísticos relacionados aos incidentes;
 
-• Comparar e contrastar os dados obtidos sobre os acidentes, como o horário do dia, o dia da semana, o tipo de veículo envolvido no acidente, as condições das vias, as condições climáticas, etc.;
-
-• Propor recomendações para políticas sociais ou intervenções na segurança pública visando mitigar os efeitos negativos dessas correlações na sociedade;  
-
-• Impulsionar um aumento da qualidade de vida da população através de iniciativas abrangentes em áreas da segurança, educação, habitação e bem-estar social.  
-
+• Comparar e contrastar os dados obtidos sobre os acidentes, como o horário do dia, o dia da semana, o tipo de veículo envolvido no acidente, as condições das vias, as condições climáticas, etc.; 
 
 ###    Justificativas
 
@@ -185,7 +180,6 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 
 ### Distribuição de acidentes com base nas condições de luminosisade e dias da semana:
 ![Light_Day](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/e0174d14-3cf2-4b3e-ad54-edb9971279ab)
-
 
 
 ### Preparação dos dados
@@ -451,7 +445,7 @@ Com base nos resultados obtidos, pode-se concluir que o modelo mais preciso foi 
 
 Analisando por partes, todos os modelos apresentam falhas: o modelo 1 desconsidera as classes fatal e serious, operando apenas a classe de maior peso (slight); os modelos 2 e 3 tem um desequilíbrio significativo entre sua precisão e recall (1% para 27% em fatal, 13% para 70% em serious e 89% para 6% em slight - modelo 2; e 2% para 22% em fatal, 14% para 79% em serious e 90% para 11% em slight - modelo 3); os modelos 4 e 5 consideram apenas os acidentes leves e fatais,  ignorando os sérios. Dentre os modelos da Árvore de Decisão, o que apresentou maior precisão foi o modelo 5, com 67% de acurácia final, sendo maior até mesmo que o resultado da rede neural. Obteve 39% em fatal, menor que os 51% da rede neural, e 77% em slight, maior que os 71%. Essas falhas somadas resultam em um produto incapaz, que tende a, aproximadamente, 50% de falhas em seus testes, provando-se, assim, ineficiente. Todos os modelos tiveram dificuldades, principalmente devido ao desequilíbrio dos dados da base que, mesmo com métodos de oversampling e undersampling, continuaram em uma escala desproporcional e desbalanceada, tendo a classe 2 (slight) quase 7 vezes mais que a classe 1 (serious), e 70 vezes mais que a classe 0 (fatal). 
 
-## Ameaça à Validade
+## Ameaça à validade
 
 Interna: a ameaça à validade interna pode surgir do viés nos dados coletados. Este viés pode ocorrer devido a falhas na precisão ou na integridade dos dados, influenciando negativamente a confiabilidade dos resultados. Além disso, a possibilidade dos dados coletados estarem modificados intencional ou acidentalmente representa uma ameaça significativa, comprometendo a precisão e a validade das conclusões do estudo. Essas questões destacam a importância da coleta cuidadosa e da verificação rigorosa dos dados para garantir a validade interna do projeto.
 
