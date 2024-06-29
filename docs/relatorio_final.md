@@ -30,7 +30,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-A partir de uma base de dados extraída da plataforma Kaggle e posterior elaboração da seguinte pergunta orientada a dados: "qual é a frequência de acidentes rodoviários que resultam em ferimentos leves, graves ou fatais?", foi realizada uma análise exploratória e preparação dos dados, e então desenvolvidos modelos de aprendizado de máquina. A análise teve enfoque na distribuição de acidentes com base nas condições da superfície da estrada, no tipo de estrada, na área urbana ou rural, na hora do acidente, no tipo de junção, nas condições meteorológicas, e, por fim, nos limites de velocidade (feature selection). Foi utilizada como variável alvo a gravidade dos ferimentos. Em consequência ao grande desbalanceamento de classes (uma limitação) que a base de dados apresenta, foram efetuadas múltiplas tentativas de desenvolvimento de sistemas inteligentes diferentes, usando métodos de Árvore de Decisão, Floresta Aleatória e Rede Neural. Apesar de ajustes e modificações nos códigos, todos os modelos apresentaram resultados de baixa precisão, recall e acurácia, especialmente para a classe 2, slight, a classe majoritária. Isso indica que nenhum modelo foi capaz de apresentar um desempenho ideal para responder à pergunta, dificultando uma conclusão vantajosa para o projeto. 
+A partir de uma base de dados, com registros de Acidentes Rodoviários, extraída da plataforma Kaggle, e posterior elaboração da seguinte pergunta orientada a dados: "qual é a frequência de acidentes rodoviários que resultam em ferimentos leves, graves ou fatais?", foi realizada uma análise exploratória e preparação dos dados, e então desenvolvidos modelos de aprendizado de máquina. A análise teve enfoque na distribuição de acidentes com base nas condições da superfície da estrada, no tipo de estrada, na área urbana ou rural, na hora do acidente, no tipo de junção, nas condições meteorológicas, e, por fim, nos limites de velocidade (feature selection). Foi utilizada como variável alvo a gravidade dos ferimentos. Em consequência ao grande desbalanceamento de classes (uma limitação) que a base de dados apresenta, foram efetuadas múltiplas tentativas de desenvolvimento de sistemas inteligentes diferentes, usando métodos de Árvore de Decisão, Floresta Aleatória e Rede Neural. Apesar de ajustes e modificações nos códigos, todos os modelos apresentaram resultados de baixa precisão, recall e acurácia, especialmente para a classe 2, slight, a classe majoritária. Isso indica que nenhum modelo foi capaz de apresentar um desempenho ideal para responder à pergunta, dificultando uma conclusão vantajosa para o projeto. 
 
 ## Introdução
 
@@ -181,6 +181,7 @@ Este conjunto de dados fornece registos detalhados dos acidentes rodoviários oc
 ### Distribuição de acidentes com base nas condições de luminosisade e dias da semana:
 ![Light_Day](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/assets/164661514/e0174d14-3cf2-4b3e-ad54-edb9971279ab)
 
+[Código Gráficos](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/48fe58c2c6aaa8ed8ffb4f8af143fabe2cf4648c/docs/Projeto_Gr%C3%A1ficos.ipynb)
 
 ### Preparação dos dados
 
@@ -199,6 +200,8 @@ PERGUNTA ORIENTADA A DADOS: qual é a frequência de acidentes rodoviários que 
   TRANSFORMAÇÃO DE DADOS:
 - Uma faixa de valores foi estabelecida aos dados da coluna Hour_of_Accident.
 
+[Código do processo de Manipulação dos Dados](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/48fe58c2c6aaa8ed8ffb4f8af143fabe2cf4648c/docs/Projeto_Manipula%C3%A7%C3%A3oDados.ipynb)
+
 ## Indução de modelos
 
 ### Modelos 1, 2, 3, 4, 5: Árvore de Decisão
@@ -209,7 +212,7 @@ Processo utilizado para amostragem de dados 1 (explicado linha por linha):
 [Processo do código](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/main/docs/decisiontree.ipynb)
 
 Processo utilizado para amostragem de dados 2 (explicado linha por linha):
-
+[Processo do código](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/48fe58c2c6aaa8ed8ffb4f8af143fabe2cf4648c/docs/Projeto_DecisionTrees_RandomForest.ipynb)
 
 ### Modelo 6: Random Forest
 
@@ -228,6 +231,9 @@ Motivos para Escolha:
 - Tratamento eficaz de grandes volumes de dados;
 - Desempenho em tarefas de classificação complexas;
 - Capacidade de lidar com características não lineares e interações complexas entre características.
+
+Processo utilizado para amostragem de dados 3 (explicado linha por linha):
+[Processo do código](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/48fe58c2c6aaa8ed8ffb4f8af143fabe2cf4648c/docs/Projeto_RedeNeural.ipynb)
 
 ## Resultados
 
@@ -453,7 +459,7 @@ Externa: a ameaça à validade externa se manifesta quando os resultados não po
 
 ## Conclusão
 
-A partir de uma base de dados extraída da plataforma Kaggle e posterior elaboração da seguinte pergunta orientada a dados: "qual é a frequência de acidentes rodoviários que resultam em ferimentos leves, graves ou fatais?", foi realizada uma análise exploratória e preparação dos dados, e então desenvolvidos modelos de aprendizado de máquina. É assertivo afirmar que acidentes rodoviários acontecem em função de variáveis externas, como as condições das vias, do clima, do motorista, entre outras. Portanto, a análise teve enfoque na distribuição de acidentes com base nas condições da superfície da estrada, no tipo de estrada, na área urbana ou rural, na hora do acidente, no tipo de junção, nas condições meteorológicas, e, por fim, nos limites de velocidade (feature selection). Foi utilizada como variável alvo a gravidade dos ferimentos.
+A partir de uma base de dados, com registros de Acidentes Rodoviários, e posterior elaboração da seguinte pergunta orientada a dados: "qual é a frequência de acidentes rodoviários que resultam em ferimentos leves, graves ou fatais?", foi realizada uma análise exploratória e preparação dos dados, e então desenvolvidos modelos de aprendizado de máquina. É assertivo afirmar que acidentes rodoviários acontecem em função de variáveis externas, como as condições das vias, do clima, do motorista, entre outras. Portanto, a análise teve enfoque na distribuição de acidentes com base nas condições da superfície da estrada, no tipo de estrada, na área urbana ou rural, na hora do acidente, no tipo de junção, nas condições meteorológicas, e, por fim, nos limites de velocidade (feature selection). Foi utilizada como variável alvo a gravidade dos ferimentos.
 
 Em consequência ao grande desbalanceamento de classes (uma limitação) que a base de dados apresenta, foram efetuadas múltiplas tentativas de desenvolvimento de sistemas inteligentes diferentes, usando métodos de Árvore de Decisão, Floresta Aleatória e Rede Neural. Apesar de ajustes e modificações nos códigos, todos os modelos apresentaram resultados de baixa precisão, recall e acurácia, especialmente para a classe 2, slight, a classe majoritária. Isso indica que nenhum modelo foi capaz de apresentar um desempenho ideal para responder à pergunta, dificultando uma conclusão vantajosa para o projeto. Em contrapartida, é possível assegurar que qualquer algoritmo pode ser aperfeiçoado — sempre há possibilidade de melhoria e consequente retorno positivo.
 
@@ -469,15 +475,17 @@ Em consequência ao grande desbalanceamento de classes (uma limitação) que a b
 
 # APÊNDICES
 
-**Colocar link:**
+**Links:**
 
-Do código (armazenado no repositório);
+Do código (armazenado no repositório):
+https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability.git
 
-Dos artefatos (armazenado do repositório);
+Dos artefatos (armazenado do repositório):
+https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/48fe58c2c6aaa8ed8ffb4f8af143fabe2cf4648c/assets/README.md
 
-Da apresentação final (armazenado no repositório);
+Da apresentação final (armazenado no repositório):
 
-Do vídeo de apresentação (armazenado no repositório).
+Do vídeo de apresentação (armazenado no repositório):
 
 
 
