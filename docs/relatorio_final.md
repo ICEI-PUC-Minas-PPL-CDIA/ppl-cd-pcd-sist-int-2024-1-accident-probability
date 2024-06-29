@@ -29,8 +29,8 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 ---
 
 ---
-Este trabalho tem como objetivo analisar e realizar um calculo de probabilidade de acidentes que uma certa via oferece, com base nas informações do condutor, condições da via etc..., utilizando modelos estatísticos. Foram coletados dados históricos da taxa de sinistros, bem como variáveis econômicas e sociais relevantes para a região. Utilizamos técnicas de análise de séries temporais e modelos de previsão, como ARIMA e modelos de regressão, para estimar uma probabilidade de um acidente ocorrer em detrimento de algumas condições. Com a breve análise na base de dados, pode-se prever que a alta taxa de acidentes está correlacionado com variáveis como condições das vias e condições do dia. Com base nas previsões obtidas, foi possível identificar tendências e padrões que podem auxiliar na formulação de políticas públicas e estratégias para mitigar os acidentes nas vias em evidência.  
 
+A partir de uma base de dados extraída da plataforma Kaggle e posterior elaboração da seguinte pergunta orientada a dados: "qual é a frequência de acidentes rodoviários que resultam em ferimentos leves, graves ou fatais?", foi realizada uma análise exploratória e preparação dos dados, e então desenvolvidos modelos de aprendizado de máquina. A análise teve enfoque na distribuição de acidentes com base nas condições da superfície da estrada, no tipo de estrada, na área urbana ou rural, na hora do acidente, no tipo de junção, nas condições meteorológicas, e, por fim, nos limites de velocidade (feature selection). Foi utilizada como variável alvo a gravidade dos ferimentos. Em consequência ao grande desbalanceamento de classes (uma limitação) que a base de dados apresenta, foram efetuadas múltiplas tentativas de desenvolvimento de sistemas inteligentes diferentes, usando métodos de Árvore de Decisão, Floresta Aleatória e Rede Neural. Apesar de ajustes e modificações nos códigos, todos os modelos apresentaram resultados de baixa precisão, recall e acurácia, especialmente para a classe 2, slight, a classe majoritária. Isso indica que nenhum modelo foi capaz de apresentar um desempenho ideal para responder à pergunta, dificultando uma conclusão vantajosa para o projeto. 
 
 ## Introdução
 
@@ -44,8 +44,7 @@ compreender os motivos que incidem em acidentes rodoviários, de forma a prevê-
 
 
 ###    Problema
-   O problema que o agente pretende resolver é o alto índice de incidentes que uma certa via pode ter. Certas vias específicas enfrentam dificuldades com altas taxas de colisões, o que impacta diretamente a qualidade de vida da população, gerando, assim, um aumento da mortalidade e do impacto emocional nos indivíduos. De acordo com o PAHO (Pan American Health Organization), "90% das mortes no trânsito ocorrem em países de baixa e média renda. Os acidentes nas vias custam aos países cerca de 3% de seus produtos internos brutos. Quase metade (49%) das pessoas que morrem nas vias em todo o mundo são pedestres, ciclistas e motociclistas.":  
-https://www.paho.org/pt/topicos/seguranca-no-transito#:~:text=90%25%20das%20mortes%20no%20trânsito,são%20pedestres%2C%20ciclistas%20e%20motociclistas.  
+   O problema que o agente pretende resolver é o alto índice de incidentes que uma certa via pode ter. Certas vias específicas enfrentam dificuldades com altas taxas de colisões, o que impacta diretamente a qualidade de vida da população, gerando, assim, um aumento da mortalidade e do impacto emocional nos indivíduos. De acordo com o PAHO (Pan American Health Organization), "90% das mortes no trânsito ocorrem em países de baixa e média renda. Os acidentes nas vias custam aos países cerca de 3% de seus produtos internos brutos. Quase metade (49%) das pessoas que morrem nas vias em todo o mundo são pedestres, ciclistas e motociclistas." 
 
    Essa circunstância revela uma série de desafios, entre eles: segurança no trânsito, dificultando a segurança de todos os usuários das vias, incluindo pedestres, ciclistas, motociclistas e motoristas. E também na falta de infraestrutura, muitas regiões enfrentam desafios relacionados à falta de investimento em infraestrutura, estradas mal conservadas, falta de sinalização adequada e projetos viários inadequados.  
 
@@ -454,7 +453,7 @@ Analisando por partes, todos os modelos apresentam falhas: o modelo 1 desconside
 
 ## Ameaça à Validade
 
-Interna: a ameaça à validade interna poderia surgir do viés nos dados coletados. Este viés pode ocorrer devido a falhas na precisão ou na integridade dos dados, influenciando negativamente a confiabilidade dos resultados. Além disso, a possibilidade de os dados coletados estarem modificados intencional ou acidentalmente representa uma ameaça significativa, comprometendo a precisão e a validade das conclusões do estudo. Essas questões destacam a importância da coleta cuidadosa e da verificação rigorosa dos dados para garantir a validade interna do projeto.
+Interna: a ameaça à validade interna pode surgir do viés nos dados coletados. Este viés pode ocorrer devido a falhas na precisão ou na integridade dos dados, influenciando negativamente a confiabilidade dos resultados. Além disso, a possibilidade dos dados coletados estarem modificados intencional ou acidentalmente representa uma ameaça significativa, comprometendo a precisão e a validade das conclusões do estudo. Essas questões destacam a importância da coleta cuidadosa e da verificação rigorosa dos dados para garantir a validade interna do projeto.
 
 Externa: a ameaça à validade externa se manifesta quando os resultados não podem ser generalizados para todas as regiões devido a discrepâncias nas leis de trânsito, na infraestrutura rodoviária e nos comportamentos dos motoristas. Essas disparidades regionais podem limitar a aplicabilidade dos achados do estudo em contextos geográficos distintos, comprometendo a capacidade de extrapolação e ampliação dos resultados para uma escala mais ampla. Portanto, a consideração desses fatores é essencial para avaliar corretamente a validade externa do projeto e sua relevância em diferentes cenários rodoviários.
 
@@ -466,28 +465,12 @@ Em consequência ao grande desbalanceamento de classes (uma limitação) que a b
 
 # REFERÊNCIAS
 
-Como um projeto de sistema inteligente não requer revisão bibliográfica, 
-a inclusão das referências não é obrigatória. No entanto, caso você 
-tenha utilizado referências na introdução ou deseje 
-incluir referências relacionadas às tecnologias, padrões, ou metodologias 
-que serão usadas no seu trabalho, relacione-as de acordo com a ABNT.
 
-Verifique no link abaixo como devem ser as referências no padrão ABNT:
+**[1]** - _NEXTMILLIONAIRE. **Car Accident Dataset**. Disponível em: https://www.kaggle.com/datasets/nextmillionaire/car-accident-dataset. Acesso em: 10 mar. 2024._
 
-http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
+**[2]** - _ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. **Segurança no trânsito**. Disponível em: https://www.paho.org/pt/topicos/seguranca-no-transito#:~:text=90%25%20das%20mortes%20no%20trânsito,são%20pedestres%2C%20ciclistas%20e%20motociclistas. Acesso em: 15 mar. 2024._
 
-Por exemplo:
-
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
-
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
-
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
-
+**[3]** - _OPENAI. **ChatGPT**: Conversational AI model. Disponível em: https://www.openai.com/chatgpt. Acesso em: 29 jun. 2024._
 
 
 # APÊNDICES
