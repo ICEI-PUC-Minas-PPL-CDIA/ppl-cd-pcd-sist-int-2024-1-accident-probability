@@ -484,7 +484,7 @@ Dos artefatos (armazenado do repositório):
 https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/48fe58c2c6aaa8ed8ffb4f8af143fabe2cf4648c/assets/README.md
 
 Da apresentação final (armazenado no repositório):
-<iframe src="https://1drv.ms/p/c/eba5f480b87391fa/IQPQv5xDsI33RLeycuvUnOCeAd3lBTNor7BVgP7aZBq0i5w?em=2&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">Este é um apresentação do <a target="_blank" href="https://office.com">Microsoft Office</a> incorporado, da plataforma <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+<iframe src="https://1drv.ms/p/c/eba5f480b87391fa/IQPQv5xDsI33RLeycuvUnOCeAd3lBTNor7BVgP7aZBq0i5w?em=2&amp;wdAr=1.7777777777777777" 
 
 Do vídeo de apresentação (armazenado no repositório):
 
