@@ -484,6 +484,7 @@ Dos artefatos (armazenado do repositório):
 https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-accident-probability/blob/48fe58c2c6aaa8ed8ffb4f8af143fabe2cf4648c/assets/README.md
 
 Da apresentação final (armazenado no repositório):
+file:///C:/Users/brand/Downloads/Apresenta%C3%A7%C3%A3o%2001-compactado.pdf
 
 Do vídeo de apresentação (armazenado no repositório):
 
